@@ -1,2 +1,2 @@
-const root = require("./three");
+const root = require("three");
 module.exports = root.exports;
