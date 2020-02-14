@@ -1,0 +1,5095 @@
+{
+  "provides": {
+    "aliases": {
+      "AmbientLight": [
+        "local",
+        "AmbientLight"
+      ],
+      "AmbientLightProbe": [
+        "local",
+        "AmbientLightProbe"
+      ],
+      "AnimationActionLoopStyles": [
+        "local",
+        "AnimationActionLoopStyles"
+      ],
+      "AnimationClip": [
+        "local",
+        "AnimationClip"
+      ],
+      "AnimationLoader": [
+        "local",
+        "AnimationLoader"
+      ],
+      "AnimationMixer": [
+        "local",
+        "AnimationMixer"
+      ],
+      "AnimationObjectGroup": [
+        "local",
+        "AnimationObjectGroup"
+      ],
+      "ArcCurve": [
+        "local",
+        "ArcCurve"
+      ],
+      "ArrayCamera": [
+        "local",
+        "ArrayCamera"
+      ],
+      "ArrowHelper": [
+        "local",
+        "ArrowHelper"
+      ],
+      "Audio": [
+        "local",
+        "Audio"
+      ],
+      "AudioAnalyser": [
+        "local",
+        "AudioAnalyser"
+      ],
+      "AudioContext": [
+        "local",
+        "AudioContext"
+      ],
+      "AudioListener": [
+        "local",
+        "AudioListener"
+      ],
+      "AudioLoader": [
+        "local",
+        "AudioLoader"
+      ],
+      "AudioWeaken": [
+        "local",
+        "AudioWeaken"
+      ],
+      "AxesHelper": [
+        "local",
+        "AxesHelper"
+      ],
+      "Blending": [
+        "local",
+        "Blending"
+      ],
+      "BlendingDstFactor": [
+        "local",
+        "BlendingDstFactor"
+      ],
+      "BlendingEquation": [
+        "local",
+        "BlendingEquation"
+      ],
+      "BlendingSrcFactor": [
+        "local",
+        "BlendingSrcFactor"
+      ],
+      "Bone": [
+        "local",
+        "Bone"
+      ],
+      "BooleanKeyframeTrack": [
+        "local",
+        "BooleanKeyframeTrack"
+      ],
+      "Box2": [
+        "local",
+        "Box2"
+      ],
+      "Box3": [
+        "local",
+        "Box3"
+      ],
+      "Box3Helper": [
+        "local",
+        "Box3Helper"
+      ],
+      "BoxBufferGeometry": [
+        "local",
+        "BoxBufferGeometry"
+      ],
+      "BoxGeometry": [
+        "local",
+        "BoxGeometry"
+      ],
+      "BoxHelper": [
+        "local",
+        "BoxHelper"
+      ],
+      "BufferAttribute": [
+        "local",
+        "BufferAttribute"
+      ],
+      "BufferGeometry": [
+        "local",
+        "BufferGeometry"
+      ],
+      "BufferGeometryLoader": [
+        "local",
+        "BufferGeometryLoader"
+      ],
+      "Camera": [
+        "local",
+        "Camera"
+      ],
+      "CameraHelper": [
+        "local",
+        "CameraHelper"
+      ],
+      "CanvasTexture": [
+        "local",
+        "CanvasTexture"
+      ],
+      "CatmullRomCurve3": [
+        "local",
+        "CatmullRomCurve3"
+      ],
+      "CircleBufferGeometry": [
+        "local",
+        "CircleBufferGeometry"
+      ],
+      "CircleGeometry": [
+        "local",
+        "CircleGeometry"
+      ],
+      "Clock": [
+        "local",
+        "Clock"
+      ],
+      "Color": [
+        "local",
+        "Color"
+      ],
+      "ColorKeyframeTrack": [
+        "local",
+        "ColorKeyframeTrack"
+      ],
+      "Colors": [
+        "local",
+        "Colors"
+      ],
+      "Combine": [
+        "local",
+        "Combine"
+      ],
+      "Composite": [
+        "local",
+        "Composite"
+      ],
+      "CompressedPixelFormat": [
+        "local",
+        "CompressedPixelFormat"
+      ],
+      "CompressedTexture": [
+        "local",
+        "CompressedTexture"
+      ],
+      "CompressedTextureLoader": [
+        "local",
+        "CompressedTextureLoader"
+      ],
+      "ConeBufferGeometry": [
+        "local",
+        "ConeBufferGeometry"
+      ],
+      "ConeGeometry": [
+        "local",
+        "ConeGeometry"
+      ],
+      "CubeCamera": [
+        "local",
+        "CubeCamera"
+      ],
+      "CubeTexture": [
+        "local",
+        "CubeTexture"
+      ],
+      "CubeTextureLoader": [
+        "local",
+        "CubeTextureLoader"
+      ],
+      "CubicBezierCurve": [
+        "local",
+        "CubicBezierCurve"
+      ],
+      "CubicBezierCurve3": [
+        "local",
+        "CubicBezierCurve3"
+      ],
+      "CubicInterpolant": [
+        "local",
+        "CubicInterpolant"
+      ],
+      "CullFace": [
+        "local",
+        "CullFace"
+      ],
+      "Curve": [
+        "local",
+        "Curve"
+      ],
+      "CurvePath": [
+        "local",
+        "CurvePath"
+      ],
+      "CylinderBufferGeometry": [
+        "local",
+        "CylinderBufferGeometry"
+      ],
+      "CylinderGeometry": [
+        "local",
+        "CylinderGeometry"
+      ],
+      "Cylindrical": [
+        "local",
+        "Cylindrical"
+      ],
+      "DataTexture": [
+        "local",
+        "DataTexture"
+      ],
+      "DataTexture3D": [
+        "local",
+        "DataTexture3D"
+      ],
+      "DataTextureLoader": [
+        "local",
+        "DataTextureLoader"
+      ],
+      "DepthModes": [
+        "local",
+        "DepthModes"
+      ],
+      "DepthPackingStrategies": [
+        "local",
+        "DepthPackingStrategies"
+      ],
+      "DepthTexture": [
+        "local",
+        "DepthTexture"
+      ],
+      "DirectGeometry": [
+        "local",
+        "DirectGeometry"
+      ],
+      "DirectionalLight": [
+        "local",
+        "DirectionalLight"
+      ],
+      "DirectionalLightHelper": [
+        "local",
+        "DirectionalLightHelper"
+      ],
+      "DirectionalLightShadow": [
+        "local",
+        "DirectionalLightShadow"
+      ],
+      "DiscreteInterpolant": [
+        "local",
+        "DiscreteInterpolant"
+      ],
+      "DodecahedronBufferGeometry": [
+        "local",
+        "DodecahedronBufferGeometry"
+      ],
+      "DodecahedronGeometry": [
+        "local",
+        "DodecahedronGeometry"
+      ],
+      "EdgesGeometry": [
+        "local",
+        "EdgesGeometry"
+      ],
+      "EllipseCurve": [
+        "local",
+        "EllipseCurve"
+      ],
+      "Euler": [
+        "local",
+        "Euler"
+      ],
+      "Event": [
+        "local",
+        "Event"
+      ],
+      "EventDispatcher": [
+        "local",
+        "EventDispatcher"
+      ],
+      "ExtrudeBufferGeometry": [
+        "local",
+        "ExtrudeBufferGeometry"
+      ],
+      "ExtrudeGeometry": [
+        "local",
+        "ExtrudeGeometry"
+      ],
+      "ExtrudeGeometryOptions": [
+        "local",
+        "ExtrudeGeometryOptions"
+      ],
+      "Face3": [
+        "local",
+        "Face3"
+      ],
+      "FileLoader": [
+        "local",
+        "FileLoader"
+      ],
+      "Float32Attribute": [
+        "local",
+        "Float32Attribute"
+      ],
+      "Float32BufferAttribute": [
+        "local",
+        "Float32BufferAttribute"
+      ],
+      "Float64Attribute": [
+        "local",
+        "Float64Attribute"
+      ],
+      "Float64BufferAttribute": [
+        "local",
+        "Float64BufferAttribute"
+      ],
+      "Fog": [
+        "local",
+        "Fog"
+      ],
+      "FogExp2": [
+        "local",
+        "FogExp2"
+      ],
+      "Font": [
+        "local",
+        "Font"
+      ],
+      "FontLoader": [
+        "local",
+        "FontLoader"
+      ],
+      "FrontFaceDirection": [
+        "local",
+        "FrontFaceDirection"
+      ],
+      "Frustum": [
+        "local",
+        "Frustum"
+      ],
+      "Geometry": [
+        "local",
+        "Geometry"
+      ],
+      "GridHelper": [
+        "local",
+        "GridHelper"
+      ],
+      "Group": [
+        "local",
+        "Group"
+      ],
+      "HSL": [
+        "local",
+        "HSL"
+      ],
+      "HemisphereLight": [
+        "local",
+        "HemisphereLight"
+      ],
+      "HemisphereLightHelper": [
+        "local",
+        "HemisphereLightHelper"
+      ],
+      "HemisphereLightProbe": [
+        "local",
+        "HemisphereLightProbe"
+      ],
+      "IFog": [
+        "local",
+        "IFog"
+      ],
+      "IUniform": [
+        "local",
+        "IUniform"
+      ],
+      "IcosahedronBufferGeometry": [
+        "local",
+        "IcosahedronBufferGeometry"
+      ],
+      "IcosahedronGeometry": [
+        "local",
+        "IcosahedronGeometry"
+      ],
+      "ImageBitmapLoader": [
+        "local",
+        "ImageBitmapLoader"
+      ],
+      "ImageLoader": [
+        "local",
+        "ImageLoader"
+      ],
+      "ImmediateRenderObject": [
+        "local",
+        "ImmediateRenderObject"
+      ],
+      "InstancedBufferAttribute": [
+        "local",
+        "InstancedBufferAttribute"
+      ],
+      "InstancedBufferGeometry": [
+        "local",
+        "InstancedBufferGeometry"
+      ],
+      "InstancedInterleavedBuffer": [
+        "local",
+        "InstancedInterleavedBuffer"
+      ],
+      "InstancedMesh": [
+        "local",
+        "InstancedMesh"
+      ],
+      "Int16Attribute": [
+        "local",
+        "Int16Attribute"
+      ],
+      "Int16BufferAttribute": [
+        "local",
+        "Int16BufferAttribute"
+      ],
+      "Int32Attribute": [
+        "local",
+        "Int32Attribute"
+      ],
+      "Int32BufferAttribute": [
+        "local",
+        "Int32BufferAttribute"
+      ],
+      "Int8Attribute": [
+        "local",
+        "Int8Attribute"
+      ],
+      "Int8BufferAttribute": [
+        "local",
+        "Int8BufferAttribute"
+      ],
+      "InterleavedBuffer": [
+        "local",
+        "InterleavedBuffer"
+      ],
+      "InterleavedBufferAttribute": [
+        "local",
+        "InterleavedBufferAttribute"
+      ],
+      "Interpolant": [
+        "local",
+        "Interpolant"
+      ],
+      "InterpolationEndingModes": [
+        "local",
+        "InterpolationEndingModes"
+      ],
+      "InterpolationModes": [
+        "local",
+        "InterpolationModes"
+      ],
+      "Intersection": [
+        "local",
+        "Intersection"
+      ],
+      "KeyframeTrack": [
+        "local",
+        "KeyframeTrack"
+      ],
+      "LOD": [
+        "local",
+        "LOD"
+      ],
+      "LatheBufferGeometry": [
+        "local",
+        "LatheBufferGeometry"
+      ],
+      "LatheGeometry": [
+        "local",
+        "LatheGeometry"
+      ],
+      "Layers": [
+        "local",
+        "Layers"
+      ],
+      "Light": [
+        "local",
+        "Light"
+      ],
+      "LightProbe": [
+        "local",
+        "LightProbe"
+      ],
+      "LightShadow": [
+        "local",
+        "LightShadow"
+      ],
+      "Line": [
+        "local",
+        "Line"
+      ],
+      "Line3": [
+        "local",
+        "Line3"
+      ],
+      "LineBasicMaterial": [
+        "local",
+        "LineBasicMaterial"
+      ],
+      "LineBasicMaterialParameters": [
+        "local",
+        "LineBasicMaterialParameters"
+      ],
+      "LineCurve": [
+        "local",
+        "LineCurve"
+      ],
+      "LineCurve3": [
+        "local",
+        "LineCurve3"
+      ],
+      "LineDashedMaterial": [
+        "local",
+        "LineDashedMaterial"
+      ],
+      "LineDashedMaterialParameters": [
+        "local",
+        "LineDashedMaterialParameters"
+      ],
+      "LineLoop": [
+        "local",
+        "LineLoop"
+      ],
+      "LineSegments": [
+        "local",
+        "LineSegments"
+      ],
+      "LinearInterpolant": [
+        "local",
+        "LinearInterpolant"
+      ],
+      "Loader": [
+        "local",
+        "Loader"
+      ],
+      "LoaderUtils": [
+        "local",
+        "LoaderUtils"
+      ],
+      "LoadingManager": [
+        "local",
+        "LoadingManager"
+      ],
+      "MOUSE": [
+        "local",
+        "MOUSE"
+      ],
+      "Mapping": [
+        "local",
+        "Mapping"
+      ],
+      "Material": [
+        "local",
+        "Material"
+      ],
+      "MaterialLoader": [
+        "local",
+        "MaterialLoader"
+      ],
+      "MaterialParameters": [
+        "local",
+        "MaterialParameters"
+      ],
+      "Matrix": [
+        "local",
+        "Matrix"
+      ],
+      "Matrix3": [
+        "local",
+        "Matrix3"
+      ],
+      "Matrix4": [
+        "local",
+        "Matrix4"
+      ],
+      "Mesh": [
+        "local",
+        "Mesh"
+      ],
+      "MeshBasicMaterial": [
+        "local",
+        "MeshBasicMaterial"
+      ],
+      "MeshBasicMaterialParameters": [
+        "local",
+        "MeshBasicMaterialParameters"
+      ],
+      "MeshDepthMaterial": [
+        "local",
+        "MeshDepthMaterial"
+      ],
+      "MeshDepthMaterialParameters": [
+        "local",
+        "MeshDepthMaterialParameters"
+      ],
+      "MeshDistanceMaterial": [
+        "local",
+        "MeshDistanceMaterial"
+      ],
+      "MeshDistanceMaterialParameters": [
+        "local",
+        "MeshDistanceMaterialParameters"
+      ],
+      "MeshLambertMaterial": [
+        "local",
+        "MeshLambertMaterial"
+      ],
+      "MeshLambertMaterialParameters": [
+        "local",
+        "MeshLambertMaterialParameters"
+      ],
+      "MeshMatcapMaterial": [
+        "local",
+        "MeshMatcapMaterial"
+      ],
+      "MeshMatcapMaterialParameters": [
+        "local",
+        "MeshMatcapMaterialParameters"
+      ],
+      "MeshNormalMaterial": [
+        "local",
+        "MeshNormalMaterial"
+      ],
+      "MeshNormalMaterialParameters": [
+        "local",
+        "MeshNormalMaterialParameters"
+      ],
+      "MeshPhongMaterial": [
+        "local",
+        "MeshPhongMaterial"
+      ],
+      "MeshPhongMaterialParameters": [
+        "local",
+        "MeshPhongMaterialParameters"
+      ],
+      "MeshPhysicalMaterial": [
+        "local",
+        "MeshPhysicalMaterial"
+      ],
+      "MeshPhysicalMaterialParameters": [
+        "local",
+        "MeshPhysicalMaterialParameters"
+      ],
+      "MeshStandardMaterial": [
+        "local",
+        "MeshStandardMaterial"
+      ],
+      "MeshStandardMaterialParameters": [
+        "local",
+        "MeshStandardMaterialParameters"
+      ],
+      "MeshToonMaterial": [
+        "local",
+        "MeshToonMaterial"
+      ],
+      "MeshToonMaterialParameters": [
+        "local",
+        "MeshToonMaterialParameters"
+      ],
+      "MorphColor": [
+        "local",
+        "MorphColor"
+      ],
+      "MorphNormals": [
+        "local",
+        "MorphNormals"
+      ],
+      "MorphTarget": [
+        "local",
+        "MorphTarget"
+      ],
+      "MultiMaterial": [
+        "local",
+        "MultiMaterial"
+      ],
+      "NormalMapTypes": [
+        "local",
+        "NormalMapTypes"
+      ],
+      "NumberKeyframeTrack": [
+        "local",
+        "NumberKeyframeTrack"
+      ],
+      "Object3D": [
+        "local",
+        "Object3D"
+      ],
+      "ObjectLoader": [
+        "local",
+        "ObjectLoader"
+      ],
+      "OctahedronBufferGeometry": [
+        "local",
+        "OctahedronBufferGeometry"
+      ],
+      "OctahedronGeometry": [
+        "local",
+        "OctahedronGeometry"
+      ],
+      "OrthographicCamera": [
+        "local",
+        "OrthographicCamera"
+      ],
+      "ParametricBufferGeometry": [
+        "local",
+        "ParametricBufferGeometry"
+      ],
+      "ParametricGeometry": [
+        "local",
+        "ParametricGeometry"
+      ],
+      "ParseTrackNameResults": [
+        "local",
+        "ParseTrackNameResults"
+      ],
+      "Path": [
+        "local",
+        "Path"
+      ],
+      "PathAction": [
+        "local",
+        "PathAction"
+      ],
+      "PathActions": [
+        "local",
+        "PathActions"
+      ],
+      "PerspectiveCamera": [
+        "local",
+        "PerspectiveCamera"
+      ],
+      "PixelFormat": [
+        "local",
+        "PixelFormat"
+      ],
+      "PixelFormatGPU": [
+        "local",
+        "PixelFormatGPU"
+      ],
+      "PixelType": [
+        "local",
+        "PixelType"
+      ],
+      "Plane": [
+        "local",
+        "Plane"
+      ],
+      "PlaneBufferGeometry": [
+        "local",
+        "PlaneBufferGeometry"
+      ],
+      "PlaneGeometry": [
+        "local",
+        "PlaneGeometry"
+      ],
+      "PlaneHelper": [
+        "local",
+        "PlaneHelper"
+      ],
+      "PointLight": [
+        "local",
+        "PointLight"
+      ],
+      "PointLightHelper": [
+        "local",
+        "PointLightHelper"
+      ],
+      "PointLightShadow": [
+        "local",
+        "PointLightShadow"
+      ],
+      "Points": [
+        "local",
+        "Points"
+      ],
+      "PointsMaterial": [
+        "local",
+        "PointsMaterial"
+      ],
+      "PointsMaterialParameters": [
+        "local",
+        "PointsMaterialParameters"
+      ],
+      "PolarGridHelper": [
+        "local",
+        "PolarGridHelper"
+      ],
+      "PolyhedronBufferGeometry": [
+        "local",
+        "PolyhedronBufferGeometry"
+      ],
+      "PolyhedronGeometry": [
+        "local",
+        "PolyhedronGeometry"
+      ],
+      "PositionalAudio": [
+        "local",
+        "PositionalAudio"
+      ],
+      "PropertyBinding": [
+        "local",
+        "PropertyBinding"
+      ],
+      "PropertyMixer": [
+        "local",
+        "PropertyMixer"
+      ],
+      "QuadraticBezierCurve": [
+        "local",
+        "QuadraticBezierCurve"
+      ],
+      "QuadraticBezierCurve3": [
+        "local",
+        "QuadraticBezierCurve3"
+      ],
+      "Quaternion": [
+        "local",
+        "Quaternion"
+      ],
+      "QuaternionKeyframeTrack": [
+        "local",
+        "QuaternionKeyframeTrack"
+      ],
+      "QuaternionLinearInterpolant": [
+        "local",
+        "QuaternionLinearInterpolant"
+      ],
+      "RawShaderMaterial": [
+        "local",
+        "RawShaderMaterial"
+      ],
+      "Ray": [
+        "local",
+        "Ray"
+      ],
+      "Raycaster": [
+        "local",
+        "Raycaster"
+      ],
+      "RaycasterParameters": [
+        "local",
+        "RaycasterParameters"
+      ],
+      "RectAreaLight": [
+        "local",
+        "RectAreaLight"
+      ],
+      "RenderItem": [
+        "local",
+        "RenderItem"
+      ],
+      "RenderTarget": [
+        "local",
+        "RenderTarget"
+      ],
+      "Renderer": [
+        "local",
+        "Renderer"
+      ],
+      "RingBufferGeometry": [
+        "local",
+        "RingBufferGeometry"
+      ],
+      "RingGeometry": [
+        "local",
+        "RingGeometry"
+      ],
+      "Scene": [
+        "local",
+        "Scene"
+      ],
+      "Shader": [
+        "local",
+        "Shader"
+      ],
+      "ShaderMaterial": [
+        "local",
+        "ShaderMaterial"
+      ],
+      "ShaderMaterialParameters": [
+        "local",
+        "ShaderMaterialParameters"
+      ],
+      "Shading": [
+        "local",
+        "Shading"
+      ],
+      "ShadowMapType": [
+        "local",
+        "ShadowMapType"
+      ],
+      "ShadowMaterial": [
+        "local",
+        "ShadowMaterial"
+      ],
+      "ShadowMaterialParameters": [
+        "local",
+        "ShadowMaterialParameters"
+      ],
+      "Shape": [
+        "local",
+        "Shape"
+      ],
+      "ShapeBufferGeometry": [
+        "local",
+        "ShapeBufferGeometry"
+      ],
+      "ShapeGeometry": [
+        "local",
+        "ShapeGeometry"
+      ],
+      "ShapePath": [
+        "local",
+        "ShapePath"
+      ],
+      "Side": [
+        "local",
+        "Side"
+      ],
+      "Skeleton": [
+        "local",
+        "Skeleton"
+      ],
+      "SkeletonHelper": [
+        "local",
+        "SkeletonHelper"
+      ],
+      "SkinnedMesh": [
+        "local",
+        "SkinnedMesh"
+      ],
+      "Sphere": [
+        "local",
+        "Sphere"
+      ],
+      "SphereBufferGeometry": [
+        "local",
+        "SphereBufferGeometry"
+      ],
+      "SphereGeometry": [
+        "local",
+        "SphereGeometry"
+      ],
+      "Spherical": [
+        "local",
+        "Spherical"
+      ],
+      "SphericalHarmonics3": [
+        "local",
+        "SphericalHarmonics3"
+      ],
+      "SplineControlPoint": [
+        "local",
+        "SplineControlPoint"
+      ],
+      "SplineCurve": [
+        "local",
+        "SplineCurve"
+      ],
+      "SpotLight": [
+        "local",
+        "SpotLight"
+      ],
+      "SpotLightHelper": [
+        "local",
+        "SpotLightHelper"
+      ],
+      "SpotLightShadow": [
+        "local",
+        "SpotLightShadow"
+      ],
+      "Sprite": [
+        "local",
+        "Sprite"
+      ],
+      "SpriteMaterial": [
+        "local",
+        "SpriteMaterial"
+      ],
+      "SpriteMaterialParameters": [
+        "local",
+        "SpriteMaterialParameters"
+      ],
+      "StencilFunc": [
+        "local",
+        "StencilFunc"
+      ],
+      "StencilOp": [
+        "local",
+        "StencilOp"
+      ],
+      "StereoCamera": [
+        "local",
+        "StereoCamera"
+      ],
+      "StringKeyframeTrack": [
+        "local",
+        "StringKeyframeTrack"
+      ],
+      "TOUCH": [
+        "local",
+        "TOUCH"
+      ],
+      "TetrahedronBufferGeometry": [
+        "local",
+        "TetrahedronBufferGeometry"
+      ],
+      "TetrahedronGeometry": [
+        "local",
+        "TetrahedronGeometry"
+      ],
+      "TextBufferGeometry": [
+        "local",
+        "TextBufferGeometry"
+      ],
+      "TextGeometry": [
+        "local",
+        "TextGeometry"
+      ],
+      "TextGeometryParameters": [
+        "local",
+        "TextGeometryParameters"
+      ],
+      "Texture": [
+        "local",
+        "Texture"
+      ],
+      "TextureDataType": [
+        "local",
+        "TextureDataType"
+      ],
+      "TextureEncoding": [
+        "local",
+        "TextureEncoding"
+      ],
+      "TextureFilter": [
+        "local",
+        "TextureFilter"
+      ],
+      "TextureLoader": [
+        "local",
+        "TextureLoader"
+      ],
+      "ToneMapping": [
+        "local",
+        "ToneMapping"
+      ],
+      "TorusBufferGeometry": [
+        "local",
+        "TorusBufferGeometry"
+      ],
+      "TorusGeometry": [
+        "local",
+        "TorusGeometry"
+      ],
+      "TorusKnotBufferGeometry": [
+        "local",
+        "TorusKnotBufferGeometry"
+      ],
+      "TorusKnotGeometry": [
+        "local",
+        "TorusKnotGeometry"
+      ],
+      "Triangle": [
+        "local",
+        "Triangle"
+      ],
+      "TrianglesDrawModes": [
+        "local",
+        "TrianglesDrawModes"
+      ],
+      "TubeBufferGeometry": [
+        "local",
+        "TubeBufferGeometry"
+      ],
+      "TubeGeometry": [
+        "local",
+        "TubeGeometry"
+      ],
+      "TypedArray": [
+        "local",
+        "TypedArray"
+      ],
+      "UVGenerator": [
+        "local",
+        "UVGenerator"
+      ],
+      "Uint16Attribute": [
+        "local",
+        "Uint16Attribute"
+      ],
+      "Uint16BufferAttribute": [
+        "local",
+        "Uint16BufferAttribute"
+      ],
+      "Uint32Attribute": [
+        "local",
+        "Uint32Attribute"
+      ],
+      "Uint32BufferAttribute": [
+        "local",
+        "Uint32BufferAttribute"
+      ],
+      "Uint8Attribute": [
+        "local",
+        "Uint8Attribute"
+      ],
+      "Uint8BufferAttribute": [
+        "local",
+        "Uint8BufferAttribute"
+      ],
+      "Uint8ClampedAttribute": [
+        "local",
+        "Uint8ClampedAttribute"
+      ],
+      "Uint8ClampedBufferAttribute": [
+        "local",
+        "Uint8ClampedBufferAttribute"
+      ],
+      "Uniform": [
+        "local",
+        "Uniform"
+      ],
+      "Usage": [
+        "local",
+        "Usage"
+      ],
+      "Vector": [
+        "local",
+        "Vector"
+      ],
+      "Vector2": [
+        "local",
+        "Vector2"
+      ],
+      "Vector3": [
+        "local",
+        "Vector3"
+      ],
+      "Vector4": [
+        "local",
+        "Vector4"
+      ],
+      "VectorKeyframeTrack": [
+        "local",
+        "VectorKeyframeTrack"
+      ],
+      "VideoTexture": [
+        "local",
+        "VideoTexture"
+      ],
+      "WebGLBufferRenderer": [
+        "local",
+        "WebGLBufferRenderer"
+      ],
+      "WebGLCapabilities": [
+        "local",
+        "WebGLCapabilities"
+      ],
+      "WebGLCapabilitiesParameters": [
+        "local",
+        "WebGLCapabilitiesParameters"
+      ],
+      "WebGLClipping": [
+        "local",
+        "WebGLClipping"
+      ],
+      "WebGLColorBuffer": [
+        "local",
+        "WebGLColorBuffer"
+      ],
+      "WebGLCubeRenderTarget": [
+        "local",
+        "WebGLCubeRenderTarget"
+      ],
+      "WebGLDebug": [
+        "local",
+        "WebGLDebug"
+      ],
+      "WebGLDepthBuffer": [
+        "local",
+        "WebGLDepthBuffer"
+      ],
+      "WebGLExtensions": [
+        "local",
+        "WebGLExtensions"
+      ],
+      "WebGLGeometries": [
+        "local",
+        "WebGLGeometries"
+      ],
+      "WebGLIndexedBufferRenderer": [
+        "local",
+        "WebGLIndexedBufferRenderer"
+      ],
+      "WebGLInfo": [
+        "local",
+        "WebGLInfo"
+      ],
+      "WebGLLights": [
+        "local",
+        "WebGLLights"
+      ],
+      "WebGLMultisampleRenderTarget": [
+        "local",
+        "WebGLMultisampleRenderTarget"
+      ],
+      "WebGLObjects": [
+        "local",
+        "WebGLObjects"
+      ],
+      "WebGLProgram": [
+        "local",
+        "WebGLProgram"
+      ],
+      "WebGLPrograms": [
+        "local",
+        "WebGLPrograms"
+      ],
+      "WebGLProperties": [
+        "local",
+        "WebGLProperties"
+      ],
+      "WebGLRenderList": [
+        "local",
+        "WebGLRenderList"
+      ],
+      "WebGLRenderLists": [
+        "local",
+        "WebGLRenderLists"
+      ],
+      "WebGLRenderTarget": [
+        "local",
+        "WebGLRenderTarget"
+      ],
+      "WebGLRenderTargetOptions": [
+        "local",
+        "WebGLRenderTargetOptions"
+      ],
+      "WebGLRenderer": [
+        "local",
+        "WebGLRenderer"
+      ],
+      "WebGLRendererParameters": [
+        "local",
+        "WebGLRendererParameters"
+      ],
+      "WebGLShader": [
+        "local",
+        "WebGLShader"
+      ],
+      "WebGLShadowMap": [
+        "local",
+        "WebGLShadowMap"
+      ],
+      "WebGLState": [
+        "local",
+        "WebGLState"
+      ],
+      "WebGLStencilBuffer": [
+        "local",
+        "WebGLStencilBuffer"
+      ],
+      "WebGLTextures": [
+        "local",
+        "WebGLTextures"
+      ],
+      "WebGLUniforms": [
+        "local",
+        "WebGLUniforms"
+      ],
+      "WireframeGeometry": [
+        "local",
+        "WireframeGeometry"
+      ],
+      "Wrapping": [
+        "local",
+        "Wrapping"
+      ]
+    },
+    "datatypes": {
+      "AmbientLight": [
+        "data",
+        "AmbientLight",
+        [],
+        [],
+        []
+      ],
+      "AmbientLightProbe": [
+        "data",
+        "AmbientLightProbe",
+        [],
+        [],
+        []
+      ],
+      "AnimationActionLoopStyles": [
+        "data",
+        "AnimationActionLoopStyles",
+        [],
+        [],
+        []
+      ],
+      "AnimationClip": [
+        "data",
+        "AnimationClip",
+        [],
+        [],
+        []
+      ],
+      "AnimationLoader": [
+        "data",
+        "AnimationLoader",
+        [],
+        [],
+        []
+      ],
+      "AnimationMixer": [
+        "data",
+        "AnimationMixer",
+        [],
+        [],
+        []
+      ],
+      "AnimationObjectGroup": [
+        "data",
+        "AnimationObjectGroup",
+        [],
+        [],
+        []
+      ],
+      "ArcCurve": [
+        "data",
+        "ArcCurve",
+        [],
+        [],
+        []
+      ],
+      "ArrayCamera": [
+        "data",
+        "ArrayCamera",
+        [],
+        [],
+        []
+      ],
+      "ArrowHelper": [
+        "data",
+        "ArrowHelper",
+        [],
+        [],
+        []
+      ],
+      "Audio": [
+        "data",
+        "Audio",
+        [],
+        [],
+        []
+      ],
+      "AudioAnalyser": [
+        "data",
+        "AudioAnalyser",
+        [],
+        [],
+        []
+      ],
+      "AudioContext": [
+        "data",
+        "AudioContext",
+        [],
+        [],
+        []
+      ],
+      "AudioListener": [
+        "data",
+        "AudioListener",
+        [],
+        [],
+        []
+      ],
+      "AudioLoader": [
+        "data",
+        "AudioLoader",
+        [],
+        [],
+        []
+      ],
+      "AudioWeaken": [
+        "data",
+        "AudioWeaken",
+        [],
+        [],
+        []
+      ],
+      "AxesHelper": [
+        "data",
+        "AxesHelper",
+        [],
+        [],
+        []
+      ],
+      "Blending": [
+        "data",
+        "Blending",
+        [],
+        [],
+        []
+      ],
+      "BlendingDstFactor": [
+        "data",
+        "BlendingDstFactor",
+        [],
+        [],
+        []
+      ],
+      "BlendingEquation": [
+        "data",
+        "BlendingEquation",
+        [],
+        [],
+        []
+      ],
+      "BlendingSrcFactor": [
+        "data",
+        "BlendingSrcFactor",
+        [],
+        [],
+        []
+      ],
+      "Bone": [
+        "data",
+        "Bone",
+        [],
+        [],
+        []
+      ],
+      "BooleanKeyframeTrack": [
+        "data",
+        "BooleanKeyframeTrack",
+        [],
+        [],
+        []
+      ],
+      "Box2": [
+        "data",
+        "Box2",
+        [],
+        [],
+        []
+      ],
+      "Box3": [
+        "data",
+        "Box3",
+        [],
+        [],
+        []
+      ],
+      "Box3Helper": [
+        "data",
+        "Box3Helper",
+        [],
+        [],
+        []
+      ],
+      "BoxBufferGeometry": [
+        "data",
+        "BoxBufferGeometry",
+        [],
+        [],
+        []
+      ],
+      "BoxGeometry": [
+        "data",
+        "BoxGeometry",
+        [],
+        [],
+        []
+      ],
+      "BoxHelper": [
+        "data",
+        "BoxHelper",
+        [],
+        [],
+        []
+      ],
+      "BufferAttribute": [
+        "data",
+        "BufferAttribute",
+        [],
+        [],
+        []
+      ],
+      "BufferGeometry": [
+        "data",
+        "BufferGeometry",
+        [],
+        [],
+        []
+      ],
+      "BufferGeometryLoader": [
+        "data",
+        "BufferGeometryLoader",
+        [],
+        [],
+        []
+      ],
+      "Camera": [
+        "data",
+        "Camera",
+        [],
+        [],
+        []
+      ],
+      "CameraHelper": [
+        "data",
+        "CameraHelper",
+        [],
+        [],
+        []
+      ],
+      "CanvasTexture": [
+        "data",
+        "CanvasTexture",
+        [],
+        [],
+        []
+      ],
+      "CatmullRomCurve3": [
+        "data",
+        "CatmullRomCurve3",
+        [],
+        [],
+        []
+      ],
+      "CircleBufferGeometry": [
+        "data",
+        "CircleBufferGeometry",
+        [],
+        [],
+        []
+      ],
+      "CircleGeometry": [
+        "data",
+        "CircleGeometry",
+        [],
+        [],
+        []
+      ],
+      "Clock": [
+        "data",
+        "Clock",
+        [],
+        [],
+        []
+      ],
+      "Color": [
+        "data",
+        "Color",
+        [],
+        [],
+        []
+      ],
+      "ColorKeyframeTrack": [
+        "data",
+        "ColorKeyframeTrack",
+        [],
+        [],
+        []
+      ],
+      "Colors": [
+        "data",
+        "Colors",
+        [],
+        [],
+        []
+      ],
+      "Combine": [
+        "data",
+        "Combine",
+        [],
+        [],
+        []
+      ],
+      "Composite": [
+        "data",
+        "Composite",
+        [],
+        [],
+        []
+      ],
+      "CompressedPixelFormat": [
+        "data",
+        "CompressedPixelFormat",
+        [],
+        [],
+        []
+      ],
+      "CompressedTexture": [
+        "data",
+        "CompressedTexture",
+        [],
+        [],
+        []
+      ],
+      "CompressedTextureLoader": [
+        "data",
+        "CompressedTextureLoader",
+        [],
+        [],
+        []
+      ],
+      "ConeBufferGeometry": [
+        "data",
+        "ConeBufferGeometry",
+        [],
+        [],
+        []
+      ],
+      "ConeGeometry": [
+        "data",
+        "ConeGeometry",
+        [],
+        [],
+        []
+      ],
+      "CubeCamera": [
+        "data",
+        "CubeCamera",
+        [],
+        [],
+        []
+      ],
+      "CubeTexture": [
+        "data",
+        "CubeTexture",
+        [],
+        [],
+        []
+      ],
+      "CubeTextureLoader": [
+        "data",
+        "CubeTextureLoader",
+        [],
+        [],
+        []
+      ],
+      "CubicBezierCurve": [
+        "data",
+        "CubicBezierCurve",
+        [],
+        [],
+        []
+      ],
+      "CubicBezierCurve3": [
+        "data",
+        "CubicBezierCurve3",
+        [],
+        [],
+        []
+      ],
+      "CubicInterpolant": [
+        "data",
+        "CubicInterpolant",
+        [],
+        [],
+        []
+      ],
+      "CullFace": [
+        "data",
+        "CullFace",
+        [],
+        [],
+        []
+      ],
+      "Curve": [
+        "data",
+        "Curve",
+        [],
+        [],
+        []
+      ],
+      "CurvePath": [
+        "data",
+        "CurvePath",
+        [],
+        [],
+        []
+      ],
+      "CylinderBufferGeometry": [
+        "data",
+        "CylinderBufferGeometry",
+        [],
+        [],
+        []
+      ],
+      "CylinderGeometry": [
+        "data",
+        "CylinderGeometry",
+        [],
+        [],
+        []
+      ],
+      "Cylindrical": [
+        "data",
+        "Cylindrical",
+        [],
+        [],
+        []
+      ],
+      "DataTexture": [
+        "data",
+        "DataTexture",
+        [],
+        [],
+        []
+      ],
+      "DataTexture3D": [
+        "data",
+        "DataTexture3D",
+        [],
+        [],
+        []
+      ],
+      "DataTextureLoader": [
+        "data",
+        "DataTextureLoader",
+        [],
+        [],
+        []
+      ],
+      "DepthModes": [
+        "data",
+        "DepthModes",
+        [],
+        [],
+        []
+      ],
+      "DepthPackingStrategies": [
+        "data",
+        "DepthPackingStrategies",
+        [],
+        [],
+        []
+      ],
+      "DepthTexture": [
+        "data",
+        "DepthTexture",
+        [],
+        [],
+        []
+      ],
+      "DirectGeometry": [
+        "data",
+        "DirectGeometry",
+        [],
+        [],
+        []
+      ],
+      "DirectionalLight": [
+        "data",
+        "DirectionalLight",
+        [],
+        [],
+        []
+      ],
+      "DirectionalLightHelper": [
+        "data",
+        "DirectionalLightHelper",
+        [],
+        [],
+        []
+      ],
+      "DirectionalLightShadow": [
+        "data",
+        "DirectionalLightShadow",
+        [],
+        [],
+        []
+      ],
+      "DiscreteInterpolant": [
+        "data",
+        "DiscreteInterpolant",
+        [],
+        [],
+        []
+      ],
+      "DodecahedronBufferGeometry": [
+        "data",
+        "DodecahedronBufferGeometry",
+        [],
+        [],
+        []
+      ],
+      "DodecahedronGeometry": [
+        "data",
+        "DodecahedronGeometry",
+        [],
+        [],
+        []
+      ],
+      "EdgesGeometry": [
+        "data",
+        "EdgesGeometry",
+        [],
+        [],
+        []
+      ],
+      "EllipseCurve": [
+        "data",
+        "EllipseCurve",
+        [],
+        [],
+        []
+      ],
+      "Euler": [
+        "data",
+        "Euler",
+        [],
+        [],
+        []
+      ],
+      "Event": [
+        "data",
+        "Event",
+        [],
+        [],
+        []
+      ],
+      "EventDispatcher": [
+        "data",
+        "EventDispatcher",
+        [],
+        [],
+        []
+      ],
+      "ExtrudeBufferGeometry": [
+        "data",
+        "ExtrudeBufferGeometry",
+        [],
+        [],
+        []
+      ],
+      "ExtrudeGeometry": [
+        "data",
+        "ExtrudeGeometry",
+        [],
+        [],
+        []
+      ],
+      "ExtrudeGeometryOptions": [
+        "data",
+        "ExtrudeGeometryOptions",
+        [],
+        [],
+        []
+      ],
+      "Face3": [
+        "data",
+        "Face3",
+        [],
+        [],
+        []
+      ],
+      "FileLoader": [
+        "data",
+        "FileLoader",
+        [],
+        [],
+        []
+      ],
+      "Float32Attribute": [
+        "data",
+        "Float32Attribute",
+        [],
+        [],
+        []
+      ],
+      "Float32BufferAttribute": [
+        "data",
+        "Float32BufferAttribute",
+        [],
+        [],
+        []
+      ],
+      "Float64Attribute": [
+        "data",
+        "Float64Attribute",
+        [],
+        [],
+        []
+      ],
+      "Float64BufferAttribute": [
+        "data",
+        "Float64BufferAttribute",
+        [],
+        [],
+        []
+      ],
+      "Fog": [
+        "data",
+        "Fog",
+        [],
+        [],
+        []
+      ],
+      "FogExp2": [
+        "data",
+        "FogExp2",
+        [],
+        [],
+        []
+      ],
+      "Font": [
+        "data",
+        "Font",
+        [],
+        [],
+        []
+      ],
+      "FontLoader": [
+        "data",
+        "FontLoader",
+        [],
+        [],
+        []
+      ],
+      "FrontFaceDirection": [
+        "data",
+        "FrontFaceDirection",
+        [],
+        [],
+        []
+      ],
+      "Frustum": [
+        "data",
+        "Frustum",
+        [],
+        [],
+        []
+      ],
+      "Geometry": [
+        "data",
+        "Geometry",
+        [],
+        [],
+        []
+      ],
+      "GridHelper": [
+        "data",
+        "GridHelper",
+        [],
+        [],
+        []
+      ],
+      "Group": [
+        "data",
+        "Group",
+        [],
+        [],
+        []
+      ],
+      "HSL": [
+        "data",
+        "HSL",
+        [],
+        [],
+        []
+      ],
+      "HemisphereLight": [
+        "data",
+        "HemisphereLight",
+        [],
+        [],
+        []
+      ],
+      "HemisphereLightHelper": [
+        "data",
+        "HemisphereLightHelper",
+        [],
+        [],
+        []
+      ],
+      "HemisphereLightProbe": [
+        "data",
+        "HemisphereLightProbe",
+        [],
+        [],
+        []
+      ],
+      "IFog": [
+        "data",
+        "IFog",
+        [],
+        [],
+        []
+      ],
+      "IUniform": [
+        "data",
+        "IUniform",
+        [],
+        [],
+        []
+      ],
+      "IcosahedronBufferGeometry": [
+        "data",
+        "IcosahedronBufferGeometry",
+        [],
+        [],
+        []
+      ],
+      "IcosahedronGeometry": [
+        "data",
+        "IcosahedronGeometry",
+        [],
+        [],
+        []
+      ],
+      "ImageBitmapLoader": [
+        "data",
+        "ImageBitmapLoader",
+        [],
+        [],
+        []
+      ],
+      "ImageLoader": [
+        "data",
+        "ImageLoader",
+        [],
+        [],
+        []
+      ],
+      "ImmediateRenderObject": [
+        "data",
+        "ImmediateRenderObject",
+        [],
+        [],
+        []
+      ],
+      "InstancedBufferAttribute": [
+        "data",
+        "InstancedBufferAttribute",
+        [],
+        [],
+        []
+      ],
+      "InstancedBufferGeometry": [
+        "data",
+        "InstancedBufferGeometry",
+        [],
+        [],
+        []
+      ],
+      "InstancedInterleavedBuffer": [
+        "data",
+        "InstancedInterleavedBuffer",
+        [],
+        [],
+        []
+      ],
+      "InstancedMesh": [
+        "data",
+        "InstancedMesh",
+        [],
+        [],
+        []
+      ],
+      "Int16Attribute": [
+        "data",
+        "Int16Attribute",
+        [],
+        [],
+        []
+      ],
+      "Int16BufferAttribute": [
+        "data",
+        "Int16BufferAttribute",
+        [],
+        [],
+        []
+      ],
+      "Int32Attribute": [
+        "data",
+        "Int32Attribute",
+        [],
+        [],
+        []
+      ],
+      "Int32BufferAttribute": [
+        "data",
+        "Int32BufferAttribute",
+        [],
+        [],
+        []
+      ],
+      "Int8Attribute": [
+        "data",
+        "Int8Attribute",
+        [],
+        [],
+        []
+      ],
+      "Int8BufferAttribute": [
+        "data",
+        "Int8BufferAttribute",
+        [],
+        [],
+        []
+      ],
+      "InterleavedBuffer": [
+        "data",
+        "InterleavedBuffer",
+        [],
+        [],
+        []
+      ],
+      "InterleavedBufferAttribute": [
+        "data",
+        "InterleavedBufferAttribute",
+        [],
+        [],
+        []
+      ],
+      "Interpolant": [
+        "data",
+        "Interpolant",
+        [],
+        [],
+        []
+      ],
+      "InterpolationEndingModes": [
+        "data",
+        "InterpolationEndingModes",
+        [],
+        [],
+        []
+      ],
+      "InterpolationModes": [
+        "data",
+        "InterpolationModes",
+        [],
+        [],
+        []
+      ],
+      "Intersection": [
+        "data",
+        "Intersection",
+        [],
+        [],
+        []
+      ],
+      "KeyframeTrack": [
+        "data",
+        "KeyframeTrack",
+        [],
+        [],
+        []
+      ],
+      "LOD": [
+        "data",
+        "LOD",
+        [],
+        [],
+        []
+      ],
+      "LatheBufferGeometry": [
+        "data",
+        "LatheBufferGeometry",
+        [],
+        [],
+        []
+      ],
+      "LatheGeometry": [
+        "data",
+        "LatheGeometry",
+        [],
+        [],
+        []
+      ],
+      "Layers": [
+        "data",
+        "Layers",
+        [],
+        [],
+        []
+      ],
+      "Light": [
+        "data",
+        "Light",
+        [],
+        [],
+        []
+      ],
+      "LightProbe": [
+        "data",
+        "LightProbe",
+        [],
+        [],
+        []
+      ],
+      "LightShadow": [
+        "data",
+        "LightShadow",
+        [],
+        [],
+        []
+      ],
+      "Line": [
+        "data",
+        "Line",
+        [],
+        [],
+        []
+      ],
+      "Line3": [
+        "data",
+        "Line3",
+        [],
+        [],
+        []
+      ],
+      "LineBasicMaterial": [
+        "data",
+        "LineBasicMaterial",
+        [],
+        [],
+        []
+      ],
+      "LineBasicMaterialParameters": [
+        "data",
+        "LineBasicMaterialParameters",
+        [],
+        [],
+        []
+      ],
+      "LineCurve": [
+        "data",
+        "LineCurve",
+        [],
+        [],
+        []
+      ],
+      "LineCurve3": [
+        "data",
+        "LineCurve3",
+        [],
+        [],
+        []
+      ],
+      "LineDashedMaterial": [
+        "data",
+        "LineDashedMaterial",
+        [],
+        [],
+        []
+      ],
+      "LineDashedMaterialParameters": [
+        "data",
+        "LineDashedMaterialParameters",
+        [],
+        [],
+        []
+      ],
+      "LineLoop": [
+        "data",
+        "LineLoop",
+        [],
+        [],
+        []
+      ],
+      "LineSegments": [
+        "data",
+        "LineSegments",
+        [],
+        [],
+        []
+      ],
+      "LinearInterpolant": [
+        "data",
+        "LinearInterpolant",
+        [],
+        [],
+        []
+      ],
+      "Loader": [
+        "data",
+        "Loader",
+        [],
+        [],
+        []
+      ],
+      "LoaderUtils": [
+        "data",
+        "LoaderUtils",
+        [],
+        [],
+        []
+      ],
+      "LoadingManager": [
+        "data",
+        "LoadingManager",
+        [],
+        [],
+        []
+      ],
+      "MOUSE": [
+        "data",
+        "MOUSE",
+        [],
+        [],
+        []
+      ],
+      "Mapping": [
+        "data",
+        "Mapping",
+        [],
+        [],
+        []
+      ],
+      "Material": [
+        "data",
+        "Material",
+        [],
+        [],
+        []
+      ],
+      "MaterialLoader": [
+        "data",
+        "MaterialLoader",
+        [],
+        [],
+        []
+      ],
+      "MaterialParameters": [
+        "data",
+        "MaterialParameters",
+        [],
+        [],
+        []
+      ],
+      "Matrix": [
+        "data",
+        "Matrix",
+        [],
+        [],
+        []
+      ],
+      "Matrix3": [
+        "data",
+        "Matrix3",
+        [],
+        [],
+        []
+      ],
+      "Matrix4": [
+        "data",
+        "Matrix4",
+        [],
+        [],
+        []
+      ],
+      "Mesh": [
+        "data",
+        "Mesh",
+        [],
+        [],
+        []
+      ],
+      "MeshBasicMaterial": [
+        "data",
+        "MeshBasicMaterial",
+        [],
+        [],
+        []
+      ],
+      "MeshBasicMaterialParameters": [
+        "data",
+        "MeshBasicMaterialParameters",
+        [],
+        [],
+        []
+      ],
+      "MeshDepthMaterial": [
+        "data",
+        "MeshDepthMaterial",
+        [],
+        [],
+        []
+      ],
+      "MeshDepthMaterialParameters": [
+        "data",
+        "MeshDepthMaterialParameters",
+        [],
+        [],
+        []
+      ],
+      "MeshDistanceMaterial": [
+        "data",
+        "MeshDistanceMaterial",
+        [],
+        [],
+        []
+      ],
+      "MeshDistanceMaterialParameters": [
+        "data",
+        "MeshDistanceMaterialParameters",
+        [],
+        [],
+        []
+      ],
+      "MeshLambertMaterial": [
+        "data",
+        "MeshLambertMaterial",
+        [],
+        [],
+        []
+      ],
+      "MeshLambertMaterialParameters": [
+        "data",
+        "MeshLambertMaterialParameters",
+        [],
+        [],
+        []
+      ],
+      "MeshMatcapMaterial": [
+        "data",
+        "MeshMatcapMaterial",
+        [],
+        [],
+        []
+      ],
+      "MeshMatcapMaterialParameters": [
+        "data",
+        "MeshMatcapMaterialParameters",
+        [],
+        [],
+        []
+      ],
+      "MeshNormalMaterial": [
+        "data",
+        "MeshNormalMaterial",
+        [],
+        [],
+        []
+      ],
+      "MeshNormalMaterialParameters": [
+        "data",
+        "MeshNormalMaterialParameters",
+        [],
+        [],
+        []
+      ],
+      "MeshPhongMaterial": [
+        "data",
+        "MeshPhongMaterial",
+        [],
+        [],
+        []
+      ],
+      "MeshPhongMaterialParameters": [
+        "data",
+        "MeshPhongMaterialParameters",
+        [],
+        [],
+        []
+      ],
+      "MeshPhysicalMaterial": [
+        "data",
+        "MeshPhysicalMaterial",
+        [],
+        [],
+        []
+      ],
+      "MeshPhysicalMaterialParameters": [
+        "data",
+        "MeshPhysicalMaterialParameters",
+        [],
+        [],
+        []
+      ],
+      "MeshStandardMaterial": [
+        "data",
+        "MeshStandardMaterial",
+        [],
+        [],
+        []
+      ],
+      "MeshStandardMaterialParameters": [
+        "data",
+        "MeshStandardMaterialParameters",
+        [],
+        [],
+        []
+      ],
+      "MeshToonMaterial": [
+        "data",
+        "MeshToonMaterial",
+        [],
+        [],
+        []
+      ],
+      "MeshToonMaterialParameters": [
+        "data",
+        "MeshToonMaterialParameters",
+        [],
+        [],
+        []
+      ],
+      "MorphColor": [
+        "data",
+        "MorphColor",
+        [],
+        [],
+        []
+      ],
+      "MorphNormals": [
+        "data",
+        "MorphNormals",
+        [],
+        [],
+        []
+      ],
+      "MorphTarget": [
+        "data",
+        "MorphTarget",
+        [],
+        [],
+        []
+      ],
+      "MultiMaterial": [
+        "data",
+        "MultiMaterial",
+        [],
+        [],
+        []
+      ],
+      "NormalMapTypes": [
+        "data",
+        "NormalMapTypes",
+        [],
+        [],
+        []
+      ],
+      "NumberKeyframeTrack": [
+        "data",
+        "NumberKeyframeTrack",
+        [],
+        [],
+        []
+      ],
+      "Object3D": [
+        "data",
+        "Object3D",
+        [],
+        [],
+        []
+      ],
+      "ObjectLoader": [
+        "data",
+        "ObjectLoader",
+        [],
+        [],
+        []
+      ],
+      "OctahedronBufferGeometry": [
+        "data",
+        "OctahedronBufferGeometry",
+        [],
+        [],
+        []
+      ],
+      "OctahedronGeometry": [
+        "data",
+        "OctahedronGeometry",
+        [],
+        [],
+        []
+      ],
+      "OrthographicCamera": [
+        "data",
+        "OrthographicCamera",
+        [],
+        [],
+        []
+      ],
+      "ParametricBufferGeometry": [
+        "data",
+        "ParametricBufferGeometry",
+        [],
+        [],
+        []
+      ],
+      "ParametricGeometry": [
+        "data",
+        "ParametricGeometry",
+        [],
+        [],
+        []
+      ],
+      "ParseTrackNameResults": [
+        "data",
+        "ParseTrackNameResults",
+        [],
+        [],
+        []
+      ],
+      "Path": [
+        "data",
+        "Path",
+        [],
+        [],
+        []
+      ],
+      "PathAction": [
+        "data",
+        "PathAction",
+        [],
+        [],
+        []
+      ],
+      "PathActions": [
+        "data",
+        "PathActions",
+        [],
+        [],
+        []
+      ],
+      "PerspectiveCamera": [
+        "data",
+        "PerspectiveCamera",
+        [],
+        [],
+        []
+      ],
+      "PixelFormat": [
+        "data",
+        "PixelFormat",
+        [],
+        [],
+        []
+      ],
+      "PixelFormatGPU": [
+        "data",
+        "union1",
+        [],
+        [],
+        []
+      ],
+      "PixelType": [
+        "data",
+        "PixelType",
+        [],
+        [],
+        []
+      ],
+      "Plane": [
+        "data",
+        "Plane",
+        [],
+        [],
+        []
+      ],
+      "PlaneBufferGeometry": [
+        "data",
+        "PlaneBufferGeometry",
+        [],
+        [],
+        []
+      ],
+      "PlaneGeometry": [
+        "data",
+        "PlaneGeometry",
+        [],
+        [],
+        []
+      ],
+      "PlaneHelper": [
+        "data",
+        "PlaneHelper",
+        [],
+        [],
+        []
+      ],
+      "PointLight": [
+        "data",
+        "PointLight",
+        [],
+        [],
+        []
+      ],
+      "PointLightHelper": [
+        "data",
+        "PointLightHelper",
+        [],
+        [],
+        []
+      ],
+      "PointLightShadow": [
+        "data",
+        "PointLightShadow",
+        [],
+        [],
+        []
+      ],
+      "Points": [
+        "data",
+        "Points",
+        [],
+        [],
+        []
+      ],
+      "PointsMaterial": [
+        "data",
+        "PointsMaterial",
+        [],
+        [],
+        []
+      ],
+      "PointsMaterialParameters": [
+        "data",
+        "PointsMaterialParameters",
+        [],
+        [],
+        []
+      ],
+      "PolarGridHelper": [
+        "data",
+        "PolarGridHelper",
+        [],
+        [],
+        []
+      ],
+      "PolyhedronBufferGeometry": [
+        "data",
+        "PolyhedronBufferGeometry",
+        [],
+        [],
+        []
+      ],
+      "PolyhedronGeometry": [
+        "data",
+        "PolyhedronGeometry",
+        [],
+        [],
+        []
+      ],
+      "PositionalAudio": [
+        "data",
+        "PositionalAudio",
+        [],
+        [],
+        []
+      ],
+      "PropertyBinding": [
+        "data",
+        "PropertyBinding",
+        [],
+        [],
+        []
+      ],
+      "PropertyMixer": [
+        "data",
+        "PropertyMixer",
+        [],
+        [],
+        []
+      ],
+      "QuadraticBezierCurve": [
+        "data",
+        "QuadraticBezierCurve",
+        [],
+        [],
+        []
+      ],
+      "QuadraticBezierCurve3": [
+        "data",
+        "QuadraticBezierCurve3",
+        [],
+        [],
+        []
+      ],
+      "Quaternion": [
+        "data",
+        "Quaternion",
+        [],
+        [],
+        []
+      ],
+      "QuaternionKeyframeTrack": [
+        "data",
+        "QuaternionKeyframeTrack",
+        [],
+        [],
+        []
+      ],
+      "QuaternionLinearInterpolant": [
+        "data",
+        "QuaternionLinearInterpolant",
+        [],
+        [],
+        []
+      ],
+      "RawShaderMaterial": [
+        "data",
+        "RawShaderMaterial",
+        [],
+        [],
+        []
+      ],
+      "Ray": [
+        "data",
+        "Ray",
+        [],
+        [],
+        []
+      ],
+      "Raycaster": [
+        "data",
+        "Raycaster",
+        [],
+        [],
+        []
+      ],
+      "RaycasterParameters": [
+        "data",
+        "RaycasterParameters",
+        [],
+        [],
+        []
+      ],
+      "RectAreaLight": [
+        "data",
+        "RectAreaLight",
+        [],
+        [],
+        []
+      ],
+      "RenderItem": [
+        "data",
+        "RenderItem",
+        [],
+        [],
+        []
+      ],
+      "RenderTarget": [
+        "data",
+        "RenderTarget",
+        [],
+        [],
+        []
+      ],
+      "Renderer": [
+        "data",
+        "Renderer",
+        [],
+        [],
+        []
+      ],
+      "RingBufferGeometry": [
+        "data",
+        "RingBufferGeometry",
+        [],
+        [],
+        []
+      ],
+      "RingGeometry": [
+        "data",
+        "RingGeometry",
+        [],
+        [],
+        []
+      ],
+      "Scene": [
+        "data",
+        "Scene",
+        [],
+        [],
+        []
+      ],
+      "Shader": [
+        "data",
+        "Shader",
+        [],
+        [],
+        []
+      ],
+      "ShaderMaterial": [
+        "data",
+        "ShaderMaterial",
+        [],
+        [],
+        []
+      ],
+      "ShaderMaterialParameters": [
+        "data",
+        "ShaderMaterialParameters",
+        [],
+        [],
+        []
+      ],
+      "Shading": [
+        "data",
+        "Shading",
+        [],
+        [],
+        []
+      ],
+      "ShadowMapType": [
+        "data",
+        "ShadowMapType",
+        [],
+        [],
+        []
+      ],
+      "ShadowMaterial": [
+        "data",
+        "ShadowMaterial",
+        [],
+        [],
+        []
+      ],
+      "ShadowMaterialParameters": [
+        "data",
+        "ShadowMaterialParameters",
+        [],
+        [],
+        []
+      ],
+      "Shape": [
+        "data",
+        "Shape",
+        [],
+        [],
+        []
+      ],
+      "ShapeBufferGeometry": [
+        "data",
+        "ShapeBufferGeometry",
+        [],
+        [],
+        []
+      ],
+      "ShapeGeometry": [
+        "data",
+        "ShapeGeometry",
+        [],
+        [],
+        []
+      ],
+      "ShapePath": [
+        "data",
+        "ShapePath",
+        [],
+        [],
+        []
+      ],
+      "Side": [
+        "data",
+        "Side",
+        [],
+        [],
+        []
+      ],
+      "Skeleton": [
+        "data",
+        "Skeleton",
+        [],
+        [],
+        []
+      ],
+      "SkeletonHelper": [
+        "data",
+        "SkeletonHelper",
+        [],
+        [],
+        []
+      ],
+      "SkinnedMesh": [
+        "data",
+        "SkinnedMesh",
+        [],
+        [],
+        []
+      ],
+      "Sphere": [
+        "data",
+        "Sphere",
+        [],
+        [],
+        []
+      ],
+      "SphereBufferGeometry": [
+        "data",
+        "SphereBufferGeometry",
+        [],
+        [],
+        []
+      ],
+      "SphereGeometry": [
+        "data",
+        "SphereGeometry",
+        [],
+        [],
+        []
+      ],
+      "Spherical": [
+        "data",
+        "Spherical",
+        [],
+        [],
+        []
+      ],
+      "SphericalHarmonics3": [
+        "data",
+        "SphericalHarmonics3",
+        [],
+        [],
+        []
+      ],
+      "SplineControlPoint": [
+        "data",
+        "SplineControlPoint",
+        [],
+        [],
+        []
+      ],
+      "SplineCurve": [
+        "data",
+        "SplineCurve",
+        [],
+        [],
+        []
+      ],
+      "SpotLight": [
+        "data",
+        "SpotLight",
+        [],
+        [],
+        []
+      ],
+      "SpotLightHelper": [
+        "data",
+        "SpotLightHelper",
+        [],
+        [],
+        []
+      ],
+      "SpotLightShadow": [
+        "data",
+        "SpotLightShadow",
+        [],
+        [],
+        []
+      ],
+      "Sprite": [
+        "data",
+        "Sprite",
+        [],
+        [],
+        []
+      ],
+      "SpriteMaterial": [
+        "data",
+        "SpriteMaterial",
+        [],
+        [],
+        []
+      ],
+      "SpriteMaterialParameters": [
+        "data",
+        "SpriteMaterialParameters",
+        [],
+        [],
+        []
+      ],
+      "StencilFunc": [
+        "data",
+        "StencilFunc",
+        [],
+        [],
+        []
+      ],
+      "StencilOp": [
+        "data",
+        "StencilOp",
+        [],
+        [],
+        []
+      ],
+      "StereoCamera": [
+        "data",
+        "StereoCamera",
+        [],
+        [],
+        []
+      ],
+      "StringKeyframeTrack": [
+        "data",
+        "StringKeyframeTrack",
+        [],
+        [],
+        []
+      ],
+      "TOUCH": [
+        "data",
+        "TOUCH",
+        [],
+        [],
+        []
+      ],
+      "TetrahedronBufferGeometry": [
+        "data",
+        "TetrahedronBufferGeometry",
+        [],
+        [],
+        []
+      ],
+      "TetrahedronGeometry": [
+        "data",
+        "TetrahedronGeometry",
+        [],
+        [],
+        []
+      ],
+      "TextBufferGeometry": [
+        "data",
+        "TextBufferGeometry",
+        [],
+        [],
+        []
+      ],
+      "TextGeometry": [
+        "data",
+        "TextGeometry",
+        [],
+        [],
+        []
+      ],
+      "TextGeometryParameters": [
+        "data",
+        "TextGeometryParameters",
+        [],
+        [],
+        []
+      ],
+      "Texture": [
+        "data",
+        "Texture",
+        [],
+        [],
+        []
+      ],
+      "TextureDataType": [
+        "data",
+        "TextureDataType",
+        [],
+        [],
+        []
+      ],
+      "TextureEncoding": [
+        "data",
+        "TextureEncoding",
+        [],
+        [],
+        []
+      ],
+      "TextureFilter": [
+        "data",
+        "TextureFilter",
+        [],
+        [],
+        []
+      ],
+      "TextureLoader": [
+        "data",
+        "TextureLoader",
+        [],
+        [],
+        []
+      ],
+      "ToneMapping": [
+        "data",
+        "ToneMapping",
+        [],
+        [],
+        []
+      ],
+      "TorusBufferGeometry": [
+        "data",
+        "TorusBufferGeometry",
+        [],
+        [],
+        []
+      ],
+      "TorusGeometry": [
+        "data",
+        "TorusGeometry",
+        [],
+        [],
+        []
+      ],
+      "TorusKnotBufferGeometry": [
+        "data",
+        "TorusKnotBufferGeometry",
+        [],
+        [],
+        []
+      ],
+      "TorusKnotGeometry": [
+        "data",
+        "TorusKnotGeometry",
+        [],
+        [],
+        []
+      ],
+      "Triangle": [
+        "data",
+        "Triangle",
+        [],
+        [],
+        []
+      ],
+      "TrianglesDrawModes": [
+        "data",
+        "TrianglesDrawModes",
+        [],
+        [],
+        []
+      ],
+      "TubeBufferGeometry": [
+        "data",
+        "TubeBufferGeometry",
+        [],
+        [],
+        []
+      ],
+      "TubeGeometry": [
+        "data",
+        "TubeGeometry",
+        [],
+        [],
+        []
+      ],
+      "TypedArray": [
+        "data",
+        "union2",
+        [],
+        [],
+        []
+      ],
+      "UVGenerator": [
+        "data",
+        "UVGenerator",
+        [],
+        [],
+        []
+      ],
+      "Uint16Attribute": [
+        "data",
+        "Uint16Attribute",
+        [],
+        [],
+        []
+      ],
+      "Uint16BufferAttribute": [
+        "data",
+        "Uint16BufferAttribute",
+        [],
+        [],
+        []
+      ],
+      "Uint32Attribute": [
+        "data",
+        "Uint32Attribute",
+        [],
+        [],
+        []
+      ],
+      "Uint32BufferAttribute": [
+        "data",
+        "Uint32BufferAttribute",
+        [],
+        [],
+        []
+      ],
+      "Uint8Attribute": [
+        "data",
+        "Uint8Attribute",
+        [],
+        [],
+        []
+      ],
+      "Uint8BufferAttribute": [
+        "data",
+        "Uint8BufferAttribute",
+        [],
+        [],
+        []
+      ],
+      "Uint8ClampedAttribute": [
+        "data",
+        "Uint8ClampedAttribute",
+        [],
+        [],
+        []
+      ],
+      "Uint8ClampedBufferAttribute": [
+        "data",
+        "Uint8ClampedBufferAttribute",
+        [],
+        [],
+        []
+      ],
+      "Uniform": [
+        "data",
+        "Uniform",
+        [],
+        [],
+        []
+      ],
+      "Usage": [
+        "data",
+        "Usage",
+        [],
+        [],
+        []
+      ],
+      "Vector": [
+        "data",
+        "Vector",
+        [],
+        [],
+        []
+      ],
+      "Vector2": [
+        "data",
+        "Vector2",
+        [],
+        [],
+        []
+      ],
+      "Vector3": [
+        "data",
+        "Vector3",
+        [],
+        [],
+        []
+      ],
+      "Vector4": [
+        "data",
+        "Vector4",
+        [],
+        [],
+        []
+      ],
+      "VectorKeyframeTrack": [
+        "data",
+        "VectorKeyframeTrack",
+        [],
+        [],
+        []
+      ],
+      "VideoTexture": [
+        "data",
+        "VideoTexture",
+        [],
+        [],
+        []
+      ],
+      "WebGLBufferRenderer": [
+        "data",
+        "WebGLBufferRenderer",
+        [],
+        [],
+        []
+      ],
+      "WebGLCapabilities": [
+        "data",
+        "WebGLCapabilities",
+        [],
+        [],
+        []
+      ],
+      "WebGLCapabilitiesParameters": [
+        "data",
+        "WebGLCapabilitiesParameters",
+        [],
+        [],
+        []
+      ],
+      "WebGLClipping": [
+        "data",
+        "WebGLClipping",
+        [],
+        [],
+        []
+      ],
+      "WebGLColorBuffer": [
+        "data",
+        "WebGLColorBuffer",
+        [],
+        [],
+        []
+      ],
+      "WebGLCubeRenderTarget": [
+        "data",
+        "WebGLCubeRenderTarget",
+        [],
+        [],
+        []
+      ],
+      "WebGLDebug": [
+        "data",
+        "WebGLDebug",
+        [],
+        [],
+        []
+      ],
+      "WebGLDepthBuffer": [
+        "data",
+        "WebGLDepthBuffer",
+        [],
+        [],
+        []
+      ],
+      "WebGLExtensions": [
+        "data",
+        "WebGLExtensions",
+        [],
+        [],
+        []
+      ],
+      "WebGLGeometries": [
+        "data",
+        "WebGLGeometries",
+        [],
+        [],
+        []
+      ],
+      "WebGLIndexedBufferRenderer": [
+        "data",
+        "WebGLIndexedBufferRenderer",
+        [],
+        [],
+        []
+      ],
+      "WebGLInfo": [
+        "data",
+        "WebGLInfo",
+        [],
+        [],
+        []
+      ],
+      "WebGLLights": [
+        "data",
+        "WebGLLights",
+        [],
+        [],
+        []
+      ],
+      "WebGLMultisampleRenderTarget": [
+        "data",
+        "WebGLMultisampleRenderTarget",
+        [],
+        [],
+        []
+      ],
+      "WebGLObjects": [
+        "data",
+        "WebGLObjects",
+        [],
+        [],
+        []
+      ],
+      "WebGLProgram": [
+        "data",
+        "WebGLProgram",
+        [],
+        [],
+        []
+      ],
+      "WebGLPrograms": [
+        "data",
+        "WebGLPrograms",
+        [],
+        [],
+        []
+      ],
+      "WebGLProperties": [
+        "data",
+        "WebGLProperties",
+        [],
+        [],
+        []
+      ],
+      "WebGLRenderList": [
+        "data",
+        "WebGLRenderList",
+        [],
+        [],
+        []
+      ],
+      "WebGLRenderLists": [
+        "data",
+        "WebGLRenderLists",
+        [],
+        [],
+        []
+      ],
+      "WebGLRenderTarget": [
+        "data",
+        "WebGLRenderTarget",
+        [],
+        [],
+        []
+      ],
+      "WebGLRenderTargetOptions": [
+        "data",
+        "WebGLRenderTargetOptions",
+        [],
+        [],
+        []
+      ],
+      "WebGLRenderer": [
+        "data",
+        "WebGLRenderer",
+        [],
+        [],
+        []
+      ],
+      "WebGLRendererParameters": [
+        "data",
+        "WebGLRendererParameters",
+        [],
+        [],
+        []
+      ],
+      "WebGLShader": [
+        "data",
+        "WebGLShader",
+        [],
+        [],
+        []
+      ],
+      "WebGLShadowMap": [
+        "data",
+        "WebGLShadowMap",
+        [],
+        [],
+        []
+      ],
+      "WebGLState": [
+        "data",
+        "WebGLState",
+        [],
+        [],
+        []
+      ],
+      "WebGLStencilBuffer": [
+        "data",
+        "WebGLStencilBuffer",
+        [],
+        [],
+        []
+      ],
+      "WebGLTextures": [
+        "data",
+        "WebGLTextures",
+        [],
+        [],
+        []
+      ],
+      "WebGLUniforms": [
+        "data",
+        "WebGLUniforms",
+        [],
+        [],
+        []
+      ],
+      "WireframeGeometry": [
+        "data",
+        "WireframeGeometry",
+        [],
+        [],
+        []
+      ],
+      "Wrapping": [
+        "data",
+        "Wrapping",
+        [],
+        [],
+        []
+      ]
+    },
+    "shorthands": {},
+    "values": {
+      "ACESFilmicToneMapping": [
+        "local",
+        "ToneMapping"
+      ],
+      "AddEquation": [
+        "local",
+        "BlendingEquation"
+      ],
+      "AddOperation": [
+        "local",
+        "Combine"
+      ],
+      "AdditiveBlending": [
+        "local",
+        "Blending"
+      ],
+      "AlphaFormat": [
+        "local",
+        "PixelFormat"
+      ],
+      "AlwaysDepth": [
+        "local",
+        "DepthModes"
+      ],
+      "AlwaysStencilFunc": [
+        "local",
+        "StencilFunc"
+      ],
+      "AudioContext": [
+        "local",
+        "AudioContext"
+      ],
+      "BackSide": [
+        "local",
+        "Side"
+      ],
+      "BasicDepthPacking": [
+        "local",
+        "DepthPackingStrategies"
+      ],
+      "BasicShadowMap": [
+        "local",
+        "ShadowMapType"
+      ],
+      "ByteType": [
+        "local",
+        "TextureDataType"
+      ],
+      "CineonToneMapping": [
+        "local",
+        "ToneMapping"
+      ],
+      "ClampToEdgeWrapping": [
+        "local",
+        "Wrapping"
+      ],
+      "CubeReflectionMapping": [
+        "local",
+        "Mapping"
+      ],
+      "CubeRefractionMapping": [
+        "local",
+        "Mapping"
+      ],
+      "CubeUVReflectionMapping": [
+        "local",
+        "Mapping"
+      ],
+      "CubeUVRefractionMapping": [
+        "local",
+        "Mapping"
+      ],
+      "CullFaceBack": [
+        "local",
+        "CullFace"
+      ],
+      "CullFaceFront": [
+        "local",
+        "CullFace"
+      ],
+      "CullFaceFrontBack": [
+        "local",
+        "CullFace"
+      ],
+      "CullFaceNone": [
+        "local",
+        "CullFace"
+      ],
+      "CustomBlending": [
+        "local",
+        "Blending"
+      ],
+      "DEG2RAD": "Number",
+      "DecrementStencilOp": [
+        "local",
+        "StencilOp"
+      ],
+      "DecrementWrapStencilOp": [
+        "local",
+        "StencilOp"
+      ],
+      "DefaultLoadingManager": [
+        "local",
+        "LoadingManager"
+      ],
+      "DepthFormat": [
+        "local",
+        "PixelFormat"
+      ],
+      "DepthStencilFormat": [
+        "local",
+        "PixelFormat"
+      ],
+      "DoubleSide": [
+        "local",
+        "Side"
+      ],
+      "DstAlphaFactor": [
+        "local",
+        "BlendingDstFactor"
+      ],
+      "DstColorFactor": [
+        "local",
+        "BlendingDstFactor"
+      ],
+      "DynamicCopyUsage": [
+        "local",
+        "Usage"
+      ],
+      "DynamicDrawUsage": [
+        "local",
+        "Usage"
+      ],
+      "DynamicReadUsage": [
+        "local",
+        "Usage"
+      ],
+      "EqualDepth": [
+        "local",
+        "DepthModes"
+      ],
+      "EqualStencilFunc": [
+        "local",
+        "StencilFunc"
+      ],
+      "EquirectangularReflectionMapping": [
+        "local",
+        "Mapping"
+      ],
+      "EquirectangularRefractionMapping": [
+        "local",
+        "Mapping"
+      ],
+      "FaceColors": [
+        "local",
+        "Colors"
+      ],
+      "FlatShading": [
+        "local",
+        "Shading"
+      ],
+      "FloatType": [
+        "local",
+        "TextureDataType"
+      ],
+      "FrontFaceDirectionCCW": [
+        "local",
+        "FrontFaceDirection"
+      ],
+      "FrontFaceDirectionCW": [
+        "local",
+        "FrontFaceDirection"
+      ],
+      "FrontSide": [
+        "local",
+        "Side"
+      ],
+      "GammaEncoding": [
+        "local",
+        "TextureEncoding"
+      ],
+      "GeometryIdCount": "Number",
+      "GreaterDepth": [
+        "local",
+        "DepthModes"
+      ],
+      "GreaterEqualDepth": [
+        "local",
+        "DepthModes"
+      ],
+      "GreaterEqualStencilFunc": [
+        "local",
+        "StencilFunc"
+      ],
+      "GreaterStencilFunc": [
+        "local",
+        "StencilFunc"
+      ],
+      "HalfFloatType": [
+        "local",
+        "TextureDataType"
+      ],
+      "IncrementStencilOp": [
+        "local",
+        "StencilOp"
+      ],
+      "IncrementWrapStencilOp": [
+        "local",
+        "StencilOp"
+      ],
+      "IntType": [
+        "local",
+        "TextureDataType"
+      ],
+      "InterpolateDiscrete": [
+        "local",
+        "InterpolationModes"
+      ],
+      "InterpolateLinear": [
+        "local",
+        "InterpolationModes"
+      ],
+      "InterpolateSmooth": [
+        "local",
+        "InterpolationModes"
+      ],
+      "InvertStencilOp": [
+        "local",
+        "StencilOp"
+      ],
+      "KeepStencilOp": [
+        "local",
+        "StencilOp"
+      ],
+      "LessDepth": [
+        "local",
+        "DepthModes"
+      ],
+      "LessEqualDepth": [
+        "local",
+        "DepthModes"
+      ],
+      "LessEqualStencilFunc": [
+        "local",
+        "StencilFunc"
+      ],
+      "LessStencilFunc": [
+        "local",
+        "StencilFunc"
+      ],
+      "LinePieces": "Number",
+      "LineStrip": "Number",
+      "LinearEncoding": [
+        "local",
+        "TextureEncoding"
+      ],
+      "LinearFilter": [
+        "local",
+        "TextureFilter"
+      ],
+      "LinearMipMapLinearFilter": [
+        "local",
+        "TextureFilter"
+      ],
+      "LinearMipMapNearestFilter": [
+        "local",
+        "TextureFilter"
+      ],
+      "LinearMipmapLinearFilter": [
+        "local",
+        "TextureFilter"
+      ],
+      "LinearMipmapNearestFilter": [
+        "local",
+        "TextureFilter"
+      ],
+      "LinearToneMapping": [
+        "local",
+        "ToneMapping"
+      ],
+      "LogLuvEncoding": [
+        "local",
+        "TextureEncoding"
+      ],
+      "LoopOnce": [
+        "local",
+        "AnimationActionLoopStyles"
+      ],
+      "LoopPingPong": [
+        "local",
+        "AnimationActionLoopStyles"
+      ],
+      "LoopRepeat": [
+        "local",
+        "AnimationActionLoopStyles"
+      ],
+      "LuminanceAlphaFormat": [
+        "local",
+        "PixelFormat"
+      ],
+      "LuminanceFormat": [
+        "local",
+        "PixelFormat"
+      ],
+      "MaterialIdCount": "Number",
+      "MaxEquation": [
+        "local",
+        "BlendingEquation"
+      ],
+      "MinEquation": [
+        "local",
+        "BlendingEquation"
+      ],
+      "MirroredRepeatWrapping": [
+        "local",
+        "Wrapping"
+      ],
+      "MixOperation": [
+        "local",
+        "Combine"
+      ],
+      "MultiplyBlending": [
+        "local",
+        "Blending"
+      ],
+      "MultiplyOperation": [
+        "local",
+        "Combine"
+      ],
+      "NearestFilter": [
+        "local",
+        "TextureFilter"
+      ],
+      "NearestMipMapLinearFilter": [
+        "local",
+        "TextureFilter"
+      ],
+      "NearestMipMapNearestFilter": [
+        "local",
+        "TextureFilter"
+      ],
+      "NearestMipmapLinearFilter": [
+        "local",
+        "TextureFilter"
+      ],
+      "NearestMipmapNearestFilter": [
+        "local",
+        "TextureFilter"
+      ],
+      "NeverDepth": [
+        "local",
+        "DepthModes"
+      ],
+      "NeverStencilFunc": [
+        "local",
+        "StencilFunc"
+      ],
+      "NoBlending": [
+        "local",
+        "Blending"
+      ],
+      "NoColors": [
+        "local",
+        "Colors"
+      ],
+      "NoToneMapping": [
+        "local",
+        "ToneMapping"
+      ],
+      "NormalBlending": [
+        "local",
+        "Blending"
+      ],
+      "NotEqualDepth": [
+        "local",
+        "DepthModes"
+      ],
+      "NotEqualStencilFunc": [
+        "local",
+        "StencilFunc"
+      ],
+      "Object3DIdCount": "Number",
+      "ObjectSpaceNormalMap": [
+        "local",
+        "NormalMapTypes"
+      ],
+      "OneFactor": [
+        "local",
+        "BlendingDstFactor"
+      ],
+      "OneMinusDstAlphaFactor": [
+        "local",
+        "BlendingDstFactor"
+      ],
+      "OneMinusDstColorFactor": [
+        "local",
+        "BlendingDstFactor"
+      ],
+      "OneMinusSrcAlphaFactor": [
+        "local",
+        "BlendingDstFactor"
+      ],
+      "OneMinusSrcColorFactor": [
+        "local",
+        "BlendingDstFactor"
+      ],
+      "PCFShadowMap": [
+        "local",
+        "ShadowMapType"
+      ],
+      "PCFSoftShadowMap": [
+        "local",
+        "ShadowMapType"
+      ],
+      "RAD2DEG": "Number",
+      "REVISION": "String",
+      "RGBADepthPacking": [
+        "local",
+        "DepthPackingStrategies"
+      ],
+      "RGBAFormat": [
+        "local",
+        "PixelFormat"
+      ],
+      "RGBAIntegerFormat": [
+        "local",
+        "PixelFormat"
+      ],
+      "RGBA_ASTC_10x10_Format": [
+        "local",
+        "CompressedPixelFormat"
+      ],
+      "RGBA_ASTC_10x5_Format": [
+        "local",
+        "CompressedPixelFormat"
+      ],
+      "RGBA_ASTC_10x6_Format": [
+        "local",
+        "CompressedPixelFormat"
+      ],
+      "RGBA_ASTC_10x8_Format": [
+        "local",
+        "CompressedPixelFormat"
+      ],
+      "RGBA_ASTC_12x10_Format": [
+        "local",
+        "CompressedPixelFormat"
+      ],
+      "RGBA_ASTC_12x12_Format": [
+        "local",
+        "CompressedPixelFormat"
+      ],
+      "RGBA_ASTC_4x4_Format": [
+        "local",
+        "CompressedPixelFormat"
+      ],
+      "RGBA_ASTC_5x4_Format": [
+        "local",
+        "CompressedPixelFormat"
+      ],
+      "RGBA_ASTC_5x5_Format": [
+        "local",
+        "CompressedPixelFormat"
+      ],
+      "RGBA_ASTC_6x5_Format": [
+        "local",
+        "CompressedPixelFormat"
+      ],
+      "RGBA_ASTC_6x6_Format": [
+        "local",
+        "CompressedPixelFormat"
+      ],
+      "RGBA_ASTC_8x5_Format": [
+        "local",
+        "CompressedPixelFormat"
+      ],
+      "RGBA_ASTC_8x6_Format": [
+        "local",
+        "CompressedPixelFormat"
+      ],
+      "RGBA_ASTC_8x8_Format": [
+        "local",
+        "CompressedPixelFormat"
+      ],
+      "RGBA_PVRTC_2BPPV1_Format": [
+        "local",
+        "CompressedPixelFormat"
+      ],
+      "RGBA_PVRTC_4BPPV1_Format": [
+        "local",
+        "CompressedPixelFormat"
+      ],
+      "RGBA_S3TC_DXT1_Format": [
+        "local",
+        "CompressedPixelFormat"
+      ],
+      "RGBA_S3TC_DXT3_Format": [
+        "local",
+        "CompressedPixelFormat"
+      ],
+      "RGBA_S3TC_DXT5_Format": [
+        "local",
+        "CompressedPixelFormat"
+      ],
+      "RGBDEncoding": [
+        "local",
+        "TextureEncoding"
+      ],
+      "RGBEEncoding": [
+        "local",
+        "TextureEncoding"
+      ],
+      "RGBEFormat": [
+        "local",
+        "PixelFormat"
+      ],
+      "RGBFormat": [
+        "local",
+        "PixelFormat"
+      ],
+      "RGBIntegerFormat": [
+        "local",
+        "PixelFormat"
+      ],
+      "RGBM16Encoding": [
+        "local",
+        "TextureEncoding"
+      ],
+      "RGBM7Encoding": [
+        "local",
+        "TextureEncoding"
+      ],
+      "RGB_ETC1_Format": [
+        "local",
+        "CompressedPixelFormat"
+      ],
+      "RGB_PVRTC_2BPPV1_Format": [
+        "local",
+        "CompressedPixelFormat"
+      ],
+      "RGB_PVRTC_4BPPV1_Format": [
+        "local",
+        "CompressedPixelFormat"
+      ],
+      "RGB_S3TC_DXT1_Format": [
+        "local",
+        "CompressedPixelFormat"
+      ],
+      "RGFormat": [
+        "local",
+        "PixelFormat"
+      ],
+      "RGIntegerFormat": [
+        "local",
+        "PixelFormat"
+      ],
+      "RedFormat": [
+        "local",
+        "PixelFormat"
+      ],
+      "RedIntegerFormat": [
+        "local",
+        "PixelFormat"
+      ],
+      "ReinhardToneMapping": [
+        "local",
+        "ToneMapping"
+      ],
+      "RepeatWrapping": [
+        "local",
+        "Wrapping"
+      ],
+      "ReplaceStencilOp": [
+        "local",
+        "StencilOp"
+      ],
+      "ReverseSubtractEquation": [
+        "local",
+        "BlendingEquation"
+      ],
+      "ShaderChunk": [
+        "record",
+        {}
+      ],
+      "ShaderLib": [
+        "record",
+        {}
+      ],
+      "ShortType": [
+        "local",
+        "TextureDataType"
+      ],
+      "SmoothShading": [
+        "local",
+        "Shading"
+      ],
+      "SphericalReflectionMapping": [
+        "local",
+        "Mapping"
+      ],
+      "SrcAlphaFactor": [
+        "local",
+        "BlendingDstFactor"
+      ],
+      "SrcAlphaSaturateFactor": [
+        "local",
+        "BlendingSrcFactor"
+      ],
+      "SrcColorFactor": [
+        "local",
+        "BlendingDstFactor"
+      ],
+      "StaticCopyUsage": [
+        "local",
+        "Usage"
+      ],
+      "StaticDrawUsage": [
+        "local",
+        "Usage"
+      ],
+      "StaticReadUsage": [
+        "local",
+        "Usage"
+      ],
+      "StreamCopyUsage": [
+        "local",
+        "Usage"
+      ],
+      "StreamDrawUsage": [
+        "local",
+        "Usage"
+      ],
+      "StreamReadUsage": [
+        "local",
+        "Usage"
+      ],
+      "SubtractEquation": [
+        "local",
+        "BlendingEquation"
+      ],
+      "SubtractiveBlending": [
+        "local",
+        "Blending"
+      ],
+      "TangentSpaceNormalMap": [
+        "local",
+        "NormalMapTypes"
+      ],
+      "TextureIdCount": "Number",
+      "TriangleFanDrawMode": [
+        "local",
+        "TrianglesDrawModes"
+      ],
+      "TriangleStripDrawMode": [
+        "local",
+        "TrianglesDrawModes"
+      ],
+      "TrianglesDrawMode": [
+        "local",
+        "TrianglesDrawModes"
+      ],
+      "UVMapping": [
+        "local",
+        "Mapping"
+      ],
+      "Uncharted2ToneMapping": [
+        "local",
+        "ToneMapping"
+      ],
+      "UniformsLib": [
+        "record",
+        {}
+      ],
+      "UnsignedByteType": [
+        "local",
+        "TextureDataType"
+      ],
+      "UnsignedInt248Type": [
+        "local",
+        "PixelType"
+      ],
+      "UnsignedIntType": [
+        "local",
+        "TextureDataType"
+      ],
+      "UnsignedShort4444Type": [
+        "local",
+        "PixelType"
+      ],
+      "UnsignedShort5551Type": [
+        "local",
+        "PixelType"
+      ],
+      "UnsignedShort565Type": [
+        "local",
+        "PixelType"
+      ],
+      "UnsignedShortType": [
+        "local",
+        "TextureDataType"
+      ],
+      "VSMShadowMap": [
+        "local",
+        "ShadowMapType"
+      ],
+      "VertexColors": [
+        "local",
+        "Colors"
+      ],
+      "WrapAroundEnding": [
+        "local",
+        "InterpolationEndingModes"
+      ],
+      "ZeroCurvatureEnding": [
+        "local",
+        "InterpolationEndingModes"
+      ],
+      "ZeroFactor": [
+        "local",
+        "BlendingDstFactor"
+      ],
+      "ZeroSlopeEnding": [
+        "local",
+        "InterpolationEndingModes"
+      ],
+      "ZeroStencilOp": [
+        "local",
+        "StencilOp"
+      ],
+      "add": [
+        "arrow",
+        [
+          "String",
+          "Any"
+        ],
+        "Nothing"
+      ],
+      "area": [
+        "arrow",
+        [
+          [
+            "tyapp",
+            {
+              "name": "RawArray",
+              "origin": {
+                "import-type": "uri",
+                "uri": "builtin://global"
+              },
+              "tag": "name"
+            },
+            [
+              [
+                "local",
+                "Vec2"
+              ]
+            ]
+          ]
+        ],
+        "Number"
+      ],
+      "arraySlice": [
+        "arrow",
+        [
+          "Any",
+          "Number",
+          "Number"
+        ],
+        "Any"
+      ],
+      "ceilPowerOfTwo": [
+        "arrow",
+        [
+          "Number"
+        ],
+        "Number"
+      ],
+      "clamp": [
+        "arrow",
+        [
+          "Number",
+          "Number",
+          "Number"
+        ],
+        "Number"
+      ],
+      "clear": [
+        "arrow",
+        [],
+        "Nothing"
+      ],
+      "clone": [
+        "arrow",
+        [
+          "Any"
+        ],
+        "Any"
+      ],
+      "cloneUniforms": [
+        "arrow",
+        [
+          "Any"
+        ],
+        "Any"
+      ],
+      "convertArray": [
+        "arrow",
+        [
+          "Any",
+          "Any",
+          "Boolean"
+        ],
+        "Any"
+      ],
+      "crossOrigin": "String",
+      "degToRad": [
+        "arrow",
+        [
+          "Number"
+        ],
+        "Number"
+      ],
+      "enabled": "Boolean",
+      "error": [
+        "arrow",
+        [
+          "Any",
+          [
+            "tyapp",
+            {
+              "name": "RawArray",
+              "origin": {
+                "import-type": "uri",
+                "uri": "builtin://global"
+              },
+              "tag": "name"
+            },
+            [
+              "Any"
+            ]
+          ]
+        ],
+        "Nothing"
+      ],
+      "euclideanModulo": [
+        "arrow",
+        [
+          "Number",
+          "Number"
+        ],
+        "Number"
+      ],
+      "files": "Any",
+      "flattenJSON": [
+        "arrow",
+        [
+          [
+            "tyapp",
+            {
+              "name": "RawArray",
+              "origin": {
+                "import-type": "uri",
+                "uri": "builtin://global"
+              },
+              "tag": "name"
+            },
+            [
+              "String"
+            ]
+          ],
+          [
+            "tyapp",
+            {
+              "name": "RawArray",
+              "origin": {
+                "import-type": "uri",
+                "uri": "builtin://global"
+              },
+              "tag": "name"
+            },
+            [
+              "Any"
+            ]
+          ],
+          [
+            "tyapp",
+            {
+              "name": "RawArray",
+              "origin": {
+                "import-type": "uri",
+                "uri": "builtin://global"
+              },
+              "tag": "name"
+            },
+            [
+              "Any"
+            ]
+          ],
+          "String"
+        ],
+        "Nothing"
+      ],
+      "floorPowerOfTwo": [
+        "arrow",
+        [
+          "Number"
+        ],
+        "Number"
+      ],
+      "generateUUID": [
+        "arrow",
+        [],
+        "String"
+      ],
+      "get": [
+        "arrow",
+        [
+          "String"
+        ],
+        "Any"
+      ],
+      "getDataURL": [
+        "arrow",
+        [
+          "Any"
+        ],
+        "String"
+      ],
+      "getKeyFrameOrder": [
+        "arrow",
+        [
+          [
+            "tyapp",
+            {
+              "name": "RawArray",
+              "origin": {
+                "import-type": "uri",
+                "uri": "builtin://global"
+              },
+              "tag": "name"
+            },
+            [
+              "Number"
+            ]
+          ]
+        ],
+        [
+          "tyapp",
+          {
+            "name": "RawArray",
+            "origin": {
+              "import-type": "uri",
+              "uri": "builtin://global"
+            },
+            "tag": "name"
+          },
+          [
+            "Number"
+          ]
+        ]
+      ],
+      "interpolate": [
+        "arrow",
+        [
+          "Number",
+          "Number",
+          "Number",
+          "Number",
+          "Number"
+        ],
+        "Number"
+      ],
+      "isClockWise": [
+        "arrow",
+        [
+          [
+            "tyapp",
+            {
+              "name": "RawArray",
+              "origin": {
+                "import-type": "uri",
+                "uri": "builtin://global"
+              },
+              "tag": "name"
+            },
+            [
+              [
+                "local",
+                "Vec2"
+              ]
+            ]
+          ]
+        ],
+        "Boolean"
+      ],
+      "isPowerOfTwo": [
+        "arrow",
+        [
+          "Number"
+        ],
+        "Boolean"
+      ],
+      "isTypedArray": [
+        "arrow",
+        [
+          "Any"
+        ],
+        "Boolean"
+      ],
+      "lerp": [
+        "arrow",
+        [
+          "Number",
+          "Number",
+          "Number"
+        ],
+        "Number"
+      ],
+      "loadTexture": [
+        "arrow",
+        [
+          "String",
+          [
+            "local",
+            "Mapping"
+          ],
+          [
+            "arrow",
+            [
+              [
+                "local",
+                "Texture"
+              ]
+            ],
+            "Any"
+          ],
+          [
+            "arrow",
+            [
+              "String"
+            ],
+            "Any"
+          ]
+        ],
+        [
+          "local",
+          "Texture"
+        ]
+      ],
+      "loadTextureCube": [
+        "arrow",
+        [
+          [
+            "tyapp",
+            {
+              "name": "RawArray",
+              "origin": {
+                "import-type": "uri",
+                "uri": "builtin://global"
+              },
+              "tag": "name"
+            },
+            [
+              "String"
+            ]
+          ],
+          [
+            "local",
+            "Mapping"
+          ],
+          [
+            "arrow",
+            [
+              [
+                "local",
+                "Texture"
+              ]
+            ],
+            "Any"
+          ],
+          [
+            "arrow",
+            [
+              "String"
+            ],
+            "Any"
+          ]
+        ],
+        [
+          "local",
+          "Texture"
+        ]
+      ],
+      "log": [
+        "arrow",
+        [
+          "Any",
+          [
+            "tyapp",
+            {
+              "name": "RawArray",
+              "origin": {
+                "import-type": "uri",
+                "uri": "builtin://global"
+              },
+              "tag": "name"
+            },
+            [
+              "Any"
+            ]
+          ]
+        ],
+        "Nothing"
+      ],
+      "mapLinear": [
+        "arrow",
+        [
+          "Number",
+          "Number",
+          "Number",
+          "Number",
+          "Number"
+        ],
+        "Number"
+      ],
+      "merge": [
+        "arrow",
+        [
+          [
+            "tyapp",
+            {
+              "name": "RawArray",
+              "origin": {
+                "import-type": "uri",
+                "uri": "builtin://global"
+              },
+              "tag": "name"
+            },
+            [
+              "Any"
+            ]
+          ]
+        ],
+        "Any"
+      ],
+      "mergeUniforms": [
+        "arrow",
+        [
+          [
+            "tyapp",
+            {
+              "name": "RawArray",
+              "origin": {
+                "import-type": "uri",
+                "uri": "builtin://global"
+              },
+              "tag": "name"
+            },
+            [
+              "Any"
+            ]
+          ]
+        ],
+        "Any"
+      ],
+      "nearestPowerOfTwo": [
+        "arrow",
+        [
+          "Number"
+        ],
+        "Number"
+      ],
+      "nextPowerOfTwo": [
+        "arrow",
+        [
+          "Number"
+        ],
+        "Number"
+      ],
+      "radToDeg": [
+        "arrow",
+        [
+          "Number"
+        ],
+        "Number"
+      ],
+      "randFloat": [
+        "arrow",
+        [
+          "Number",
+          "Number"
+        ],
+        "Number"
+      ],
+      "randFloatSpread": [
+        "arrow",
+        [
+          "Number"
+        ],
+        "Number"
+      ],
+      "randInt": [
+        "arrow",
+        [
+          "Number",
+          "Number"
+        ],
+        "Number"
+      ],
+      "random16": [
+        "arrow",
+        [],
+        "Number"
+      ],
+      "remove": [
+        "arrow",
+        [
+          "String"
+        ],
+        "Nothing"
+      ],
+      "sRGBEncoding": [
+        "local",
+        "TextureEncoding"
+      ],
+      "setQuaternionFromProperEuler": [
+        "arrow",
+        [
+          [
+            "local",
+            "Quaternion"
+          ],
+          "Number",
+          "Number",
+          "Number",
+          "String"
+        ],
+        "Nothing"
+      ],
+      "smootherstep": [
+        "arrow",
+        [
+          "Number",
+          "Number",
+          "Number"
+        ],
+        "Number"
+      ],
+      "smoothstep": [
+        "arrow",
+        [
+          "Number",
+          "Number",
+          "Number"
+        ],
+        "Number"
+      ],
+      "sortedArray": [
+        "arrow",
+        [
+          [
+            "tyapp",
+            {
+              "name": "RawArray",
+              "origin": {
+                "import-type": "uri",
+                "uri": "builtin://global"
+              },
+              "tag": "name"
+            },
+            [
+              "Any"
+            ]
+          ],
+          "Number",
+          [
+            "tyapp",
+            {
+              "name": "RawArray",
+              "origin": {
+                "import-type": "uri",
+                "uri": "builtin://global"
+              },
+              "tag": "name"
+            },
+            [
+              "Number"
+            ]
+          ]
+        ],
+        [
+          "tyapp",
+          {
+            "name": "RawArray",
+            "origin": {
+              "import-type": "uri",
+              "uri": "builtin://global"
+            },
+            "tag": "name"
+          },
+          [
+            "Any"
+          ]
+        ]
+      ],
+      "subclip": [
+        "arrow",
+        [
+          [
+            "local",
+            "AnimationClip"
+          ],
+          "String",
+          "Number",
+          "Number",
+          "Number"
+        ],
+        [
+          "local",
+          "AnimationClip"
+        ]
+      ],
+      "tangentCubicBezier": [
+        "arrow",
+        [
+          "Number",
+          "Number",
+          "Number",
+          "Number",
+          "Number"
+        ],
+        "Number"
+      ],
+      "tangentQuadraticBezier": [
+        "arrow",
+        [
+          "Number",
+          "Number",
+          "Number",
+          "Number"
+        ],
+        "Number"
+      ],
+      "tangentSpline": [
+        "arrow",
+        [
+          "Number",
+          "Number",
+          "Number",
+          "Number",
+          "Number"
+        ],
+        "Number"
+      ],
+      "triangulateShape": [
+        "arrow",
+        [
+          [
+            "tyapp",
+            {
+              "name": "RawArray",
+              "origin": {
+                "import-type": "uri",
+                "uri": "builtin://global"
+              },
+              "tag": "name"
+            },
+            [
+              [
+                "local",
+                "Vec2"
+              ]
+            ]
+          ],
+          [
+            "tyapp",
+            {
+              "name": "RawArray",
+              "origin": {
+                "import-type": "uri",
+                "uri": "builtin://global"
+              },
+              "tag": "name"
+            },
+            [
+              [
+                "tyapp",
+                {
+                  "name": "RawArray",
+                  "origin": {
+                    "import-type": "uri",
+                    "uri": "builtin://global"
+                  },
+                  "tag": "name"
+                },
+                [
+                  [
+                    "local",
+                    "Vec2"
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ],
+        [
+          "tyapp",
+          {
+            "name": "RawArray",
+            "origin": {
+              "import-type": "uri",
+              "uri": "builtin://global"
+            },
+            "tag": "name"
+          },
+          [
+            [
+              "tyapp",
+              {
+                "name": "RawArray",
+                "origin": {
+                  "import-type": "uri",
+                  "uri": "builtin://global"
+                },
+                "tag": "name"
+              },
+              [
+                "Number"
+              ]
+            ]
+          ]
+        ]
+      ],
+      "warn": [
+        "arrow",
+        [
+          "Any",
+          [
+            "tyapp",
+            {
+              "name": "RawArray",
+              "origin": {
+                "import-type": "uri",
+                "uri": "builtin://global"
+              },
+              "tag": "name"
+            },
+            [
+              "Any"
+            ]
+          ]
+        ],
+        "Nothing"
+      ]
+    }
+  },
+  "requires": []
+}
