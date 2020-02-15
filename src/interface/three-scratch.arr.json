@@ -3,7 +3,8 @@
   "provides": {
     "shorthands": { },
     "values": {
-        "add-to-scene": ["arrow", ["tany", "tany"], "Nothing"]
+        "add-to-scene": ["arrow", ["tany", "tany"], "Nothing"],
+        "setup": ["arrow", ["tany", "tany", "tany", "tany"], "Nothing"]
     },
 
     "aliases": { },
