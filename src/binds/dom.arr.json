@@ -1,0 +1,16 @@
+{
+  "requires": [ ],
+  "provides": {
+    "shorthands": { },
+    "values": {
+        "window-height": ["arrow", [], "Number"],
+        "window-width": ["arrow", [], "Number"],
+        "get-element": ["arrow", [], ["local", "Element"]]
+    },
+
+    "aliases": { },
+    "datatypes": {
+        "Element": ["data", "Element", [], [], {}]
+    }
+  }
+}
