@@ -13,7 +13,7 @@ PORT = 8080
 BROWSER = firefox
 
 MAIN = src/main.arr
-OUT_MAIN = .pyret/compiled/project/src/main.arr.js
+OUT_MAIN = compiled/project/src/main.arr.js
 
 run: build
 	$(BROWSER) $(SERVER)/$(HTML_PAGE)
