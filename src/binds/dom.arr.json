@@ -5,7 +5,7 @@
     "values": {
         "window-height": ["arrow", [], "Number"],
         "window-width": ["arrow", [], "Number"],
-        "get-element": ["arrow", [], ["local", "Element"]]
+        "get-element": ["arrow", ["String"], ["local", "Element"]]
     },
 
     "aliases": { },
