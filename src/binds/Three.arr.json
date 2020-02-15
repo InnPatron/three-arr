@@ -50,8 +50,8 @@
         "AudioAnalyser"
       ],
       "AudioContext": [
-        "local",
-        "AudioContext"
+        "record",
+        {}
       ],
       "AudioListener": [
         "local",
@@ -310,8 +310,11 @@
         "Euler"
       ],
       "Event": [
-        "local",
-        "Event"
+        "record",
+        {
+          "target": "tany",
+          "type": "tany"
+        }
       ],
       "EventDispatcher": [
         "local",
@@ -326,8 +329,19 @@
         "ExtrudeGeometry"
       ],
       "ExtrudeGeometryOptions": [
-        "local",
-        "ExtrudeGeometryOptions"
+        "record",
+        {
+          "UVGenerator": "tany",
+          "bevelEnabled": "tany",
+          "bevelOffset": "tany",
+          "bevelSegments": "tany",
+          "bevelSize": "tany",
+          "bevelThickness": "tany",
+          "curveSegments": "tany",
+          "depth": "tany",
+          "extrudePath": "tany",
+          "steps": "tany"
+        }
       ],
       "Face3": [
         "local",
@@ -390,8 +404,12 @@
         "Group"
       ],
       "HSL": [
-        "local",
-        "HSL"
+        "record",
+        {
+          "h": "tany",
+          "l": "tany",
+          "s": "tany"
+        }
       ],
       "HemisphereLight": [
         "local",
@@ -406,12 +424,27 @@
         "HemisphereLightProbe"
       ],
       "IFog": [
-        "local",
-        "IFog"
+        "record",
+        {
+          "clone": [
+            "arrow",
+            [],
+            "tany"
+          ],
+          "color": "tany",
+          "name": "tany",
+          "toJSON": [
+            "arrow",
+            [],
+            "tany"
+          ]
+        }
       ],
       "IUniform": [
-        "local",
-        "IUniform"
+        "record",
+        {
+          "value": "tany"
+        }
       ],
       "IcosahedronBufferGeometry": [
         "local",
@@ -494,8 +527,17 @@
         "InterpolationModes"
       ],
       "Intersection": [
-        "local",
-        "Intersection"
+        "record",
+        {
+          "distance": "tany",
+          "distanceToRay": "tany",
+          "face": "tany",
+          "faceIndex": "tany",
+          "index": "tany",
+          "object": "tany",
+          "point": "tany",
+          "uv": "tany"
+        }
       ],
       "KeyframeTrack": [
         "local",
@@ -542,8 +584,13 @@
         "LineBasicMaterial"
       ],
       "LineBasicMaterialParameters": [
-        "local",
-        "LineBasicMaterialParameters"
+        "record",
+        {
+          "color": "tany",
+          "linecap": "tany",
+          "linejoin": "tany",
+          "linewidth": "tany"
+        }
       ],
       "LineCurve": [
         "local",
@@ -558,8 +605,14 @@
         "LineDashedMaterial"
       ],
       "LineDashedMaterialParameters": [
-        "local",
-        "LineDashedMaterialParameters"
+        "record",
+        {
+          "color": "tany",
+          "dashSize": "tany",
+          "gapSize": "tany",
+          "linewidth": "tany",
+          "scale": "tany"
+        }
       ],
       "LineLoop": [
         "local",
@@ -602,12 +655,112 @@
         "MaterialLoader"
       ],
       "MaterialParameters": [
-        "local",
-        "MaterialParameters"
+        "record",
+        {
+          "alphaTest": "tany",
+          "blendDst": "tany",
+          "blendDstAlpha": "tany",
+          "blendEquation": "tany",
+          "blendEquationAlpha": "tany",
+          "blendSrc": "tany",
+          "blendSrcAlpha": "tany",
+          "blending": "tany",
+          "clipIntersection": "tany",
+          "clipShadows": "tany",
+          "clippingPlanes": "tany",
+          "colorWrite": "tany",
+          "defines": "tany",
+          "depthFunc": "tany",
+          "depthTest": "tany",
+          "depthWrite": "tany",
+          "dithering": "tany",
+          "flatShading": "tany",
+          "fog": "tany",
+          "name": "tany",
+          "opacity": "tany",
+          "polygonOffset": "tany",
+          "polygonOffsetFactor": "tany",
+          "polygonOffsetUnits": "tany",
+          "precision": "tany",
+          "premultipliedAlpha": "tany",
+          "shadowSide": "tany",
+          "side": "tany",
+          "stencilFail": "tany",
+          "stencilFunc": "tany",
+          "stencilMask": "tany",
+          "stencilRef": "tany",
+          "stencilWrite": "tany",
+          "stencilZFail": "tany",
+          "stencilZPass": "tany",
+          "toneMapped": "tany",
+          "transparent": "tany",
+          "vertexColors": "tany",
+          "vertexTangents": "tany",
+          "visible": "tany"
+        }
       ],
       "Matrix": [
-        "local",
-        "Matrix"
+        "record",
+        {
+          "clone": [
+            "arrow",
+            [],
+            "tany"
+          ],
+          "copy": [
+            "arrow",
+            [
+              "tany"
+            ],
+            "tany"
+          ],
+          "determinant": [
+            "arrow",
+            [],
+            "Number"
+          ],
+          "elements": "tany",
+          "getInverse": [
+            "arrow",
+            [
+              [
+                "local",
+                "Matrix"
+              ],
+              "Boolean"
+            ],
+            [
+              "local",
+              "Matrix"
+            ]
+          ],
+          "identity": [
+            "arrow",
+            [],
+            [
+              "local",
+              "Matrix"
+            ]
+          ],
+          "multiplyScalar": [
+            "arrow",
+            [
+              "Number"
+            ],
+            [
+              "local",
+              "Matrix"
+            ]
+          ],
+          "transpose": [
+            "arrow",
+            [],
+            [
+              "local",
+              "Matrix"
+            ]
+          ]
+        }
       ],
       "Matrix3": [
         "local",
@@ -626,92 +779,293 @@
         "MeshBasicMaterial"
       ],
       "MeshBasicMaterialParameters": [
-        "local",
-        "MeshBasicMaterialParameters"
+        "record",
+        {
+          "alphaMap": "tany",
+          "aoMap": "tany",
+          "aoMapIntensity": "tany",
+          "color": "tany",
+          "combine": "tany",
+          "envMap": "tany",
+          "map": "tany",
+          "morphTargets": "tany",
+          "opacity": "tany",
+          "reflectivity": "tany",
+          "refractionRatio": "tany",
+          "skinning": "tany",
+          "specularMap": "tany",
+          "wireframe": "tany",
+          "wireframeLinecap": "tany",
+          "wireframeLinejoin": "tany",
+          "wireframeLinewidth": "tany"
+        }
       ],
       "MeshDepthMaterial": [
         "local",
         "MeshDepthMaterial"
       ],
       "MeshDepthMaterialParameters": [
-        "local",
-        "MeshDepthMaterialParameters"
+        "record",
+        {
+          "alphaMap": "tany",
+          "depthPacking": "tany",
+          "displacementBias": "tany",
+          "displacementMap": "tany",
+          "displacementScale": "tany",
+          "map": "tany",
+          "wireframe": "tany",
+          "wireframeLinewidth": "tany"
+        }
       ],
       "MeshDistanceMaterial": [
         "local",
         "MeshDistanceMaterial"
       ],
       "MeshDistanceMaterialParameters": [
-        "local",
-        "MeshDistanceMaterialParameters"
+        "record",
+        {
+          "alphaMap": "tany",
+          "displacementBias": "tany",
+          "displacementMap": "tany",
+          "displacementScale": "tany",
+          "farDistance": "tany",
+          "map": "tany",
+          "nearDistance": "tany",
+          "referencePosition": "tany"
+        }
       ],
       "MeshLambertMaterial": [
         "local",
         "MeshLambertMaterial"
       ],
       "MeshLambertMaterialParameters": [
-        "local",
-        "MeshLambertMaterialParameters"
+        "record",
+        {
+          "alphaMap": "tany",
+          "aoMap": "tany",
+          "aoMapIntensity": "tany",
+          "color": "tany",
+          "combine": "tany",
+          "emissive": "tany",
+          "emissiveIntensity": "tany",
+          "emissiveMap": "tany",
+          "envMap": "tany",
+          "lightMap": "tany",
+          "lightMapIntensity": "tany",
+          "map": "tany",
+          "morphNormals": "tany",
+          "morphTargets": "tany",
+          "reflectivity": "tany",
+          "refractionRatio": "tany",
+          "skinning": "tany",
+          "specularMap": "tany",
+          "wireframe": "tany",
+          "wireframeLinecap": "tany",
+          "wireframeLinejoin": "tany",
+          "wireframeLinewidth": "tany"
+        }
       ],
       "MeshMatcapMaterial": [
         "local",
         "MeshMatcapMaterial"
       ],
       "MeshMatcapMaterialParameters": [
-        "local",
-        "MeshMatcapMaterialParameters"
+        "record",
+        {
+          "alphaMap": "tany",
+          "bumpMap": "tany",
+          "bumpScale": "tany",
+          "color": "tany",
+          "displacementBias": "tany",
+          "displacementMap": "tany",
+          "displacementScale": "tany",
+          "map": "tany",
+          "matcap": "tany",
+          "morphNormals": "tany",
+          "morphTargets": "tany",
+          "normalMap": "tany",
+          "normalMapType": "tany",
+          "normalScale": "tany",
+          "skinning": "tany"
+        }
       ],
       "MeshNormalMaterial": [
         "local",
         "MeshNormalMaterial"
       ],
       "MeshNormalMaterialParameters": [
-        "local",
-        "MeshNormalMaterialParameters"
+        "record",
+        {
+          "bumpMap": "tany",
+          "bumpScale": "tany",
+          "displacementBias": "tany",
+          "displacementMap": "tany",
+          "displacementScale": "tany",
+          "morphNormals": "tany",
+          "morphTargets": "tany",
+          "normalMap": "tany",
+          "normalMapType": "tany",
+          "normalScale": "tany",
+          "skinning": "tany",
+          "wireframe": "tany",
+          "wireframeLinewidth": "tany"
+        }
       ],
       "MeshPhongMaterial": [
         "local",
         "MeshPhongMaterial"
       ],
       "MeshPhongMaterialParameters": [
-        "local",
-        "MeshPhongMaterialParameters"
+        "record",
+        {
+          "alphaMap": "tany",
+          "aoMap": "tany",
+          "aoMapIntensity": "tany",
+          "bumpMap": "tany",
+          "bumpScale": "tany",
+          "color": "tany",
+          "combine": "tany",
+          "displacementBias": "tany",
+          "displacementMap": "tany",
+          "displacementScale": "tany",
+          "emissive": "tany",
+          "emissiveIntensity": "tany",
+          "emissiveMap": "tany",
+          "envMap": "tany",
+          "lightMap": "tany",
+          "lightMapIntensity": "tany",
+          "map": "tany",
+          "morphNormals": "tany",
+          "morphTargets": "tany",
+          "normalMap": "tany",
+          "normalMapType": "tany",
+          "normalScale": "tany",
+          "opacity": "tany",
+          "reflectivity": "tany",
+          "refractionRatio": "tany",
+          "shininess": "tany",
+          "skinning": "tany",
+          "specular": "tany",
+          "specularMap": "tany",
+          "wireframe": "tany",
+          "wireframeLinecap": "tany",
+          "wireframeLinejoin": "tany",
+          "wireframeLinewidth": "tany"
+        }
       ],
       "MeshPhysicalMaterial": [
         "local",
         "MeshPhysicalMaterial"
       ],
       "MeshPhysicalMaterialParameters": [
-        "local",
-        "MeshPhysicalMaterialParameters"
+        "record",
+        {
+          "clearcoat": "tany",
+          "clearcoatNormalMap": "tany",
+          "clearcoatNormalScale": "tany",
+          "clearcoatRoughness": "tany",
+          "reflectivity": "tany",
+          "sheen": "tany"
+        }
       ],
       "MeshStandardMaterial": [
         "local",
         "MeshStandardMaterial"
       ],
       "MeshStandardMaterialParameters": [
-        "local",
-        "MeshStandardMaterialParameters"
+        "record",
+        {
+          "alphaMap": "tany",
+          "aoMap": "tany",
+          "aoMapIntensity": "tany",
+          "bumpMap": "tany",
+          "bumpScale": "tany",
+          "color": "tany",
+          "displacementBias": "tany",
+          "displacementMap": "tany",
+          "displacementScale": "tany",
+          "emissive": "tany",
+          "emissiveIntensity": "tany",
+          "emissiveMap": "tany",
+          "envMap": "tany",
+          "envMapIntensity": "tany",
+          "lightMap": "tany",
+          "lightMapIntensity": "tany",
+          "map": "tany",
+          "metalness": "tany",
+          "metalnessMap": "tany",
+          "morphNormals": "tany",
+          "morphTargets": "tany",
+          "normalMap": "tany",
+          "normalMapType": "tany",
+          "normalScale": "tany",
+          "refractionRatio": "tany",
+          "roughness": "tany",
+          "roughnessMap": "tany",
+          "skinning": "tany",
+          "wireframe": "tany",
+          "wireframeLinewidth": "tany"
+        }
       ],
       "MeshToonMaterial": [
         "local",
         "MeshToonMaterial"
       ],
       "MeshToonMaterialParameters": [
-        "local",
-        "MeshToonMaterialParameters"
+        "record",
+        {
+          "alphaMap": "tany",
+          "aoMap": "tany",
+          "aoMapIntensity": "tany",
+          "bumpMap": "tany",
+          "bumpScale": "tany",
+          "color": "tany",
+          "displacementBias": "tany",
+          "displacementMap": "tany",
+          "displacementScale": "tany",
+          "emissive": "tany",
+          "emissiveIntensity": "tany",
+          "emissiveMap": "tany",
+          "gradientMap": "tany",
+          "lightMap": "tany",
+          "lightMapIntensity": "tany",
+          "map": "tany",
+          "morphNormals": "tany",
+          "morphTargets": "tany",
+          "normalMap": "tany",
+          "normalMapType": "tany",
+          "normalScale": "tany",
+          "opacity": "tany",
+          "shininess": "tany",
+          "skinning": "tany",
+          "specular": "tany",
+          "specularMap": "tany",
+          "wireframe": "tany",
+          "wireframeLinecap": "tany",
+          "wireframeLinejoin": "tany",
+          "wireframeLinewidth": "tany"
+        }
       ],
       "MorphColor": [
-        "local",
-        "MorphColor"
+        "record",
+        {
+          "colors": "tany",
+          "name": "tany"
+        }
       ],
       "MorphNormals": [
-        "local",
-        "MorphNormals"
+        "record",
+        {
+          "name": "tany",
+          "normals": "tany"
+        }
       ],
       "MorphTarget": [
-        "local",
-        "MorphTarget"
+        "record",
+        {
+          "name": "tany",
+          "vertices": "tany"
+        }
       ],
       "MultiMaterial": [
         "local",
@@ -754,16 +1108,25 @@
         "ParametricGeometry"
       ],
       "ParseTrackNameResults": [
-        "local",
-        "ParseTrackNameResults"
+        "record",
+        {
+          "nodeName": "tany",
+          "objectIndex": "tany",
+          "objectName": "tany",
+          "propertyIndex": "tany",
+          "propertyName": "tany"
+        }
       ],
       "Path": [
         "local",
         "Path"
       ],
       "PathAction": [
-        "local",
-        "PathAction"
+        "record",
+        {
+          "action": "tany",
+          "args": "tany"
+        }
       ],
       "PathActions": [
         "local",
@@ -822,8 +1185,14 @@
         "PointsMaterial"
       ],
       "PointsMaterialParameters": [
-        "local",
-        "PointsMaterialParameters"
+        "record",
+        {
+          "alphaMap": "tany",
+          "color": "tany",
+          "map": "tany",
+          "size": "tany",
+          "sizeAttenuation": "tany"
+        }
       ],
       "PolarGridHelper": [
         "local",
@@ -882,24 +1251,65 @@
         "Raycaster"
       ],
       "RaycasterParameters": [
-        "local",
-        "RaycasterParameters"
+        "record",
+        {
+          "LOD": "tany",
+          "Line": "tany",
+          "Mesh": "tany",
+          "Points": "tany",
+          "Sprite": "tany"
+        }
       ],
       "RectAreaLight": [
         "local",
         "RectAreaLight"
       ],
       "RenderItem": [
-        "local",
-        "RenderItem"
+        "record",
+        {
+          "geometry": "tany",
+          "group": "tany",
+          "groupOrder": "tany",
+          "id": "tany",
+          "material": "tany",
+          "object": "tany",
+          "program": "tany",
+          "renderOrder": "tany",
+          "z": "tany"
+        }
       ],
       "RenderTarget": [
-        "local",
-        "RenderTarget"
+        "record",
+        {}
       ],
       "Renderer": [
-        "local",
-        "Renderer"
+        "record",
+        {
+          "domElement": "tany",
+          "render": [
+            "arrow",
+            [
+              [
+                "local",
+                "Scene"
+              ],
+              [
+                "local",
+                "Camera"
+              ]
+            ],
+            "Nothing"
+          ],
+          "setSize": [
+            "arrow",
+            [
+              "Number",
+              "Number",
+              "Boolean"
+            ],
+            "Nothing"
+          ]
+        }
       ],
       "RingBufferGeometry": [
         "local",
@@ -914,16 +1324,33 @@
         "Scene"
       ],
       "Shader": [
-        "local",
-        "Shader"
+        "record",
+        {
+          "fragmentShader": "tany",
+          "uniforms": "tany",
+          "vertexShader": "tany"
+        }
       ],
       "ShaderMaterial": [
         "local",
         "ShaderMaterial"
       ],
       "ShaderMaterialParameters": [
-        "local",
-        "ShaderMaterialParameters"
+        "record",
+        {
+          "clipping": "tany",
+          "extensions": "tany",
+          "fragmentShader": "tany",
+          "lights": "tany",
+          "linewidth": "tany",
+          "morphNormals": "tany",
+          "morphTargets": "tany",
+          "skinning": "tany",
+          "uniforms": "tany",
+          "vertexShader": "tany",
+          "wireframe": "tany",
+          "wireframeLinewidth": "tany"
+        }
       ],
       "Shading": [
         "local",
@@ -938,8 +1365,10 @@
         "ShadowMaterial"
       ],
       "ShadowMaterialParameters": [
-        "local",
-        "ShadowMaterialParameters"
+        "record",
+        {
+          "color": "tany"
+        }
       ],
       "Shape": [
         "local",
@@ -994,8 +1423,12 @@
         "SphericalHarmonics3"
       ],
       "SplineControlPoint": [
-        "local",
-        "SplineControlPoint"
+        "record",
+        {
+          "x": "tany",
+          "y": "tany",
+          "z": "tany"
+        }
       ],
       "SplineCurve": [
         "local",
@@ -1022,8 +1455,14 @@
         "SpriteMaterial"
       ],
       "SpriteMaterialParameters": [
-        "local",
-        "SpriteMaterialParameters"
+        "record",
+        {
+          "alphaMap": "tany",
+          "color": "tany",
+          "map": "tany",
+          "rotation": "tany",
+          "sizeAttenuation": "tany"
+        }
       ],
       "StencilFunc": [
         "local",
@@ -1062,8 +1501,18 @@
         "TextGeometry"
       ],
       "TextGeometryParameters": [
-        "local",
-        "TextGeometryParameters"
+        "record",
+        {
+          "bevelEnabled": "tany",
+          "bevelOffset": "tany",
+          "bevelSegments": "tany",
+          "bevelSize": "tany",
+          "bevelThickness": "tany",
+          "curveSegments": "tany",
+          "font": "tany",
+          "height": "tany",
+          "size": "tany"
+        }
       ],
       "Texture": [
         "local",
@@ -1126,8 +1575,96 @@
         "TypedArray"
       ],
       "UVGenerator": [
-        "local",
-        "UVGenerator"
+        "record",
+        {
+          "generateSideWallUV": [
+            "arrow",
+            [
+              [
+                "local",
+                "ExtrudeBufferGeometry"
+              ],
+              [
+                "tyapp",
+                {
+                  "name": "RawArray",
+                  "origin": {
+                    "import-type": "uri",
+                    "uri": "builtin://global"
+                  },
+                  "tag": "name"
+                },
+                [
+                  "Number"
+                ]
+              ],
+              "Number",
+              "Number",
+              "Number",
+              "Number"
+            ],
+            [
+              "tyapp",
+              {
+                "name": "RawArray",
+                "origin": {
+                  "import-type": "uri",
+                  "uri": "builtin://global"
+                },
+                "tag": "name"
+              },
+              [
+                [
+                  "local",
+                  "Vector2"
+                ]
+              ]
+            ]
+          ],
+          "generateTopUV": [
+            "arrow",
+            [
+              [
+                "local",
+                "ExtrudeBufferGeometry"
+              ],
+              [
+                "tyapp",
+                {
+                  "name": "RawArray",
+                  "origin": {
+                    "import-type": "uri",
+                    "uri": "builtin://global"
+                  },
+                  "tag": "name"
+                },
+                [
+                  "Number"
+                ]
+              ],
+              "Number",
+              "Number",
+              "Number"
+            ],
+            [
+              "tyapp",
+              {
+                "name": "RawArray",
+                "origin": {
+                  "import-type": "uri",
+                  "uri": "builtin://global"
+                },
+                "tag": "name"
+              },
+              [
+                [
+                  "local",
+                  "Vector2"
+                ]
+              ]
+            ]
+          ]
+        }
       ],
       "Uint16Attribute": [
         "local",
@@ -1170,8 +1707,228 @@
         "Usage"
       ],
       "Vector": [
-        "local",
-        "Vector"
+        "record",
+        {
+          "add": [
+            "arrow",
+            [
+              [
+                "local",
+                "Vector"
+              ],
+              [
+                "local",
+                "Vector"
+              ]
+            ],
+            "tany"
+          ],
+          "addScalar": [
+            "arrow",
+            [
+              "Number"
+            ],
+            "tany"
+          ],
+          "addScaledVector": [
+            "arrow",
+            [
+              [
+                "local",
+                "Vector"
+              ],
+              "Number"
+            ],
+            "tany"
+          ],
+          "addVectors": [
+            "arrow",
+            [
+              [
+                "local",
+                "Vector"
+              ],
+              [
+                "local",
+                "Vector"
+              ]
+            ],
+            "tany"
+          ],
+          "clone": [
+            "arrow",
+            [],
+            "tany"
+          ],
+          "copy": [
+            "arrow",
+            [
+              [
+                "local",
+                "Vector"
+              ]
+            ],
+            "tany"
+          ],
+          "distanceTo": [
+            "arrow",
+            [
+              [
+                "local",
+                "Vector"
+              ]
+            ],
+            "Number"
+          ],
+          "distanceToSquared": [
+            "arrow",
+            [
+              [
+                "local",
+                "Vector"
+              ]
+            ],
+            "Number"
+          ],
+          "divideScalar": [
+            "arrow",
+            [
+              "Number"
+            ],
+            "tany"
+          ],
+          "dot": [
+            "arrow",
+            [
+              [
+                "local",
+                "Vector"
+              ]
+            ],
+            "Number"
+          ],
+          "equals": [
+            "arrow",
+            [
+              [
+                "local",
+                "Vector"
+              ]
+            ],
+            "Boolean"
+          ],
+          "getComponent": [
+            "arrow",
+            [
+              "Number"
+            ],
+            "Number"
+          ],
+          "length": [
+            "arrow",
+            [],
+            "Number"
+          ],
+          "lengthSq": [
+            "arrow",
+            [],
+            "Number"
+          ],
+          "lerp": [
+            "arrow",
+            [
+              [
+                "local",
+                "Vector"
+              ],
+              "Number"
+            ],
+            "tany"
+          ],
+          "multiplyScalar": [
+            "arrow",
+            [
+              "Number"
+            ],
+            "tany"
+          ],
+          "negate": [
+            "arrow",
+            [],
+            "tany"
+          ],
+          "normalize": [
+            "arrow",
+            [],
+            "tany"
+          ],
+          "set": [
+            "arrow",
+            [
+              [
+                "tyapp",
+                {
+                  "name": "RawArray",
+                  "origin": {
+                    "import-type": "uri",
+                    "uri": "builtin://global"
+                  },
+                  "tag": "name"
+                },
+                [
+                  "Number"
+                ]
+              ]
+            ],
+            "tany"
+          ],
+          "setComponent": [
+            "arrow",
+            [
+              "Number",
+              "Number"
+            ],
+            "tany"
+          ],
+          "setLength": [
+            "arrow",
+            [
+              "Number"
+            ],
+            "tany"
+          ],
+          "setScalar": [
+            "arrow",
+            [
+              "Number"
+            ],
+            "tany"
+          ],
+          "sub": [
+            "arrow",
+            [
+              [
+                "local",
+                "Vector"
+              ]
+            ],
+            "tany"
+          ],
+          "subVectors": [
+            "arrow",
+            [
+              [
+                "local",
+                "Vector"
+              ],
+              [
+                "local",
+                "Vector"
+              ]
+            ],
+            "tany"
+          ]
+        }
       ],
       "Vector2": [
         "local",
@@ -1202,8 +1959,11 @@
         "WebGLCapabilities"
       ],
       "WebGLCapabilitiesParameters": [
-        "local",
-        "WebGLCapabilitiesParameters"
+        "record",
+        {
+          "logarithmicDepthBuffer": "tany",
+          "precision": "tany"
+        }
       ],
       "WebGLClipping": [
         "local",
@@ -1218,8 +1978,10 @@
         "WebGLCubeRenderTarget"
       ],
       "WebGLDebug": [
-        "local",
-        "WebGLDebug"
+        "record",
+        {
+          "checkShaderErrors": "tany"
+        }
       ],
       "WebGLDepthBuffer": [
         "local",
@@ -1278,16 +2040,40 @@
         "WebGLRenderTarget"
       ],
       "WebGLRenderTargetOptions": [
-        "local",
-        "WebGLRenderTargetOptions"
+        "record",
+        {
+          "anisotropy": "tany",
+          "depthBuffer": "tany",
+          "depthTexture": "tany",
+          "format": "tany",
+          "generateMipmaps": "tany",
+          "magFilter": "tany",
+          "minFilter": "tany",
+          "stencilBuffer": "tany",
+          "type": "tany",
+          "wrapS": "tany",
+          "wrapT": "tany"
+        }
       ],
       "WebGLRenderer": [
         "local",
         "WebGLRenderer"
       ],
       "WebGLRendererParameters": [
-        "local",
-        "WebGLRendererParameters"
+        "record",
+        {
+          "alpha": "tany",
+          "antialias": "tany",
+          "canvas": "tany",
+          "context": "tany",
+          "depth": "tany",
+          "logarithmicDepthBuffer": "tany",
+          "powerPreference": "tany",
+          "precision": "tany",
+          "premultipliedAlpha": "tany",
+          "preserveDrawingBuffer": "tany",
+          "stencil": "tany"
+        }
       ],
       "WebGLShader": [
         "local",
@@ -1405,10 +2191,6 @@
         "AudioAnalyser",
         [],
         [],
-        {}
-      ],
-      "AudioContext": [
-        "record",
         {}
       ],
       "AudioListener": [
@@ -1859,13 +2641,6 @@
         [],
         {}
       ],
-      "Event": [
-        "record",
-        {
-          "target": "Any",
-          "type": "Any"
-        }
-      ],
       "EventDispatcher": [
         "data",
         "EventDispatcher",
@@ -1886,21 +2661,6 @@
         [],
         [],
         {}
-      ],
-      "ExtrudeGeometryOptions": [
-        "record",
-        {
-          "UVGenerator": "Any",
-          "bevelEnabled": "Any",
-          "bevelOffset": "Any",
-          "bevelSegments": "Any",
-          "bevelSize": "Any",
-          "bevelThickness": "Any",
-          "curveSegments": "Any",
-          "depth": "Any",
-          "extrudePath": "Any",
-          "steps": "Any"
-        }
       ],
       "Face3": [
         "data",
@@ -2007,14 +2767,6 @@
         [],
         {}
       ],
-      "HSL": [
-        "record",
-        {
-          "h": "Any",
-          "l": "Any",
-          "s": "Any"
-        }
-      ],
       "HemisphereLight": [
         "data",
         "HemisphereLight",
@@ -2035,29 +2787,6 @@
         [],
         [],
         {}
-      ],
-      "IFog": [
-        "record",
-        {
-          "clone": [
-            "arrow",
-            [],
-            "Any"
-          ],
-          "color": "Any",
-          "name": "Any",
-          "toJSON": [
-            "arrow",
-            [],
-            "Any"
-          ]
-        }
-      ],
-      "IUniform": [
-        "record",
-        {
-          "value": "Any"
-        }
       ],
       "IcosahedronBufferGeometry": [
         "data",
@@ -2199,19 +2928,6 @@
         [],
         {}
       ],
-      "Intersection": [
-        "record",
-        {
-          "distance": "Any",
-          "distanceToRay": "Any",
-          "face": "Any",
-          "faceIndex": "Any",
-          "index": "Any",
-          "object": "Any",
-          "point": "Any",
-          "uv": "Any"
-        }
-      ],
       "KeyframeTrack": [
         "data",
         "KeyframeTrack",
@@ -2289,15 +3005,6 @@
         [],
         {}
       ],
-      "LineBasicMaterialParameters": [
-        "record",
-        {
-          "color": "Any",
-          "linecap": "Any",
-          "linejoin": "Any",
-          "linewidth": "Any"
-        }
-      ],
       "LineCurve": [
         "data",
         "LineCurve",
@@ -2318,16 +3025,6 @@
         [],
         [],
         {}
-      ],
-      "LineDashedMaterialParameters": [
-        "record",
-        {
-          "color": "Any",
-          "dashSize": "Any",
-          "gapSize": "Any",
-          "linewidth": "Any",
-          "scale": "Any"
-        }
       ],
       "LineLoop": [
         "data",
@@ -2399,114 +3096,6 @@
         [],
         {}
       ],
-      "MaterialParameters": [
-        "record",
-        {
-          "alphaTest": "Any",
-          "blendDst": "Any",
-          "blendDstAlpha": "Any",
-          "blendEquation": "Any",
-          "blendEquationAlpha": "Any",
-          "blendSrc": "Any",
-          "blendSrcAlpha": "Any",
-          "blending": "Any",
-          "clipIntersection": "Any",
-          "clipShadows": "Any",
-          "clippingPlanes": "Any",
-          "colorWrite": "Any",
-          "defines": "Any",
-          "depthFunc": "Any",
-          "depthTest": "Any",
-          "depthWrite": "Any",
-          "dithering": "Any",
-          "flatShading": "Any",
-          "fog": "Any",
-          "name": "Any",
-          "opacity": "Any",
-          "polygonOffset": "Any",
-          "polygonOffsetFactor": "Any",
-          "polygonOffsetUnits": "Any",
-          "precision": "Any",
-          "premultipliedAlpha": "Any",
-          "shadowSide": "Any",
-          "side": "Any",
-          "stencilFail": "Any",
-          "stencilFunc": "Any",
-          "stencilMask": "Any",
-          "stencilRef": "Any",
-          "stencilWrite": "Any",
-          "stencilZFail": "Any",
-          "stencilZPass": "Any",
-          "toneMapped": "Any",
-          "transparent": "Any",
-          "vertexColors": "Any",
-          "vertexTangents": "Any",
-          "visible": "Any"
-        }
-      ],
-      "Matrix": [
-        "record",
-        {
-          "clone": [
-            "arrow",
-            [],
-            "Any"
-          ],
-          "copy": [
-            "arrow",
-            [
-              "Any"
-            ],
-            "Any"
-          ],
-          "determinant": [
-            "arrow",
-            [],
-            "Number"
-          ],
-          "elements": "Any",
-          "getInverse": [
-            "arrow",
-            [
-              [
-                "local",
-                "Matrix"
-              ],
-              "Boolean"
-            ],
-            [
-              "local",
-              "Matrix"
-            ]
-          ],
-          "identity": [
-            "arrow",
-            [],
-            [
-              "local",
-              "Matrix"
-            ]
-          ],
-          "multiplyScalar": [
-            "arrow",
-            [
-              "Number"
-            ],
-            [
-              "local",
-              "Matrix"
-            ]
-          ],
-          "transpose": [
-            "arrow",
-            [],
-            [
-              "local",
-              "Matrix"
-            ]
-          ]
-        }
-      ],
       "Matrix3": [
         "data",
         "Matrix3",
@@ -2535,47 +3124,12 @@
         [],
         {}
       ],
-      "MeshBasicMaterialParameters": [
-        "record",
-        {
-          "alphaMap": "Any",
-          "aoMap": "Any",
-          "aoMapIntensity": "Any",
-          "color": "Any",
-          "combine": "Any",
-          "envMap": "Any",
-          "map": "Any",
-          "morphTargets": "Any",
-          "opacity": "Any",
-          "reflectivity": "Any",
-          "refractionRatio": "Any",
-          "skinning": "Any",
-          "specularMap": "Any",
-          "wireframe": "Any",
-          "wireframeLinecap": "Any",
-          "wireframeLinejoin": "Any",
-          "wireframeLinewidth": "Any"
-        }
-      ],
       "MeshDepthMaterial": [
         "data",
         "MeshDepthMaterial",
         [],
         [],
         {}
-      ],
-      "MeshDepthMaterialParameters": [
-        "record",
-        {
-          "alphaMap": "Any",
-          "depthPacking": "Any",
-          "displacementBias": "Any",
-          "displacementMap": "Any",
-          "displacementScale": "Any",
-          "map": "Any",
-          "wireframe": "Any",
-          "wireframeLinewidth": "Any"
-        }
       ],
       "MeshDistanceMaterial": [
         "data",
@@ -2584,52 +3138,12 @@
         [],
         {}
       ],
-      "MeshDistanceMaterialParameters": [
-        "record",
-        {
-          "alphaMap": "Any",
-          "displacementBias": "Any",
-          "displacementMap": "Any",
-          "displacementScale": "Any",
-          "farDistance": "Any",
-          "map": "Any",
-          "nearDistance": "Any",
-          "referencePosition": "Any"
-        }
-      ],
       "MeshLambertMaterial": [
         "data",
         "MeshLambertMaterial",
         [],
         [],
         {}
-      ],
-      "MeshLambertMaterialParameters": [
-        "record",
-        {
-          "alphaMap": "Any",
-          "aoMap": "Any",
-          "aoMapIntensity": "Any",
-          "color": "Any",
-          "combine": "Any",
-          "emissive": "Any",
-          "emissiveIntensity": "Any",
-          "emissiveMap": "Any",
-          "envMap": "Any",
-          "lightMap": "Any",
-          "lightMapIntensity": "Any",
-          "map": "Any",
-          "morphNormals": "Any",
-          "morphTargets": "Any",
-          "reflectivity": "Any",
-          "refractionRatio": "Any",
-          "skinning": "Any",
-          "specularMap": "Any",
-          "wireframe": "Any",
-          "wireframeLinecap": "Any",
-          "wireframeLinejoin": "Any",
-          "wireframeLinewidth": "Any"
-        }
       ],
       "MeshMatcapMaterial": [
         "data",
@@ -2638,50 +3152,12 @@
         [],
         {}
       ],
-      "MeshMatcapMaterialParameters": [
-        "record",
-        {
-          "alphaMap": "Any",
-          "bumpMap": "Any",
-          "bumpScale": "Any",
-          "color": "Any",
-          "displacementBias": "Any",
-          "displacementMap": "Any",
-          "displacementScale": "Any",
-          "map": "Any",
-          "matcap": "Any",
-          "morphNormals": "Any",
-          "morphTargets": "Any",
-          "normalMap": "Any",
-          "normalMapType": "Any",
-          "normalScale": "Any",
-          "skinning": "Any"
-        }
-      ],
       "MeshNormalMaterial": [
         "data",
         "MeshNormalMaterial",
         [],
         [],
         {}
-      ],
-      "MeshNormalMaterialParameters": [
-        "record",
-        {
-          "bumpMap": "Any",
-          "bumpScale": "Any",
-          "displacementBias": "Any",
-          "displacementMap": "Any",
-          "displacementScale": "Any",
-          "morphNormals": "Any",
-          "morphTargets": "Any",
-          "normalMap": "Any",
-          "normalMapType": "Any",
-          "normalScale": "Any",
-          "skinning": "Any",
-          "wireframe": "Any",
-          "wireframeLinewidth": "Any"
-        }
       ],
       "MeshPhongMaterial": [
         "data",
@@ -2690,61 +3166,12 @@
         [],
         {}
       ],
-      "MeshPhongMaterialParameters": [
-        "record",
-        {
-          "alphaMap": "Any",
-          "aoMap": "Any",
-          "aoMapIntensity": "Any",
-          "bumpMap": "Any",
-          "bumpScale": "Any",
-          "color": "Any",
-          "combine": "Any",
-          "displacementBias": "Any",
-          "displacementMap": "Any",
-          "displacementScale": "Any",
-          "emissive": "Any",
-          "emissiveIntensity": "Any",
-          "emissiveMap": "Any",
-          "envMap": "Any",
-          "lightMap": "Any",
-          "lightMapIntensity": "Any",
-          "map": "Any",
-          "morphNormals": "Any",
-          "morphTargets": "Any",
-          "normalMap": "Any",
-          "normalMapType": "Any",
-          "normalScale": "Any",
-          "opacity": "Any",
-          "reflectivity": "Any",
-          "refractionRatio": "Any",
-          "shininess": "Any",
-          "skinning": "Any",
-          "specular": "Any",
-          "specularMap": "Any",
-          "wireframe": "Any",
-          "wireframeLinecap": "Any",
-          "wireframeLinejoin": "Any",
-          "wireframeLinewidth": "Any"
-        }
-      ],
       "MeshPhysicalMaterial": [
         "data",
         "MeshPhysicalMaterial",
         [],
         [],
         {}
-      ],
-      "MeshPhysicalMaterialParameters": [
-        "record",
-        {
-          "clearcoat": "Any",
-          "clearcoatNormalMap": "Any",
-          "clearcoatNormalScale": "Any",
-          "clearcoatRoughness": "Any",
-          "reflectivity": "Any",
-          "sheen": "Any"
-        }
       ],
       "MeshStandardMaterial": [
         "data",
@@ -2753,103 +3180,12 @@
         [],
         {}
       ],
-      "MeshStandardMaterialParameters": [
-        "record",
-        {
-          "alphaMap": "Any",
-          "aoMap": "Any",
-          "aoMapIntensity": "Any",
-          "bumpMap": "Any",
-          "bumpScale": "Any",
-          "color": "Any",
-          "displacementBias": "Any",
-          "displacementMap": "Any",
-          "displacementScale": "Any",
-          "emissive": "Any",
-          "emissiveIntensity": "Any",
-          "emissiveMap": "Any",
-          "envMap": "Any",
-          "envMapIntensity": "Any",
-          "lightMap": "Any",
-          "lightMapIntensity": "Any",
-          "map": "Any",
-          "metalness": "Any",
-          "metalnessMap": "Any",
-          "morphNormals": "Any",
-          "morphTargets": "Any",
-          "normalMap": "Any",
-          "normalMapType": "Any",
-          "normalScale": "Any",
-          "refractionRatio": "Any",
-          "roughness": "Any",
-          "roughnessMap": "Any",
-          "skinning": "Any",
-          "wireframe": "Any",
-          "wireframeLinewidth": "Any"
-        }
-      ],
       "MeshToonMaterial": [
         "data",
         "MeshToonMaterial",
         [],
         [],
         {}
-      ],
-      "MeshToonMaterialParameters": [
-        "record",
-        {
-          "alphaMap": "Any",
-          "aoMap": "Any",
-          "aoMapIntensity": "Any",
-          "bumpMap": "Any",
-          "bumpScale": "Any",
-          "color": "Any",
-          "displacementBias": "Any",
-          "displacementMap": "Any",
-          "displacementScale": "Any",
-          "emissive": "Any",
-          "emissiveIntensity": "Any",
-          "emissiveMap": "Any",
-          "gradientMap": "Any",
-          "lightMap": "Any",
-          "lightMapIntensity": "Any",
-          "map": "Any",
-          "morphNormals": "Any",
-          "morphTargets": "Any",
-          "normalMap": "Any",
-          "normalMapType": "Any",
-          "normalScale": "Any",
-          "opacity": "Any",
-          "shininess": "Any",
-          "skinning": "Any",
-          "specular": "Any",
-          "specularMap": "Any",
-          "wireframe": "Any",
-          "wireframeLinecap": "Any",
-          "wireframeLinejoin": "Any",
-          "wireframeLinewidth": "Any"
-        }
-      ],
-      "MorphColor": [
-        "record",
-        {
-          "colors": "Any",
-          "name": "Any"
-        }
-      ],
-      "MorphNormals": [
-        "record",
-        {
-          "name": "Any",
-          "normals": "Any"
-        }
-      ],
-      "MorphTarget": [
-        "record",
-        {
-          "name": "Any",
-          "vertices": "Any"
-        }
       ],
       "MultiMaterial": [
         "data",
@@ -2921,29 +3257,12 @@
         [],
         {}
       ],
-      "ParseTrackNameResults": [
-        "record",
-        {
-          "nodeName": "Any",
-          "objectIndex": "Any",
-          "objectName": "Any",
-          "propertyIndex": "Any",
-          "propertyName": "Any"
-        }
-      ],
       "Path": [
         "data",
         "Path",
         [],
         [],
         {}
-      ],
-      "PathAction": [
-        "record",
-        {
-          "action": "Any",
-          "args": "Any"
-        }
       ],
       "PathActions": [
         "data",
@@ -3043,16 +3362,6 @@
         [],
         {}
       ],
-      "PointsMaterialParameters": [
-        "record",
-        {
-          "alphaMap": "Any",
-          "color": "Any",
-          "map": "Any",
-          "size": "Any",
-          "sizeAttenuation": "Any"
-        }
-      ],
       "PolarGridHelper": [
         "data",
         "PolarGridHelper",
@@ -3151,69 +3460,12 @@
         [],
         {}
       ],
-      "RaycasterParameters": [
-        "record",
-        {
-          "LOD": "Any",
-          "Line": "Any",
-          "Mesh": "Any",
-          "Points": "Any",
-          "Sprite": "Any"
-        }
-      ],
       "RectAreaLight": [
         "data",
         "RectAreaLight",
         [],
         [],
         {}
-      ],
-      "RenderItem": [
-        "record",
-        {
-          "geometry": "Any",
-          "group": "Any",
-          "groupOrder": "Any",
-          "id": "Any",
-          "material": "Any",
-          "object": "Any",
-          "program": "Any",
-          "renderOrder": "Any",
-          "z": "Any"
-        }
-      ],
-      "RenderTarget": [
-        "record",
-        {}
-      ],
-      "Renderer": [
-        "record",
-        {
-          "domElement": "Any",
-          "render": [
-            "arrow",
-            [
-              [
-                "local",
-                "Scene"
-              ],
-              [
-                "local",
-                "Camera"
-              ]
-            ],
-            "Nothing"
-          ],
-          "setSize": [
-            "arrow",
-            [
-              "Number",
-              "Number",
-              "Boolean"
-            ],
-            "Nothing"
-          ]
-        }
       ],
       "RingBufferGeometry": [
         "data",
@@ -3236,37 +3488,12 @@
         [],
         {}
       ],
-      "Shader": [
-        "record",
-        {
-          "fragmentShader": "Any",
-          "uniforms": "Any",
-          "vertexShader": "Any"
-        }
-      ],
       "ShaderMaterial": [
         "data",
         "ShaderMaterial",
         [],
         [],
         {}
-      ],
-      "ShaderMaterialParameters": [
-        "record",
-        {
-          "clipping": "Any",
-          "extensions": "Any",
-          "fragmentShader": "Any",
-          "lights": "Any",
-          "linewidth": "Any",
-          "morphNormals": "Any",
-          "morphTargets": "Any",
-          "skinning": "Any",
-          "uniforms": "Any",
-          "vertexShader": "Any",
-          "wireframe": "Any",
-          "wireframeLinewidth": "Any"
-        }
       ],
       "Shading": [
         "data",
@@ -3288,12 +3515,6 @@
         [],
         [],
         {}
-      ],
-      "ShadowMaterialParameters": [
-        "record",
-        {
-          "color": "Any"
-        }
       ],
       "Shape": [
         "data",
@@ -3386,14 +3607,6 @@
         [],
         {}
       ],
-      "SplineControlPoint": [
-        "record",
-        {
-          "x": "Any",
-          "y": "Any",
-          "z": "Any"
-        }
-      ],
       "SplineCurve": [
         "data",
         "SplineCurve",
@@ -3435,16 +3648,6 @@
         [],
         [],
         {}
-      ],
-      "SpriteMaterialParameters": [
-        "record",
-        {
-          "alphaMap": "Any",
-          "color": "Any",
-          "map": "Any",
-          "rotation": "Any",
-          "sizeAttenuation": "Any"
-        }
       ],
       "StencilFunc": [
         "data",
@@ -3508,20 +3711,6 @@
         [],
         [],
         {}
-      ],
-      "TextGeometryParameters": [
-        "record",
-        {
-          "bevelEnabled": "Any",
-          "bevelOffset": "Any",
-          "bevelSegments": "Any",
-          "bevelSize": "Any",
-          "bevelThickness": "Any",
-          "curveSegments": "Any",
-          "font": "Any",
-          "height": "Any",
-          "size": "Any"
-        }
       ],
       "Texture": [
         "data",
@@ -3628,98 +3817,6 @@
         [],
         {}
       ],
-      "UVGenerator": [
-        "record",
-        {
-          "generateSideWallUV": [
-            "arrow",
-            [
-              [
-                "local",
-                "ExtrudeBufferGeometry"
-              ],
-              [
-                "tyapp",
-                {
-                  "name": "RawArray",
-                  "origin": {
-                    "import-type": "uri",
-                    "uri": "builtin://global"
-                  },
-                  "tag": "name"
-                },
-                [
-                  "Number"
-                ]
-              ],
-              "Number",
-              "Number",
-              "Number",
-              "Number"
-            ],
-            [
-              "tyapp",
-              {
-                "name": "RawArray",
-                "origin": {
-                  "import-type": "uri",
-                  "uri": "builtin://global"
-                },
-                "tag": "name"
-              },
-              [
-                [
-                  "local",
-                  "Vector2"
-                ]
-              ]
-            ]
-          ],
-          "generateTopUV": [
-            "arrow",
-            [
-              [
-                "local",
-                "ExtrudeBufferGeometry"
-              ],
-              [
-                "tyapp",
-                {
-                  "name": "RawArray",
-                  "origin": {
-                    "import-type": "uri",
-                    "uri": "builtin://global"
-                  },
-                  "tag": "name"
-                },
-                [
-                  "Number"
-                ]
-              ],
-              "Number",
-              "Number",
-              "Number"
-            ],
-            [
-              "tyapp",
-              {
-                "name": "RawArray",
-                "origin": {
-                  "import-type": "uri",
-                  "uri": "builtin://global"
-                },
-                "tag": "name"
-              },
-              [
-                [
-                  "local",
-                  "Vector2"
-                ]
-              ]
-            ]
-          ]
-        }
-      ],
       "Uint16Attribute": [
         "data",
         "Uint16Attribute",
@@ -3790,230 +3887,6 @@
         [],
         {}
       ],
-      "Vector": [
-        "record",
-        {
-          "add": [
-            "arrow",
-            [
-              [
-                "local",
-                "Vector"
-              ],
-              [
-                "local",
-                "Vector"
-              ]
-            ],
-            "Any"
-          ],
-          "addScalar": [
-            "arrow",
-            [
-              "Number"
-            ],
-            "Any"
-          ],
-          "addScaledVector": [
-            "arrow",
-            [
-              [
-                "local",
-                "Vector"
-              ],
-              "Number"
-            ],
-            "Any"
-          ],
-          "addVectors": [
-            "arrow",
-            [
-              [
-                "local",
-                "Vector"
-              ],
-              [
-                "local",
-                "Vector"
-              ]
-            ],
-            "Any"
-          ],
-          "clone": [
-            "arrow",
-            [],
-            "Any"
-          ],
-          "copy": [
-            "arrow",
-            [
-              [
-                "local",
-                "Vector"
-              ]
-            ],
-            "Any"
-          ],
-          "distanceTo": [
-            "arrow",
-            [
-              [
-                "local",
-                "Vector"
-              ]
-            ],
-            "Number"
-          ],
-          "distanceToSquared": [
-            "arrow",
-            [
-              [
-                "local",
-                "Vector"
-              ]
-            ],
-            "Number"
-          ],
-          "divideScalar": [
-            "arrow",
-            [
-              "Number"
-            ],
-            "Any"
-          ],
-          "dot": [
-            "arrow",
-            [
-              [
-                "local",
-                "Vector"
-              ]
-            ],
-            "Number"
-          ],
-          "equals": [
-            "arrow",
-            [
-              [
-                "local",
-                "Vector"
-              ]
-            ],
-            "Boolean"
-          ],
-          "getComponent": [
-            "arrow",
-            [
-              "Number"
-            ],
-            "Number"
-          ],
-          "length": [
-            "arrow",
-            [],
-            "Number"
-          ],
-          "lengthSq": [
-            "arrow",
-            [],
-            "Number"
-          ],
-          "lerp": [
-            "arrow",
-            [
-              [
-                "local",
-                "Vector"
-              ],
-              "Number"
-            ],
-            "Any"
-          ],
-          "multiplyScalar": [
-            "arrow",
-            [
-              "Number"
-            ],
-            "Any"
-          ],
-          "negate": [
-            "arrow",
-            [],
-            "Any"
-          ],
-          "normalize": [
-            "arrow",
-            [],
-            "Any"
-          ],
-          "set": [
-            "arrow",
-            [
-              [
-                "tyapp",
-                {
-                  "name": "RawArray",
-                  "origin": {
-                    "import-type": "uri",
-                    "uri": "builtin://global"
-                  },
-                  "tag": "name"
-                },
-                [
-                  "Number"
-                ]
-              ]
-            ],
-            "Any"
-          ],
-          "setComponent": [
-            "arrow",
-            [
-              "Number",
-              "Number"
-            ],
-            "Any"
-          ],
-          "setLength": [
-            "arrow",
-            [
-              "Number"
-            ],
-            "Any"
-          ],
-          "setScalar": [
-            "arrow",
-            [
-              "Number"
-            ],
-            "Any"
-          ],
-          "sub": [
-            "arrow",
-            [
-              [
-                "local",
-                "Vector"
-              ]
-            ],
-            "Any"
-          ],
-          "subVectors": [
-            "arrow",
-            [
-              [
-                "local",
-                "Vector"
-              ],
-              [
-                "local",
-                "Vector"
-              ]
-            ],
-            "Any"
-          ]
-        }
-      ],
       "Vector2": [
         "data",
         "Vector2",
@@ -4063,13 +3936,6 @@
         [],
         {}
       ],
-      "WebGLCapabilitiesParameters": [
-        "record",
-        {
-          "logarithmicDepthBuffer": "Any",
-          "precision": "Any"
-        }
-      ],
       "WebGLClipping": [
         "data",
         "WebGLClipping",
@@ -4090,12 +3956,6 @@
         [],
         [],
         {}
-      ],
-      "WebGLDebug": [
-        "record",
-        {
-          "checkShaderErrors": "Any"
-        }
       ],
       "WebGLDepthBuffer": [
         "data",
@@ -4195,44 +4055,12 @@
         [],
         {}
       ],
-      "WebGLRenderTargetOptions": [
-        "record",
-        {
-          "anisotropy": "Any",
-          "depthBuffer": "Any",
-          "depthTexture": "Any",
-          "format": "Any",
-          "generateMipmaps": "Any",
-          "magFilter": "Any",
-          "minFilter": "Any",
-          "stencilBuffer": "Any",
-          "type": "Any",
-          "wrapS": "Any",
-          "wrapT": "Any"
-        }
-      ],
       "WebGLRenderer": [
         "data",
         "WebGLRenderer",
         [],
         [],
         {}
-      ],
-      "WebGLRendererParameters": [
-        "record",
-        {
-          "alpha": "Any",
-          "antialias": "Any",
-          "canvas": "Any",
-          "context": "Any",
-          "depth": "Any",
-          "logarithmicDepthBuffer": "Any",
-          "powerPreference": "Any",
-          "precision": "Any",
-          "premultipliedAlpha": "Any",
-          "preserveDrawingBuffer": "Any",
-          "stencil": "Any"
-        }
       ],
       "WebGLShader": [
         "data",
@@ -5025,7 +4853,7 @@
       "__new_AmbientLightProbe_0": [
         "arrow",
         [
-          "Any",
+          "tany",
           "Number"
         ],
         [
@@ -5036,7 +4864,7 @@
       "__new_AmbientLight_0": [
         "arrow",
         [
-          "Any",
+          "tany",
           "Number"
         ],
         [
@@ -5112,7 +4940,7 @@
               "tag": "name"
             },
             [
-              "Any"
+              "tany"
             ]
           ]
         ],
@@ -5264,7 +5092,7 @@
               "tag": "name"
             },
             [
-              "Any"
+              "tany"
             ]
           ],
           [
@@ -5278,7 +5106,7 @@
               "tag": "name"
             },
             [
-              "Any"
+              "tany"
             ]
           ]
         ],
@@ -5356,12 +5184,12 @@
       "__new_BoxGeometry_0": [
         "arrow",
         [
-          "Number",
-          "Number",
-          "Number",
-          "Number",
-          "Number",
-          "Number"
+          "tany",
+          "tany",
+          "tany",
+          "tany",
+          "tany",
+          "tany"
         ],
         [
           "local",
@@ -5445,7 +5273,7 @@
       "__new_CanvasTexture_0": [
         "arrow",
         [
-          "Any",
+          "tany",
           [
             "local",
             "Mapping"
@@ -5561,7 +5389,7 @@
               "tag": "name"
             },
             [
-              "Any"
+              "tany"
             ]
           ],
           [
@@ -5575,7 +5403,7 @@
               "tag": "name"
             },
             [
-              "Any"
+              "tany"
             ]
           ],
           [
@@ -5591,7 +5419,7 @@
       "__new_Color_0": [
         "arrow",
         [
-          "Any"
+          "tany"
         ],
         [
           "local",
@@ -5613,9 +5441,9 @@
       "__new_Composite_0": [
         "arrow",
         [
-          "Any",
-          "Any",
-          "Any"
+          "tany",
+          "tany",
+          "tany"
         ],
         [
           "local",
@@ -5771,7 +5599,7 @@
               "tag": "name"
             },
             [
-              "Any"
+              "tany"
             ]
           ],
           [
@@ -5866,10 +5694,10 @@
       "__new_CubicInterpolant_0": [
         "arrow",
         [
-          "Any",
-          "Any",
+          "tany",
+          "tany",
           "Number",
-          "Any"
+          "tany"
         ],
         [
           "local",
@@ -6059,7 +5887,7 @@
             "DirectionalLight"
           ],
           "Number",
-          "Any"
+          "tany"
         ],
         [
           "local",
@@ -6069,7 +5897,7 @@
       "__new_DirectionalLight_0": [
         "arrow",
         [
-          "Any",
+          "tany",
           "Number"
         ],
         [
@@ -6080,10 +5908,10 @@
       "__new_DiscreteInterpolant_0": [
         "arrow",
         [
-          "Any",
-          "Any",
+          "tany",
+          "tany",
           "Number",
-          "Any"
+          "tany"
         ],
         [
           "local",
@@ -6115,7 +5943,7 @@
       "__new_EdgesGeometry_0": [
         "arrow",
         [
-          "Any",
+          "tany",
           "Number"
         ],
         [
@@ -6164,7 +5992,7 @@
       "__new_ExtrudeBufferGeometry_0": [
         "arrow",
         [
-          "Any",
+          "tany",
           [
             "local",
             "ExtrudeGeometryOptions"
@@ -6178,7 +6006,7 @@
       "__new_ExtrudeGeometry_0": [
         "arrow",
         [
-          "Any",
+          "tany",
           [
             "local",
             "ExtrudeGeometryOptions"
@@ -6341,7 +6169,7 @@
       "__new_Float32Attribute_0": [
         "arrow",
         [
-          "Any",
+          "tany",
           "Number"
         ],
         [
@@ -6352,7 +6180,7 @@
       "__new_Float32BufferAttribute_0": [
         "arrow",
         [
-          "Any",
+          "tany",
           "Number",
           "Boolean"
         ],
@@ -6364,7 +6192,7 @@
       "__new_Float64Attribute_0": [
         "arrow",
         [
-          "Any",
+          "tany",
           "Number"
         ],
         [
@@ -6375,7 +6203,7 @@
       "__new_Float64BufferAttribute_0": [
         "arrow",
         [
-          "Any",
+          "tany",
           "Number",
           "Boolean"
         ],
@@ -6387,7 +6215,7 @@
       "__new_FogExp2_0": [
         "arrow",
         [
-          "Any",
+          "tany",
           "Number"
         ],
         [
@@ -6423,7 +6251,7 @@
       "__new_Font_0": [
         "arrow",
         [
-          "Any"
+          "tany"
         ],
         [
           "local",
@@ -6476,8 +6304,8 @@
         [
           "Number",
           "Number",
-          "Any",
-          "Any"
+          "tany",
+          "tany"
         ],
         [
           "local",
@@ -6500,7 +6328,7 @@
             "HemisphereLight"
           ],
           "Number",
-          "Any"
+          "tany"
         ],
         [
           "local",
@@ -6510,8 +6338,8 @@
       "__new_HemisphereLightProbe_0": [
         "arrow",
         [
-          "Any",
-          "Any",
+          "tany",
+          "tany",
           "Number"
         ],
         [
@@ -6522,8 +6350,8 @@
       "__new_HemisphereLight_0": [
         "arrow",
         [
-          "Any",
-          "Any",
+          "tany",
+          "tany",
           "Number"
         ],
         [
@@ -6634,8 +6462,8 @@
       "__new_InstancedMesh_0": [
         "arrow",
         [
-          "Any",
-          "Any",
+          "tany",
+          "tany",
           "Number"
         ],
         [
@@ -6646,7 +6474,7 @@
       "__new_Int16Attribute_0": [
         "arrow",
         [
-          "Any",
+          "tany",
           "Number"
         ],
         [
@@ -6657,7 +6485,7 @@
       "__new_Int16BufferAttribute_0": [
         "arrow",
         [
-          "Any",
+          "tany",
           "Number",
           "Boolean"
         ],
@@ -6669,7 +6497,7 @@
       "__new_Int32Attribute_0": [
         "arrow",
         [
-          "Any",
+          "tany",
           "Number"
         ],
         [
@@ -6680,7 +6508,7 @@
       "__new_Int32BufferAttribute_0": [
         "arrow",
         [
-          "Any",
+          "tany",
           "Number",
           "Boolean"
         ],
@@ -6692,7 +6520,7 @@
       "__new_Int8Attribute_0": [
         "arrow",
         [
-          "Any",
+          "tany",
           "Number"
         ],
         [
@@ -6703,7 +6531,7 @@
       "__new_Int8BufferAttribute_0": [
         "arrow",
         [
-          "Any",
+          "tany",
           "Number",
           "Boolean"
         ],
@@ -6745,10 +6573,10 @@
       "__new_Interpolant_0": [
         "arrow",
         [
-          "Any",
-          "Any",
+          "tany",
+          "tany",
           "Number",
-          "Any"
+          "tany"
         ],
         [
           "local",
@@ -6770,7 +6598,7 @@
               "tag": "name"
             },
             [
-              "Any"
+              "tany"
             ]
           ],
           [
@@ -6784,7 +6612,7 @@
               "tag": "name"
             },
             [
-              "Any"
+              "tany"
             ]
           ],
           [
@@ -6901,7 +6729,7 @@
       "__new_Light_0": [
         "arrow",
         [
-          "Any",
+          "tany",
           "Number"
         ],
         [
@@ -6989,8 +6817,8 @@
       "__new_LineLoop_0": [
         "arrow",
         [
-          "Any",
-          "Any"
+          "tany",
+          "tany"
         ],
         [
           "local",
@@ -7000,8 +6828,8 @@
       "__new_LineSegments_0": [
         "arrow",
         [
-          "Any",
-          "Any",
+          "tany",
+          "tany",
           "Number"
         ],
         [
@@ -7012,8 +6840,8 @@
       "__new_Line_0": [
         "arrow",
         [
-          "Any",
-          "Any",
+          "tany",
+          "tany",
           "Number"
         ],
         [
@@ -7024,10 +6852,10 @@
       "__new_LinearInterpolant_0": [
         "arrow",
         [
-          "Any",
-          "Any",
+          "tany",
+          "tany",
           "Number",
-          "Any"
+          "tany"
         ],
         [
           "local",
@@ -7053,7 +6881,7 @@
           [
             "arrow",
             [],
-            "Any"
+            "tany"
           ],
           [
             "arrow",
@@ -7062,14 +6890,14 @@
               "Number",
               "Number"
             ],
-            "Any"
+            "tany"
           ],
           [
             "arrow",
             [
               "String"
             ],
-            "Any"
+            "tany"
           ]
         ],
         [
@@ -7247,8 +7075,8 @@
       "__new_Mesh_0": [
         "arrow",
         [
-          "Any",
-          "Any"
+          "tany",
+          "tany"
         ],
         [
           "local",
@@ -7296,7 +7124,7 @@
               "tag": "name"
             },
             [
-              "Any"
+              "tany"
             ]
           ],
           [
@@ -7310,7 +7138,7 @@
               "tag": "name"
             },
             [
-              "Any"
+              "tany"
             ]
           ],
           [
@@ -7394,7 +7222,7 @@
                 "Vector3"
               ]
             ],
-            "Any"
+            "tany"
           ],
           "Number",
           "Number"
@@ -7417,7 +7245,7 @@
                 "Vector3"
               ]
             ],
-            "Any"
+            "tany"
           ],
           "Number",
           "Number"
@@ -7529,7 +7357,7 @@
             "PointLight"
           ],
           "Number",
-          "Any"
+          "tany"
         ],
         [
           "local",
@@ -7539,7 +7367,7 @@
       "__new_PointLight_0": [
         "arrow",
         [
-          "Any",
+          "tany",
           "Number",
           "Number",
           "Number"
@@ -7565,8 +7393,8 @@
       "__new_Points_0": [
         "arrow",
         [
-          "Any",
-          "Any"
+          "tany",
+          "tany"
         ],
         [
           "local",
@@ -7580,8 +7408,8 @@
           "Number",
           "Number",
           "Number",
-          "Any",
-          "Any"
+          "tany",
+          "tany"
         ],
         [
           "local",
@@ -7682,9 +7510,9 @@
       "__new_PropertyBinding_0": [
         "arrow",
         [
-          "Any",
+          "tany",
           "String",
-          "Any"
+          "tany"
         ],
         [
           "local",
@@ -7694,7 +7522,7 @@
       "__new_PropertyMixer_0": [
         "arrow",
         [
-          "Any",
+          "tany",
           "String",
           "Number"
         ],
@@ -7760,7 +7588,7 @@
               "tag": "name"
             },
             [
-              "Any"
+              "tany"
             ]
           ],
           [
@@ -7774,7 +7602,7 @@
               "tag": "name"
             },
             [
-              "Any"
+              "tany"
             ]
           ],
           [
@@ -7790,10 +7618,10 @@
       "__new_QuaternionLinearInterpolant_0": [
         "arrow",
         [
-          "Any",
-          "Any",
+          "tany",
+          "tany",
           "Number",
-          "Any"
+          "tany"
         ],
         [
           "local",
@@ -7865,7 +7693,7 @@
       "__new_RectAreaLight_0": [
         "arrow",
         [
-          "Any",
+          "tany",
           "Number",
           "Number",
           "Number"
@@ -7942,7 +7770,7 @@
       "__new_ShapeBufferGeometry_0": [
         "arrow",
         [
-          "Any",
+          "tany",
           "Number"
         ],
         [
@@ -7953,7 +7781,7 @@
       "__new_ShapeGeometry_0": [
         "arrow",
         [
-          "Any",
+          "tany",
           "Number"
         ],
         [
@@ -8054,8 +7882,8 @@
       "__new_SkinnedMesh_0": [
         "arrow",
         [
-          "Any",
-          "Any",
+          "tany",
+          "tany",
           "Boolean"
         ],
         [
@@ -8162,7 +7990,7 @@
             "local",
             "Light"
           ],
-          "Any"
+          "tany"
         ],
         [
           "local",
@@ -8172,7 +8000,7 @@
       "__new_SpotLight_0": [
         "arrow",
         [
-          "Any",
+          "tany",
           "Number",
           "Number",
           "Number",
@@ -8233,7 +8061,7 @@
               "tag": "name"
             },
             [
-              "Any"
+              "tany"
             ]
           ],
           [
@@ -8247,7 +8075,7 @@
               "tag": "name"
             },
             [
-              "Any"
+              "tany"
             ]
           ],
           [
@@ -8326,7 +8154,7 @@
       "__new_Texture_0": [
         "arrow",
         [
-          "Any",
+          "tany",
           [
             "local",
             "Mapping"
@@ -8482,7 +8310,7 @@
       "__new_Uint16Attribute_0": [
         "arrow",
         [
-          "Any",
+          "tany",
           "Number"
         ],
         [
@@ -8493,7 +8321,7 @@
       "__new_Uint16BufferAttribute_0": [
         "arrow",
         [
-          "Any",
+          "tany",
           "Number",
           "Boolean"
         ],
@@ -8505,7 +8333,7 @@
       "__new_Uint32Attribute_0": [
         "arrow",
         [
-          "Any",
+          "tany",
           "Number"
         ],
         [
@@ -8516,7 +8344,7 @@
       "__new_Uint32BufferAttribute_0": [
         "arrow",
         [
-          "Any",
+          "tany",
           "Number",
           "Boolean"
         ],
@@ -8528,7 +8356,7 @@
       "__new_Uint8Attribute_0": [
         "arrow",
         [
-          "Any",
+          "tany",
           "Number"
         ],
         [
@@ -8539,7 +8367,7 @@
       "__new_Uint8BufferAttribute_0": [
         "arrow",
         [
-          "Any",
+          "tany",
           "Number",
           "Boolean"
         ],
@@ -8551,7 +8379,7 @@
       "__new_Uint8ClampedAttribute_0": [
         "arrow",
         [
-          "Any",
+          "tany",
           "Number"
         ],
         [
@@ -8562,7 +8390,7 @@
       "__new_Uint8ClampedBufferAttribute_0": [
         "arrow",
         [
-          "Any",
+          "tany",
           "Number",
           "Boolean"
         ],
@@ -8574,7 +8402,7 @@
       "__new_Uniform_0": [
         "arrow",
         [
-          "Any"
+          "tany"
         ],
         [
           "local",
@@ -8585,7 +8413,7 @@
         "arrow",
         [
           "String",
-          "Any"
+          "tany"
         ],
         [
           "local",
@@ -8643,7 +8471,7 @@
               "tag": "name"
             },
             [
-              "Any"
+              "tany"
             ]
           ],
           [
@@ -8657,7 +8485,7 @@
               "tag": "name"
             },
             [
-              "Any"
+              "tany"
             ]
           ],
           [
@@ -8719,8 +8547,8 @@
             "local",
             "WebGLRenderingContext"
           ],
-          "Any",
-          "Any"
+          "tany",
+          "tany"
         ],
         [
           "local",
@@ -8734,7 +8562,7 @@
             "local",
             "WebGLRenderingContext"
           ],
-          "Any",
+          "tany",
           [
             "local",
             "WebGLCapabilitiesParameters"
@@ -8817,9 +8645,9 @@
             "local",
             "WebGLRenderingContext"
           ],
-          "Any",
-          "Any",
-          "Any"
+          "tany",
+          "tany",
+          "tany"
         ],
         [
           "local",
@@ -8846,8 +8674,8 @@
             "local",
             "WebGLRenderingContext"
           ],
-          "Any",
-          "Any"
+          "tany",
+          "tany"
         ],
         [
           "local",
@@ -8876,9 +8704,9 @@
             "local",
             "WebGLRenderingContext"
           ],
-          "Any",
-          "Any",
-          "Any"
+          "tany",
+          "tany",
+          "tany"
         ],
         [
           "local",
@@ -8893,7 +8721,7 @@
             "WebGLRenderer"
           ],
           "String",
-          "Any"
+          "tany"
         ],
         [
           "local",
@@ -8990,7 +8818,7 @@
               "tag": "name"
             },
             [
-              "Any"
+              "tany"
             ]
           ],
           [
@@ -9004,10 +8832,10 @@
               "tag": "name"
             },
             [
-              "Any"
+              "tany"
             ]
           ],
-          "Any"
+          "tany"
         ],
         [
           "local",
@@ -9100,7 +8928,7 @@
       "__new_WireframeGeometry_0": [
         "arrow",
         [
-          "Any"
+          "tany"
         ],
         [
           "local",
@@ -9111,7 +8939,7 @@
         "arrow",
         [
           "String",
-          "Any"
+          "tany"
         ],
         "Nothing"
       ],
@@ -9141,11 +8969,11 @@
       "arraySlice": [
         "arrow",
         [
-          "Any",
+          "tany",
           "Number",
           "Number"
         ],
-        "Any"
+        "tany"
       ],
       "ceilPowerOfTwo": [
         "arrow",
@@ -9171,25 +8999,25 @@
       "clone": [
         "arrow",
         [
-          "Any"
+          "tany"
         ],
-        "Any"
+        "tany"
       ],
       "cloneUniforms": [
         "arrow",
         [
-          "Any"
+          "tany"
         ],
-        "Any"
+        "tany"
       ],
       "convertArray": [
         "arrow",
         [
-          "Any",
-          "Any",
+          "tany",
+          "tany",
           "Boolean"
         ],
-        "Any"
+        "tany"
       ],
       "crossOrigin": "String",
       "degToRad": [
@@ -9203,7 +9031,7 @@
       "error": [
         "arrow",
         [
-          "Any",
+          "tany",
           [
             "tyapp",
             {
@@ -9215,7 +9043,7 @@
               "tag": "name"
             },
             [
-              "Any"
+              "tany"
             ]
           ]
         ],
@@ -9229,7 +9057,7 @@
         ],
         "Number"
       ],
-      "files": "Any",
+      "files": "tany",
       "flattenJSON": [
         "arrow",
         [
@@ -9258,7 +9086,7 @@
               "tag": "name"
             },
             [
-              "Any"
+              "tany"
             ]
           ],
           [
@@ -9272,7 +9100,7 @@
               "tag": "name"
             },
             [
-              "Any"
+              "tany"
             ]
           ],
           "String"
@@ -9296,12 +9124,12 @@
         [
           "String"
         ],
-        "Any"
+        "tany"
       ],
       "getDataURL": [
         "arrow",
         [
-          "Any"
+          "tany"
         ],
         "String"
       ],
@@ -9382,7 +9210,7 @@
       "isTypedArray": [
         "arrow",
         [
-          "Any"
+          "tany"
         ],
         "Boolean"
       ],
@@ -9411,14 +9239,14 @@
                 "Texture"
               ]
             ],
-            "Any"
+            "tany"
           ],
           [
             "arrow",
             [
               "String"
             ],
-            "Any"
+            "tany"
           ]
         ],
         [
@@ -9455,14 +9283,14 @@
                 "Texture"
               ]
             ],
-            "Any"
+            "tany"
           ],
           [
             "arrow",
             [
               "String"
             ],
-            "Any"
+            "tany"
           ]
         ],
         [
@@ -9473,7 +9301,7 @@
       "log": [
         "arrow",
         [
-          "Any",
+          "tany",
           [
             "tyapp",
             {
@@ -9485,7 +9313,7 @@
               "tag": "name"
             },
             [
-              "Any"
+              "tany"
             ]
           ]
         ],
@@ -9516,11 +9344,11 @@
               "tag": "name"
             },
             [
-              "Any"
+              "tany"
             ]
           ]
         ],
-        "Any"
+        "tany"
       ],
       "mergeUniforms": [
         "arrow",
@@ -9536,11 +9364,11 @@
               "tag": "name"
             },
             [
-              "Any"
+              "tany"
             ]
           ]
         ],
-        "Any"
+        "tany"
       ],
       "nearestPowerOfTwo": [
         "arrow",
@@ -9648,7 +9476,7 @@
               "tag": "name"
             },
             [
-              "Any"
+              "tany"
             ]
           ],
           "Number",
@@ -9678,7 +9506,7 @@
             "tag": "name"
           },
           [
-            "Any"
+            "tany"
           ]
         ]
       ],
@@ -9813,7 +9641,7 @@
       "warn": [
         "arrow",
         [
-          "Any",
+          "tany",
           [
             "tyapp",
             {
@@ -9825,7 +9653,7 @@
               "tag": "name"
             },
             [
-              "Any"
+              "tany"
             ]
           ]
         ],
