@@ -4365,6 +4365,4091 @@
         "local",
         "StencilOp"
       ],
+      "__new_AmbientLightProbe_0": [
+        "arrow",
+        [
+          "Any",
+          "Number"
+        ],
+        [
+          "local",
+          "AmbientLightProbe"
+        ]
+      ],
+      "__new_AmbientLight_0": [
+        "arrow",
+        [
+          "Any",
+          "Number"
+        ],
+        [
+          "local",
+          "AmbientLight"
+        ]
+      ],
+      "__new_AnimationClip_0": [
+        "arrow",
+        [
+          "String",
+          "Number",
+          [
+            "tyapp",
+            {
+              "name": "RawArray",
+              "origin": {
+                "import-type": "uri",
+                "uri": "builtin://global"
+              },
+              "tag": "name"
+            },
+            [
+              [
+                "local",
+                "KeyframeTrack"
+              ]
+            ]
+          ]
+        ],
+        [
+          "local",
+          "AnimationClip"
+        ]
+      ],
+      "__new_AnimationLoader_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "LoadingManager"
+          ]
+        ],
+        [
+          "local",
+          "AnimationLoader"
+        ]
+      ],
+      "__new_AnimationMixer_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "Object3D"
+          ]
+        ],
+        [
+          "local",
+          "AnimationMixer"
+        ]
+      ],
+      "__new_AnimationObjectGroup_0": [
+        "arrow",
+        [
+          [
+            "tyapp",
+            {
+              "name": "RawArray",
+              "origin": {
+                "import-type": "uri",
+                "uri": "builtin://global"
+              },
+              "tag": "name"
+            },
+            [
+              "Any"
+            ]
+          ]
+        ],
+        [
+          "local",
+          "AnimationObjectGroup"
+        ]
+      ],
+      "__new_ArcCurve_0": [
+        "arrow",
+        [
+          "Number",
+          "Number",
+          "Number",
+          "Number",
+          "Number",
+          "Boolean"
+        ],
+        [
+          "local",
+          "ArcCurve"
+        ]
+      ],
+      "__new_ArrayCamera_0": [
+        "arrow",
+        [
+          [
+            "tyapp",
+            {
+              "name": "RawArray",
+              "origin": {
+                "import-type": "uri",
+                "uri": "builtin://global"
+              },
+              "tag": "name"
+            },
+            [
+              [
+                "local",
+                "PerspectiveCamera"
+              ]
+            ]
+          ]
+        ],
+        [
+          "local",
+          "ArrayCamera"
+        ]
+      ],
+      "__new_ArrowHelper_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "Vector3"
+          ],
+          [
+            "local",
+            "Vector3"
+          ],
+          "Number",
+          "Number",
+          "Number",
+          "Number"
+        ],
+        [
+          "local",
+          "ArrowHelper"
+        ]
+      ],
+      "__new_AudioAnalyser_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "Audio"
+          ],
+          "Number"
+        ],
+        [
+          "local",
+          "AudioAnalyser"
+        ]
+      ],
+      "__new_AudioListener_0": [
+        "arrow",
+        [],
+        [
+          "local",
+          "AudioListener"
+        ]
+      ],
+      "__new_AudioLoader_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "LoadingManager"
+          ]
+        ],
+        [
+          "local",
+          "AudioLoader"
+        ]
+      ],
+      "__new_Audio_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "AudioListener"
+          ]
+        ],
+        [
+          "local",
+          "Audio"
+        ]
+      ],
+      "__new_AxesHelper_0": [
+        "arrow",
+        [
+          "Number"
+        ],
+        [
+          "local",
+          "AxesHelper"
+        ]
+      ],
+      "__new_Bone_0": [
+        "arrow",
+        [],
+        [
+          "local",
+          "Bone"
+        ]
+      ],
+      "__new_BooleanKeyframeTrack_0": [
+        "arrow",
+        [
+          "String",
+          [
+            "tyapp",
+            {
+              "name": "RawArray",
+              "origin": {
+                "import-type": "uri",
+                "uri": "builtin://global"
+              },
+              "tag": "name"
+            },
+            [
+              "Any"
+            ]
+          ],
+          [
+            "tyapp",
+            {
+              "name": "RawArray",
+              "origin": {
+                "import-type": "uri",
+                "uri": "builtin://global"
+              },
+              "tag": "name"
+            },
+            [
+              "Any"
+            ]
+          ]
+        ],
+        [
+          "local",
+          "BooleanKeyframeTrack"
+        ]
+      ],
+      "__new_Box2_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "Vector2"
+          ],
+          [
+            "local",
+            "Vector2"
+          ]
+        ],
+        [
+          "local",
+          "Box2"
+        ]
+      ],
+      "__new_Box3Helper_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "Box3"
+          ],
+          [
+            "local",
+            "Color"
+          ]
+        ],
+        [
+          "local",
+          "Box3Helper"
+        ]
+      ],
+      "__new_Box3_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "Vector3"
+          ],
+          [
+            "local",
+            "Vector3"
+          ]
+        ],
+        [
+          "local",
+          "Box3"
+        ]
+      ],
+      "__new_BoxBufferGeometry_0": [
+        "arrow",
+        [
+          "Number",
+          "Number",
+          "Number",
+          "Number",
+          "Number",
+          "Number"
+        ],
+        [
+          "local",
+          "BoxBufferGeometry"
+        ]
+      ],
+      "__new_BoxGeometry_0": [
+        "arrow",
+        [
+          "Number",
+          "Number",
+          "Number",
+          "Number",
+          "Number",
+          "Number"
+        ],
+        [
+          "local",
+          "BoxGeometry"
+        ]
+      ],
+      "__new_BoxHelper_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "Object3D"
+          ],
+          [
+            "local",
+            "Color"
+          ]
+        ],
+        [
+          "local",
+          "BoxHelper"
+        ]
+      ],
+      "__new_BufferAttribute_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "ArrayLike"
+          ],
+          "Number",
+          "Boolean"
+        ],
+        [
+          "local",
+          "BufferAttribute"
+        ]
+      ],
+      "__new_BufferGeometryLoader_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "LoadingManager"
+          ]
+        ],
+        [
+          "local",
+          "BufferGeometryLoader"
+        ]
+      ],
+      "__new_BufferGeometry_0": [
+        "arrow",
+        [],
+        [
+          "local",
+          "BufferGeometry"
+        ]
+      ],
+      "__new_CameraHelper_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "Camera"
+          ]
+        ],
+        [
+          "local",
+          "CameraHelper"
+        ]
+      ],
+      "__new_Camera_0": [
+        "arrow",
+        [],
+        [
+          "local",
+          "Camera"
+        ]
+      ],
+      "__new_CanvasTexture_0": [
+        "arrow",
+        [
+          "Any",
+          [
+            "local",
+            "Mapping"
+          ],
+          [
+            "local",
+            "Wrapping"
+          ],
+          [
+            "local",
+            "Wrapping"
+          ],
+          [
+            "local",
+            "TextureFilter"
+          ],
+          [
+            "local",
+            "TextureFilter"
+          ],
+          [
+            "local",
+            "PixelFormat"
+          ],
+          [
+            "local",
+            "TextureDataType"
+          ],
+          "Number"
+        ],
+        [
+          "local",
+          "CanvasTexture"
+        ]
+      ],
+      "__new_CatmullRomCurve3_0": [
+        "arrow",
+        [
+          [
+            "tyapp",
+            {
+              "name": "RawArray",
+              "origin": {
+                "import-type": "uri",
+                "uri": "builtin://global"
+              },
+              "tag": "name"
+            },
+            [
+              [
+                "local",
+                "Vector3"
+              ]
+            ]
+          ],
+          "Boolean",
+          "String",
+          "Number"
+        ],
+        [
+          "local",
+          "CatmullRomCurve3"
+        ]
+      ],
+      "__new_CircleBufferGeometry_0": [
+        "arrow",
+        [
+          "Number",
+          "Number",
+          "Number",
+          "Number"
+        ],
+        [
+          "local",
+          "CircleBufferGeometry"
+        ]
+      ],
+      "__new_CircleGeometry_0": [
+        "arrow",
+        [
+          "Number",
+          "Number",
+          "Number",
+          "Number"
+        ],
+        [
+          "local",
+          "CircleGeometry"
+        ]
+      ],
+      "__new_Clock_0": [
+        "arrow",
+        [
+          "Boolean"
+        ],
+        [
+          "local",
+          "Clock"
+        ]
+      ],
+      "__new_ColorKeyframeTrack_0": [
+        "arrow",
+        [
+          "String",
+          [
+            "tyapp",
+            {
+              "name": "RawArray",
+              "origin": {
+                "import-type": "uri",
+                "uri": "builtin://global"
+              },
+              "tag": "name"
+            },
+            [
+              "Any"
+            ]
+          ],
+          [
+            "tyapp",
+            {
+              "name": "RawArray",
+              "origin": {
+                "import-type": "uri",
+                "uri": "builtin://global"
+              },
+              "tag": "name"
+            },
+            [
+              "Any"
+            ]
+          ],
+          [
+            "local",
+            "InterpolationModes"
+          ]
+        ],
+        [
+          "local",
+          "ColorKeyframeTrack"
+        ]
+      ],
+      "__new_Color_0": [
+        "arrow",
+        [
+          "Any"
+        ],
+        [
+          "local",
+          "Color"
+        ]
+      ],
+      "__new_Color_1": [
+        "arrow",
+        [
+          "Number",
+          "Number",
+          "Number"
+        ],
+        [
+          "local",
+          "Color"
+        ]
+      ],
+      "__new_Composite_0": [
+        "arrow",
+        [
+          "Any",
+          "Any",
+          "Any"
+        ],
+        [
+          "local",
+          "Composite"
+        ]
+      ],
+      "__new_CompressedTextureLoader_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "LoadingManager"
+          ]
+        ],
+        [
+          "local",
+          "CompressedTextureLoader"
+        ]
+      ],
+      "__new_CompressedTexture_0": [
+        "arrow",
+        [
+          [
+            "tyapp",
+            {
+              "name": "RawArray",
+              "origin": {
+                "import-type": "uri",
+                "uri": "builtin://global"
+              },
+              "tag": "name"
+            },
+            [
+              [
+                "local",
+                "ImageData"
+              ]
+            ]
+          ],
+          "Number",
+          "Number",
+          [
+            "local",
+            "CompressedPixelFormat"
+          ],
+          [
+            "local",
+            "TextureDataType"
+          ],
+          [
+            "local",
+            "Mapping"
+          ],
+          [
+            "local",
+            "Wrapping"
+          ],
+          [
+            "local",
+            "Wrapping"
+          ],
+          [
+            "local",
+            "TextureFilter"
+          ],
+          [
+            "local",
+            "TextureFilter"
+          ],
+          "Number",
+          [
+            "local",
+            "TextureEncoding"
+          ]
+        ],
+        [
+          "local",
+          "CompressedTexture"
+        ]
+      ],
+      "__new_ConeBufferGeometry_0": [
+        "arrow",
+        [
+          "Number",
+          "Number",
+          "Number",
+          "Number",
+          "Boolean",
+          "Number",
+          "Number"
+        ],
+        [
+          "local",
+          "ConeBufferGeometry"
+        ]
+      ],
+      "__new_ConeGeometry_0": [
+        "arrow",
+        [
+          "Number",
+          "Number",
+          "Number",
+          "Number",
+          "Boolean",
+          "Number",
+          "Number"
+        ],
+        [
+          "local",
+          "ConeGeometry"
+        ]
+      ],
+      "__new_CubeCamera_0": [
+        "arrow",
+        [
+          "Number",
+          "Number",
+          "Number",
+          [
+            "local",
+            "WebGLRenderTargetOptions"
+          ]
+        ],
+        [
+          "local",
+          "CubeCamera"
+        ]
+      ],
+      "__new_CubeTextureLoader_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "LoadingManager"
+          ]
+        ],
+        [
+          "local",
+          "CubeTextureLoader"
+        ]
+      ],
+      "__new_CubeTexture_0": [
+        "arrow",
+        [
+          [
+            "tyapp",
+            {
+              "name": "RawArray",
+              "origin": {
+                "import-type": "uri",
+                "uri": "builtin://global"
+              },
+              "tag": "name"
+            },
+            [
+              "Any"
+            ]
+          ],
+          [
+            "local",
+            "Mapping"
+          ],
+          [
+            "local",
+            "Wrapping"
+          ],
+          [
+            "local",
+            "Wrapping"
+          ],
+          [
+            "local",
+            "TextureFilter"
+          ],
+          [
+            "local",
+            "TextureFilter"
+          ],
+          [
+            "local",
+            "PixelFormat"
+          ],
+          [
+            "local",
+            "TextureDataType"
+          ],
+          "Number",
+          [
+            "local",
+            "TextureEncoding"
+          ]
+        ],
+        [
+          "local",
+          "CubeTexture"
+        ]
+      ],
+      "__new_CubicBezierCurve3_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "Vector3"
+          ],
+          [
+            "local",
+            "Vector3"
+          ],
+          [
+            "local",
+            "Vector3"
+          ],
+          [
+            "local",
+            "Vector3"
+          ]
+        ],
+        [
+          "local",
+          "CubicBezierCurve3"
+        ]
+      ],
+      "__new_CubicBezierCurve_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "Vector2"
+          ],
+          [
+            "local",
+            "Vector2"
+          ],
+          [
+            "local",
+            "Vector2"
+          ],
+          [
+            "local",
+            "Vector2"
+          ]
+        ],
+        [
+          "local",
+          "CubicBezierCurve"
+        ]
+      ],
+      "__new_CubicInterpolant_0": [
+        "arrow",
+        [
+          "Any",
+          "Any",
+          "Number",
+          "Any"
+        ],
+        [
+          "local",
+          "CubicInterpolant"
+        ]
+      ],
+      "__new_CurvePath_0": [
+        "arrow",
+        [],
+        [
+          "local",
+          "CurvePath"
+        ]
+      ],
+      "__new_CylinderBufferGeometry_0": [
+        "arrow",
+        [
+          "Number",
+          "Number",
+          "Number",
+          "Number",
+          "Number",
+          "Boolean",
+          "Number",
+          "Number"
+        ],
+        [
+          "local",
+          "CylinderBufferGeometry"
+        ]
+      ],
+      "__new_CylinderGeometry_0": [
+        "arrow",
+        [
+          "Number",
+          "Number",
+          "Number",
+          "Number",
+          "Number",
+          "Boolean",
+          "Number",
+          "Number"
+        ],
+        [
+          "local",
+          "CylinderGeometry"
+        ]
+      ],
+      "__new_Cylindrical_0": [
+        "arrow",
+        [
+          "Number",
+          "Number",
+          "Number"
+        ],
+        [
+          "local",
+          "Cylindrical"
+        ]
+      ],
+      "__new_DataTexture3D_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "TypedArray"
+          ],
+          "Number",
+          "Number",
+          "Number"
+        ],
+        [
+          "local",
+          "DataTexture3D"
+        ]
+      ],
+      "__new_DataTextureLoader_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "LoadingManager"
+          ]
+        ],
+        [
+          "local",
+          "DataTextureLoader"
+        ]
+      ],
+      "__new_DataTexture_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "TypedArray"
+          ],
+          "Number",
+          "Number",
+          [
+            "local",
+            "PixelFormat"
+          ],
+          [
+            "local",
+            "TextureDataType"
+          ],
+          [
+            "local",
+            "Mapping"
+          ],
+          [
+            "local",
+            "Wrapping"
+          ],
+          [
+            "local",
+            "Wrapping"
+          ],
+          [
+            "local",
+            "TextureFilter"
+          ],
+          [
+            "local",
+            "TextureFilter"
+          ],
+          "Number",
+          [
+            "local",
+            "TextureEncoding"
+          ]
+        ],
+        [
+          "local",
+          "DataTexture"
+        ]
+      ],
+      "__new_DepthTexture_0": [
+        "arrow",
+        [
+          "Number",
+          "Number",
+          [
+            "local",
+            "TextureDataType"
+          ],
+          [
+            "local",
+            "Mapping"
+          ],
+          [
+            "local",
+            "Wrapping"
+          ],
+          [
+            "local",
+            "Wrapping"
+          ],
+          [
+            "local",
+            "TextureFilter"
+          ],
+          [
+            "local",
+            "TextureFilter"
+          ],
+          "Number"
+        ],
+        [
+          "local",
+          "DepthTexture"
+        ]
+      ],
+      "__new_DirectGeometry_0": [
+        "arrow",
+        [],
+        [
+          "local",
+          "DirectGeometry"
+        ]
+      ],
+      "__new_DirectionalLightHelper_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "DirectionalLight"
+          ],
+          "Number",
+          "Any"
+        ],
+        [
+          "local",
+          "DirectionalLightHelper"
+        ]
+      ],
+      "__new_DirectionalLight_0": [
+        "arrow",
+        [
+          "Any",
+          "Number"
+        ],
+        [
+          "local",
+          "DirectionalLight"
+        ]
+      ],
+      "__new_DiscreteInterpolant_0": [
+        "arrow",
+        [
+          "Any",
+          "Any",
+          "Number",
+          "Any"
+        ],
+        [
+          "local",
+          "DiscreteInterpolant"
+        ]
+      ],
+      "__new_DodecahedronBufferGeometry_0": [
+        "arrow",
+        [
+          "Number",
+          "Number"
+        ],
+        [
+          "local",
+          "DodecahedronBufferGeometry"
+        ]
+      ],
+      "__new_DodecahedronGeometry_0": [
+        "arrow",
+        [
+          "Number",
+          "Number"
+        ],
+        [
+          "local",
+          "DodecahedronGeometry"
+        ]
+      ],
+      "__new_EdgesGeometry_0": [
+        "arrow",
+        [
+          "Any",
+          "Number"
+        ],
+        [
+          "local",
+          "EdgesGeometry"
+        ]
+      ],
+      "__new_EllipseCurve_0": [
+        "arrow",
+        [
+          "Number",
+          "Number",
+          "Number",
+          "Number",
+          "Number",
+          "Number",
+          "Boolean",
+          "Number"
+        ],
+        [
+          "local",
+          "EllipseCurve"
+        ]
+      ],
+      "__new_Euler_0": [
+        "arrow",
+        [
+          "Number",
+          "Number",
+          "Number",
+          "String"
+        ],
+        [
+          "local",
+          "Euler"
+        ]
+      ],
+      "__new_EventDispatcher_0": [
+        "arrow",
+        [],
+        [
+          "local",
+          "EventDispatcher"
+        ]
+      ],
+      "__new_ExtrudeBufferGeometry_0": [
+        "arrow",
+        [
+          "Any",
+          [
+            "local",
+            "ExtrudeGeometryOptions"
+          ]
+        ],
+        [
+          "local",
+          "ExtrudeBufferGeometry"
+        ]
+      ],
+      "__new_ExtrudeGeometry_0": [
+        "arrow",
+        [
+          "Any",
+          [
+            "local",
+            "ExtrudeGeometryOptions"
+          ]
+        ],
+        [
+          "local",
+          "ExtrudeGeometry"
+        ]
+      ],
+      "__new_Face3_0": [
+        "arrow",
+        [
+          "Number",
+          "Number",
+          "Number",
+          [
+            "local",
+            "Vector3"
+          ],
+          [
+            "local",
+            "Color"
+          ],
+          "Number"
+        ],
+        [
+          "local",
+          "Face3"
+        ]
+      ],
+      "__new_Face3_1": [
+        "arrow",
+        [
+          "Number",
+          "Number",
+          "Number",
+          [
+            "local",
+            "Vector3"
+          ],
+          [
+            "tyapp",
+            {
+              "name": "RawArray",
+              "origin": {
+                "import-type": "uri",
+                "uri": "builtin://global"
+              },
+              "tag": "name"
+            },
+            [
+              [
+                "local",
+                "Color"
+              ]
+            ]
+          ],
+          "Number"
+        ],
+        [
+          "local",
+          "Face3"
+        ]
+      ],
+      "__new_Face3_2": [
+        "arrow",
+        [
+          "Number",
+          "Number",
+          "Number",
+          [
+            "tyapp",
+            {
+              "name": "RawArray",
+              "origin": {
+                "import-type": "uri",
+                "uri": "builtin://global"
+              },
+              "tag": "name"
+            },
+            [
+              [
+                "local",
+                "Vector3"
+              ]
+            ]
+          ],
+          [
+            "local",
+            "Color"
+          ],
+          "Number"
+        ],
+        [
+          "local",
+          "Face3"
+        ]
+      ],
+      "__new_Face3_3": [
+        "arrow",
+        [
+          "Number",
+          "Number",
+          "Number",
+          [
+            "tyapp",
+            {
+              "name": "RawArray",
+              "origin": {
+                "import-type": "uri",
+                "uri": "builtin://global"
+              },
+              "tag": "name"
+            },
+            [
+              [
+                "local",
+                "Vector3"
+              ]
+            ]
+          ],
+          [
+            "tyapp",
+            {
+              "name": "RawArray",
+              "origin": {
+                "import-type": "uri",
+                "uri": "builtin://global"
+              },
+              "tag": "name"
+            },
+            [
+              [
+                "local",
+                "Color"
+              ]
+            ]
+          ],
+          "Number"
+        ],
+        [
+          "local",
+          "Face3"
+        ]
+      ],
+      "__new_FileLoader_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "LoadingManager"
+          ]
+        ],
+        [
+          "local",
+          "FileLoader"
+        ]
+      ],
+      "__new_Float32Attribute_0": [
+        "arrow",
+        [
+          "Any",
+          "Number"
+        ],
+        [
+          "local",
+          "Float32Attribute"
+        ]
+      ],
+      "__new_Float32BufferAttribute_0": [
+        "arrow",
+        [
+          "Any",
+          "Number",
+          "Boolean"
+        ],
+        [
+          "local",
+          "Float32BufferAttribute"
+        ]
+      ],
+      "__new_Float64Attribute_0": [
+        "arrow",
+        [
+          "Any",
+          "Number"
+        ],
+        [
+          "local",
+          "Float64Attribute"
+        ]
+      ],
+      "__new_Float64BufferAttribute_0": [
+        "arrow",
+        [
+          "Any",
+          "Number",
+          "Boolean"
+        ],
+        [
+          "local",
+          "Float64BufferAttribute"
+        ]
+      ],
+      "__new_FogExp2_0": [
+        "arrow",
+        [
+          "Any",
+          "Number"
+        ],
+        [
+          "local",
+          "FogExp2"
+        ]
+      ],
+      "__new_Fog_0": [
+        "arrow",
+        [
+          "Number",
+          "Number",
+          "Number"
+        ],
+        [
+          "local",
+          "Fog"
+        ]
+      ],
+      "__new_FontLoader_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "LoadingManager"
+          ]
+        ],
+        [
+          "local",
+          "FontLoader"
+        ]
+      ],
+      "__new_Font_0": [
+        "arrow",
+        [
+          "Any"
+        ],
+        [
+          "local",
+          "Font"
+        ]
+      ],
+      "__new_Frustum_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "Plane"
+          ],
+          [
+            "local",
+            "Plane"
+          ],
+          [
+            "local",
+            "Plane"
+          ],
+          [
+            "local",
+            "Plane"
+          ],
+          [
+            "local",
+            "Plane"
+          ],
+          [
+            "local",
+            "Plane"
+          ]
+        ],
+        [
+          "local",
+          "Frustum"
+        ]
+      ],
+      "__new_Geometry_0": [
+        "arrow",
+        [],
+        [
+          "local",
+          "Geometry"
+        ]
+      ],
+      "__new_GridHelper_0": [
+        "arrow",
+        [
+          "Number",
+          "Number",
+          "Any",
+          "Any"
+        ],
+        [
+          "local",
+          "GridHelper"
+        ]
+      ],
+      "__new_Group_0": [
+        "arrow",
+        [],
+        [
+          "local",
+          "Group"
+        ]
+      ],
+      "__new_HemisphereLightHelper_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "HemisphereLight"
+          ],
+          "Number",
+          "Any"
+        ],
+        [
+          "local",
+          "HemisphereLightHelper"
+        ]
+      ],
+      "__new_HemisphereLightProbe_0": [
+        "arrow",
+        [
+          "Any",
+          "Any",
+          "Number"
+        ],
+        [
+          "local",
+          "HemisphereLightProbe"
+        ]
+      ],
+      "__new_HemisphereLight_0": [
+        "arrow",
+        [
+          "Any",
+          "Any",
+          "Number"
+        ],
+        [
+          "local",
+          "HemisphereLight"
+        ]
+      ],
+      "__new_IcosahedronBufferGeometry_0": [
+        "arrow",
+        [
+          "Number",
+          "Number"
+        ],
+        [
+          "local",
+          "IcosahedronBufferGeometry"
+        ]
+      ],
+      "__new_IcosahedronGeometry_0": [
+        "arrow",
+        [
+          "Number",
+          "Number"
+        ],
+        [
+          "local",
+          "IcosahedronGeometry"
+        ]
+      ],
+      "__new_ImageBitmapLoader_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "LoadingManager"
+          ]
+        ],
+        [
+          "local",
+          "ImageBitmapLoader"
+        ]
+      ],
+      "__new_ImageLoader_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "LoadingManager"
+          ]
+        ],
+        [
+          "local",
+          "ImageLoader"
+        ]
+      ],
+      "__new_ImmediateRenderObject_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "Material"
+          ]
+        ],
+        [
+          "local",
+          "ImmediateRenderObject"
+        ]
+      ],
+      "__new_InstancedBufferAttribute_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "ArrayLike"
+          ],
+          "Number",
+          "Boolean",
+          "Number"
+        ],
+        [
+          "local",
+          "InstancedBufferAttribute"
+        ]
+      ],
+      "__new_InstancedBufferGeometry_0": [
+        "arrow",
+        [],
+        [
+          "local",
+          "InstancedBufferGeometry"
+        ]
+      ],
+      "__new_InstancedInterleavedBuffer_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "ArrayLike"
+          ],
+          "Number",
+          "Number"
+        ],
+        [
+          "local",
+          "InstancedInterleavedBuffer"
+        ]
+      ],
+      "__new_InstancedMesh_0": [
+        "arrow",
+        [
+          "Any",
+          "Any",
+          "Number"
+        ],
+        [
+          "local",
+          "InstancedMesh"
+        ]
+      ],
+      "__new_Int16Attribute_0": [
+        "arrow",
+        [
+          "Any",
+          "Number"
+        ],
+        [
+          "local",
+          "Int16Attribute"
+        ]
+      ],
+      "__new_Int16BufferAttribute_0": [
+        "arrow",
+        [
+          "Any",
+          "Number",
+          "Boolean"
+        ],
+        [
+          "local",
+          "Int16BufferAttribute"
+        ]
+      ],
+      "__new_Int32Attribute_0": [
+        "arrow",
+        [
+          "Any",
+          "Number"
+        ],
+        [
+          "local",
+          "Int32Attribute"
+        ]
+      ],
+      "__new_Int32BufferAttribute_0": [
+        "arrow",
+        [
+          "Any",
+          "Number",
+          "Boolean"
+        ],
+        [
+          "local",
+          "Int32BufferAttribute"
+        ]
+      ],
+      "__new_Int8Attribute_0": [
+        "arrow",
+        [
+          "Any",
+          "Number"
+        ],
+        [
+          "local",
+          "Int8Attribute"
+        ]
+      ],
+      "__new_Int8BufferAttribute_0": [
+        "arrow",
+        [
+          "Any",
+          "Number",
+          "Boolean"
+        ],
+        [
+          "local",
+          "Int8BufferAttribute"
+        ]
+      ],
+      "__new_InterleavedBufferAttribute_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "InterleavedBuffer"
+          ],
+          "Number",
+          "Number",
+          "Boolean"
+        ],
+        [
+          "local",
+          "InterleavedBufferAttribute"
+        ]
+      ],
+      "__new_InterleavedBuffer_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "ArrayLike"
+          ],
+          "Number"
+        ],
+        [
+          "local",
+          "InterleavedBuffer"
+        ]
+      ],
+      "__new_Interpolant_0": [
+        "arrow",
+        [
+          "Any",
+          "Any",
+          "Number",
+          "Any"
+        ],
+        [
+          "local",
+          "Interpolant"
+        ]
+      ],
+      "__new_KeyframeTrack_0": [
+        "arrow",
+        [
+          "String",
+          [
+            "tyapp",
+            {
+              "name": "RawArray",
+              "origin": {
+                "import-type": "uri",
+                "uri": "builtin://global"
+              },
+              "tag": "name"
+            },
+            [
+              "Any"
+            ]
+          ],
+          [
+            "tyapp",
+            {
+              "name": "RawArray",
+              "origin": {
+                "import-type": "uri",
+                "uri": "builtin://global"
+              },
+              "tag": "name"
+            },
+            [
+              "Any"
+            ]
+          ],
+          [
+            "local",
+            "InterpolationModes"
+          ]
+        ],
+        [
+          "local",
+          "KeyframeTrack"
+        ]
+      ],
+      "__new_LOD_0": [
+        "arrow",
+        [],
+        [
+          "local",
+          "LOD"
+        ]
+      ],
+      "__new_LatheBufferGeometry_0": [
+        "arrow",
+        [
+          [
+            "tyapp",
+            {
+              "name": "RawArray",
+              "origin": {
+                "import-type": "uri",
+                "uri": "builtin://global"
+              },
+              "tag": "name"
+            },
+            [
+              [
+                "local",
+                "Vector2"
+              ]
+            ]
+          ],
+          "Number",
+          "Number",
+          "Number"
+        ],
+        [
+          "local",
+          "LatheBufferGeometry"
+        ]
+      ],
+      "__new_LatheGeometry_0": [
+        "arrow",
+        [
+          [
+            "tyapp",
+            {
+              "name": "RawArray",
+              "origin": {
+                "import-type": "uri",
+                "uri": "builtin://global"
+              },
+              "tag": "name"
+            },
+            [
+              [
+                "local",
+                "Vector2"
+              ]
+            ]
+          ],
+          "Number",
+          "Number",
+          "Number"
+        ],
+        [
+          "local",
+          "LatheGeometry"
+        ]
+      ],
+      "__new_Layers_0": [
+        "arrow",
+        [],
+        [
+          "local",
+          "Layers"
+        ]
+      ],
+      "__new_LightProbe_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "SphericalHarmonics3"
+          ],
+          "Number"
+        ],
+        [
+          "local",
+          "LightProbe"
+        ]
+      ],
+      "__new_LightShadow_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "Camera"
+          ]
+        ],
+        [
+          "local",
+          "LightShadow"
+        ]
+      ],
+      "__new_Light_0": [
+        "arrow",
+        [
+          "Any",
+          "Number"
+        ],
+        [
+          "local",
+          "Light"
+        ]
+      ],
+      "__new_Line3_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "Vector3"
+          ],
+          [
+            "local",
+            "Vector3"
+          ]
+        ],
+        [
+          "local",
+          "Line3"
+        ]
+      ],
+      "__new_LineBasicMaterial_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "LineBasicMaterialParameters"
+          ]
+        ],
+        [
+          "local",
+          "LineBasicMaterial"
+        ]
+      ],
+      "__new_LineCurve3_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "Vector3"
+          ],
+          [
+            "local",
+            "Vector3"
+          ]
+        ],
+        [
+          "local",
+          "LineCurve3"
+        ]
+      ],
+      "__new_LineCurve_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "Vector2"
+          ],
+          [
+            "local",
+            "Vector2"
+          ]
+        ],
+        [
+          "local",
+          "LineCurve"
+        ]
+      ],
+      "__new_LineDashedMaterial_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "LineDashedMaterialParameters"
+          ]
+        ],
+        [
+          "local",
+          "LineDashedMaterial"
+        ]
+      ],
+      "__new_LineLoop_0": [
+        "arrow",
+        [
+          "Any",
+          "Any"
+        ],
+        [
+          "local",
+          "LineLoop"
+        ]
+      ],
+      "__new_LineSegments_0": [
+        "arrow",
+        [
+          "Any",
+          "Any",
+          "Number"
+        ],
+        [
+          "local",
+          "LineSegments"
+        ]
+      ],
+      "__new_Line_0": [
+        "arrow",
+        [
+          "Any",
+          "Any",
+          "Number"
+        ],
+        [
+          "local",
+          "Line"
+        ]
+      ],
+      "__new_LinearInterpolant_0": [
+        "arrow",
+        [
+          "Any",
+          "Any",
+          "Number",
+          "Any"
+        ],
+        [
+          "local",
+          "LinearInterpolant"
+        ]
+      ],
+      "__new_Loader_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "LoadingManager"
+          ]
+        ],
+        [
+          "local",
+          "Loader"
+        ]
+      ],
+      "__new_LoadingManager_0": [
+        "arrow",
+        [
+          [
+            "arrow",
+            [],
+            "Any"
+          ],
+          [
+            "arrow",
+            [
+              "String",
+              "Number",
+              "Number"
+            ],
+            "Any"
+          ],
+          [
+            "arrow",
+            [
+              "String"
+            ],
+            "Any"
+          ]
+        ],
+        [
+          "local",
+          "LoadingManager"
+        ]
+      ],
+      "__new_MaterialLoader_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "LoadingManager"
+          ]
+        ],
+        [
+          "local",
+          "MaterialLoader"
+        ]
+      ],
+      "__new_Material_0": [
+        "arrow",
+        [],
+        [
+          "local",
+          "Material"
+        ]
+      ],
+      "__new_Matrix3_0": [
+        "arrow",
+        [],
+        [
+          "local",
+          "Matrix3"
+        ]
+      ],
+      "__new_Matrix4_0": [
+        "arrow",
+        [],
+        [
+          "local",
+          "Matrix4"
+        ]
+      ],
+      "__new_MeshBasicMaterial_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "MeshBasicMaterialParameters"
+          ]
+        ],
+        [
+          "local",
+          "MeshBasicMaterial"
+        ]
+      ],
+      "__new_MeshDepthMaterial_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "MeshDepthMaterialParameters"
+          ]
+        ],
+        [
+          "local",
+          "MeshDepthMaterial"
+        ]
+      ],
+      "__new_MeshDistanceMaterial_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "MeshDistanceMaterialParameters"
+          ]
+        ],
+        [
+          "local",
+          "MeshDistanceMaterial"
+        ]
+      ],
+      "__new_MeshLambertMaterial_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "MeshLambertMaterialParameters"
+          ]
+        ],
+        [
+          "local",
+          "MeshLambertMaterial"
+        ]
+      ],
+      "__new_MeshMatcapMaterial_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "MeshMatcapMaterialParameters"
+          ]
+        ],
+        [
+          "local",
+          "MeshMatcapMaterial"
+        ]
+      ],
+      "__new_MeshNormalMaterial_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "MeshNormalMaterialParameters"
+          ]
+        ],
+        [
+          "local",
+          "MeshNormalMaterial"
+        ]
+      ],
+      "__new_MeshPhongMaterial_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "MeshPhongMaterialParameters"
+          ]
+        ],
+        [
+          "local",
+          "MeshPhongMaterial"
+        ]
+      ],
+      "__new_MeshPhysicalMaterial_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "MeshPhysicalMaterialParameters"
+          ]
+        ],
+        [
+          "local",
+          "MeshPhysicalMaterial"
+        ]
+      ],
+      "__new_MeshStandardMaterial_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "MeshStandardMaterialParameters"
+          ]
+        ],
+        [
+          "local",
+          "MeshStandardMaterial"
+        ]
+      ],
+      "__new_MeshToonMaterial_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "MeshToonMaterialParameters"
+          ]
+        ],
+        [
+          "local",
+          "MeshToonMaterial"
+        ]
+      ],
+      "__new_Mesh_0": [
+        "arrow",
+        [
+          "Any",
+          "Any"
+        ],
+        [
+          "local",
+          "Mesh"
+        ]
+      ],
+      "__new_MultiMaterial_0": [
+        "arrow",
+        [
+          [
+            "tyapp",
+            {
+              "name": "RawArray",
+              "origin": {
+                "import-type": "uri",
+                "uri": "builtin://global"
+              },
+              "tag": "name"
+            },
+            [
+              [
+                "local",
+                "Material"
+              ]
+            ]
+          ]
+        ],
+        [
+          "local",
+          "MultiMaterial"
+        ]
+      ],
+      "__new_NumberKeyframeTrack_0": [
+        "arrow",
+        [
+          "String",
+          [
+            "tyapp",
+            {
+              "name": "RawArray",
+              "origin": {
+                "import-type": "uri",
+                "uri": "builtin://global"
+              },
+              "tag": "name"
+            },
+            [
+              "Any"
+            ]
+          ],
+          [
+            "tyapp",
+            {
+              "name": "RawArray",
+              "origin": {
+                "import-type": "uri",
+                "uri": "builtin://global"
+              },
+              "tag": "name"
+            },
+            [
+              "Any"
+            ]
+          ],
+          [
+            "local",
+            "InterpolationModes"
+          ]
+        ],
+        [
+          "local",
+          "NumberKeyframeTrack"
+        ]
+      ],
+      "__new_Object3D_0": [
+        "arrow",
+        [],
+        [
+          "local",
+          "Object3D"
+        ]
+      ],
+      "__new_ObjectLoader_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "LoadingManager"
+          ]
+        ],
+        [
+          "local",
+          "ObjectLoader"
+        ]
+      ],
+      "__new_OctahedronBufferGeometry_0": [
+        "arrow",
+        [
+          "Number",
+          "Number"
+        ],
+        [
+          "local",
+          "OctahedronBufferGeometry"
+        ]
+      ],
+      "__new_OctahedronGeometry_0": [
+        "arrow",
+        [
+          "Number",
+          "Number"
+        ],
+        [
+          "local",
+          "OctahedronGeometry"
+        ]
+      ],
+      "__new_OrthographicCamera_0": [
+        "arrow",
+        [
+          "Number",
+          "Number",
+          "Number",
+          "Number",
+          "Number",
+          "Number"
+        ],
+        [
+          "local",
+          "OrthographicCamera"
+        ]
+      ],
+      "__new_ParametricBufferGeometry_0": [
+        "arrow",
+        [
+          [
+            "arrow",
+            [
+              "Number",
+              "Number",
+              [
+                "local",
+                "Vector3"
+              ]
+            ],
+            "Any"
+          ],
+          "Number",
+          "Number"
+        ],
+        [
+          "local",
+          "ParametricBufferGeometry"
+        ]
+      ],
+      "__new_ParametricGeometry_0": [
+        "arrow",
+        [
+          [
+            "arrow",
+            [
+              "Number",
+              "Number",
+              [
+                "local",
+                "Vector3"
+              ]
+            ],
+            "Any"
+          ],
+          "Number",
+          "Number"
+        ],
+        [
+          "local",
+          "ParametricGeometry"
+        ]
+      ],
+      "__new_Path_0": [
+        "arrow",
+        [
+          [
+            "tyapp",
+            {
+              "name": "RawArray",
+              "origin": {
+                "import-type": "uri",
+                "uri": "builtin://global"
+              },
+              "tag": "name"
+            },
+            [
+              [
+                "local",
+                "Vector2"
+              ]
+            ]
+          ]
+        ],
+        [
+          "local",
+          "Path"
+        ]
+      ],
+      "__new_PerspectiveCamera_0": [
+        "arrow",
+        [
+          "Number",
+          "Number",
+          "Number",
+          "Number"
+        ],
+        [
+          "local",
+          "PerspectiveCamera"
+        ]
+      ],
+      "__new_PlaneBufferGeometry_0": [
+        "arrow",
+        [
+          "Number",
+          "Number",
+          "Number",
+          "Number"
+        ],
+        [
+          "local",
+          "PlaneBufferGeometry"
+        ]
+      ],
+      "__new_PlaneGeometry_0": [
+        "arrow",
+        [
+          "Number",
+          "Number",
+          "Number",
+          "Number"
+        ],
+        [
+          "local",
+          "PlaneGeometry"
+        ]
+      ],
+      "__new_PlaneHelper_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "Plane"
+          ],
+          "Number",
+          "Number"
+        ],
+        [
+          "local",
+          "PlaneHelper"
+        ]
+      ],
+      "__new_Plane_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "Vector3"
+          ],
+          "Number"
+        ],
+        [
+          "local",
+          "Plane"
+        ]
+      ],
+      "__new_PointLightHelper_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "PointLight"
+          ],
+          "Number",
+          "Any"
+        ],
+        [
+          "local",
+          "PointLightHelper"
+        ]
+      ],
+      "__new_PointLight_0": [
+        "arrow",
+        [
+          "Any",
+          "Number",
+          "Number",
+          "Number"
+        ],
+        [
+          "local",
+          "PointLight"
+        ]
+      ],
+      "__new_PointsMaterial_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "PointsMaterialParameters"
+          ]
+        ],
+        [
+          "local",
+          "PointsMaterial"
+        ]
+      ],
+      "__new_Points_0": [
+        "arrow",
+        [
+          "Any",
+          "Any"
+        ],
+        [
+          "local",
+          "Points"
+        ]
+      ],
+      "__new_PolarGridHelper_0": [
+        "arrow",
+        [
+          "Number",
+          "Number",
+          "Number",
+          "Number",
+          "Any",
+          "Any"
+        ],
+        [
+          "local",
+          "PolarGridHelper"
+        ]
+      ],
+      "__new_PolyhedronBufferGeometry_0": [
+        "arrow",
+        [
+          [
+            "tyapp",
+            {
+              "name": "RawArray",
+              "origin": {
+                "import-type": "uri",
+                "uri": "builtin://global"
+              },
+              "tag": "name"
+            },
+            [
+              "Number"
+            ]
+          ],
+          [
+            "tyapp",
+            {
+              "name": "RawArray",
+              "origin": {
+                "import-type": "uri",
+                "uri": "builtin://global"
+              },
+              "tag": "name"
+            },
+            [
+              "Number"
+            ]
+          ],
+          "Number",
+          "Number"
+        ],
+        [
+          "local",
+          "PolyhedronBufferGeometry"
+        ]
+      ],
+      "__new_PolyhedronGeometry_0": [
+        "arrow",
+        [
+          [
+            "tyapp",
+            {
+              "name": "RawArray",
+              "origin": {
+                "import-type": "uri",
+                "uri": "builtin://global"
+              },
+              "tag": "name"
+            },
+            [
+              "Number"
+            ]
+          ],
+          [
+            "tyapp",
+            {
+              "name": "RawArray",
+              "origin": {
+                "import-type": "uri",
+                "uri": "builtin://global"
+              },
+              "tag": "name"
+            },
+            [
+              "Number"
+            ]
+          ],
+          "Number",
+          "Number"
+        ],
+        [
+          "local",
+          "PolyhedronGeometry"
+        ]
+      ],
+      "__new_PositionalAudio_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "AudioListener"
+          ]
+        ],
+        [
+          "local",
+          "PositionalAudio"
+        ]
+      ],
+      "__new_PropertyBinding_0": [
+        "arrow",
+        [
+          "Any",
+          "String",
+          "Any"
+        ],
+        [
+          "local",
+          "PropertyBinding"
+        ]
+      ],
+      "__new_PropertyMixer_0": [
+        "arrow",
+        [
+          "Any",
+          "String",
+          "Number"
+        ],
+        [
+          "local",
+          "PropertyMixer"
+        ]
+      ],
+      "__new_QuadraticBezierCurve3_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "Vector3"
+          ],
+          [
+            "local",
+            "Vector3"
+          ],
+          [
+            "local",
+            "Vector3"
+          ]
+        ],
+        [
+          "local",
+          "QuadraticBezierCurve3"
+        ]
+      ],
+      "__new_QuadraticBezierCurve_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "Vector2"
+          ],
+          [
+            "local",
+            "Vector2"
+          ],
+          [
+            "local",
+            "Vector2"
+          ]
+        ],
+        [
+          "local",
+          "QuadraticBezierCurve"
+        ]
+      ],
+      "__new_QuaternionKeyframeTrack_0": [
+        "arrow",
+        [
+          "String",
+          [
+            "tyapp",
+            {
+              "name": "RawArray",
+              "origin": {
+                "import-type": "uri",
+                "uri": "builtin://global"
+              },
+              "tag": "name"
+            },
+            [
+              "Any"
+            ]
+          ],
+          [
+            "tyapp",
+            {
+              "name": "RawArray",
+              "origin": {
+                "import-type": "uri",
+                "uri": "builtin://global"
+              },
+              "tag": "name"
+            },
+            [
+              "Any"
+            ]
+          ],
+          [
+            "local",
+            "InterpolationModes"
+          ]
+        ],
+        [
+          "local",
+          "QuaternionKeyframeTrack"
+        ]
+      ],
+      "__new_QuaternionLinearInterpolant_0": [
+        "arrow",
+        [
+          "Any",
+          "Any",
+          "Number",
+          "Any"
+        ],
+        [
+          "local",
+          "QuaternionLinearInterpolant"
+        ]
+      ],
+      "__new_Quaternion_0": [
+        "arrow",
+        [
+          "Number",
+          "Number",
+          "Number",
+          "Number"
+        ],
+        [
+          "local",
+          "Quaternion"
+        ]
+      ],
+      "__new_RawShaderMaterial_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "ShaderMaterialParameters"
+          ]
+        ],
+        [
+          "local",
+          "RawShaderMaterial"
+        ]
+      ],
+      "__new_Ray_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "Vector3"
+          ],
+          [
+            "local",
+            "Vector3"
+          ]
+        ],
+        [
+          "local",
+          "Ray"
+        ]
+      ],
+      "__new_Raycaster_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "Vector3"
+          ],
+          [
+            "local",
+            "Vector3"
+          ],
+          "Number",
+          "Number"
+        ],
+        [
+          "local",
+          "Raycaster"
+        ]
+      ],
+      "__new_RectAreaLight_0": [
+        "arrow",
+        [
+          "Any",
+          "Number",
+          "Number",
+          "Number"
+        ],
+        [
+          "local",
+          "RectAreaLight"
+        ]
+      ],
+      "__new_RingBufferGeometry_0": [
+        "arrow",
+        [
+          "Number",
+          "Number",
+          "Number",
+          "Number",
+          "Number",
+          "Number"
+        ],
+        [
+          "local",
+          "RingBufferGeometry"
+        ]
+      ],
+      "__new_RingGeometry_0": [
+        "arrow",
+        [
+          "Number",
+          "Number",
+          "Number",
+          "Number",
+          "Number",
+          "Number"
+        ],
+        [
+          "local",
+          "RingGeometry"
+        ]
+      ],
+      "__new_Scene_0": [
+        "arrow",
+        [],
+        [
+          "local",
+          "Scene"
+        ]
+      ],
+      "__new_ShaderMaterial_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "ShaderMaterialParameters"
+          ]
+        ],
+        [
+          "local",
+          "ShaderMaterial"
+        ]
+      ],
+      "__new_ShadowMaterial_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "ShadowMaterialParameters"
+          ]
+        ],
+        [
+          "local",
+          "ShadowMaterial"
+        ]
+      ],
+      "__new_ShapeBufferGeometry_0": [
+        "arrow",
+        [
+          "Any",
+          "Number"
+        ],
+        [
+          "local",
+          "ShapeBufferGeometry"
+        ]
+      ],
+      "__new_ShapeGeometry_0": [
+        "arrow",
+        [
+          "Any",
+          "Number"
+        ],
+        [
+          "local",
+          "ShapeGeometry"
+        ]
+      ],
+      "__new_ShapePath_0": [
+        "arrow",
+        [],
+        [
+          "local",
+          "ShapePath"
+        ]
+      ],
+      "__new_Shape_0": [
+        "arrow",
+        [
+          [
+            "tyapp",
+            {
+              "name": "RawArray",
+              "origin": {
+                "import-type": "uri",
+                "uri": "builtin://global"
+              },
+              "tag": "name"
+            },
+            [
+              [
+                "local",
+                "Vector2"
+              ]
+            ]
+          ]
+        ],
+        [
+          "local",
+          "Shape"
+        ]
+      ],
+      "__new_SkeletonHelper_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "Object3D"
+          ]
+        ],
+        [
+          "local",
+          "SkeletonHelper"
+        ]
+      ],
+      "__new_Skeleton_0": [
+        "arrow",
+        [
+          [
+            "tyapp",
+            {
+              "name": "RawArray",
+              "origin": {
+                "import-type": "uri",
+                "uri": "builtin://global"
+              },
+              "tag": "name"
+            },
+            [
+              [
+                "local",
+                "Bone"
+              ]
+            ]
+          ],
+          [
+            "tyapp",
+            {
+              "name": "RawArray",
+              "origin": {
+                "import-type": "uri",
+                "uri": "builtin://global"
+              },
+              "tag": "name"
+            },
+            [
+              [
+                "local",
+                "Matrix4"
+              ]
+            ]
+          ]
+        ],
+        [
+          "local",
+          "Skeleton"
+        ]
+      ],
+      "__new_SkinnedMesh_0": [
+        "arrow",
+        [
+          "Any",
+          "Any",
+          "Boolean"
+        ],
+        [
+          "local",
+          "SkinnedMesh"
+        ]
+      ],
+      "__new_SphereBufferGeometry_0": [
+        "arrow",
+        [
+          "Number",
+          "Number",
+          "Number",
+          "Number",
+          "Number",
+          "Number",
+          "Number"
+        ],
+        [
+          "local",
+          "SphereBufferGeometry"
+        ]
+      ],
+      "__new_SphereGeometry_0": [
+        "arrow",
+        [
+          "Number",
+          "Number",
+          "Number",
+          "Number",
+          "Number",
+          "Number",
+          "Number"
+        ],
+        [
+          "local",
+          "SphereGeometry"
+        ]
+      ],
+      "__new_Sphere_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "Vector3"
+          ],
+          "Number"
+        ],
+        [
+          "local",
+          "Sphere"
+        ]
+      ],
+      "__new_SphericalHarmonics3_0": [
+        "arrow",
+        [],
+        [
+          "local",
+          "SphericalHarmonics3"
+        ]
+      ],
+      "__new_Spherical_0": [
+        "arrow",
+        [
+          "Number",
+          "Number",
+          "Number"
+        ],
+        [
+          "local",
+          "Spherical"
+        ]
+      ],
+      "__new_SplineCurve_0": [
+        "arrow",
+        [
+          [
+            "tyapp",
+            {
+              "name": "RawArray",
+              "origin": {
+                "import-type": "uri",
+                "uri": "builtin://global"
+              },
+              "tag": "name"
+            },
+            [
+              [
+                "local",
+                "Vector2"
+              ]
+            ]
+          ]
+        ],
+        [
+          "local",
+          "SplineCurve"
+        ]
+      ],
+      "__new_SpotLightHelper_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "Light"
+          ],
+          "Any"
+        ],
+        [
+          "local",
+          "SpotLightHelper"
+        ]
+      ],
+      "__new_SpotLight_0": [
+        "arrow",
+        [
+          "Any",
+          "Number",
+          "Number",
+          "Number",
+          "Number",
+          "Number"
+        ],
+        [
+          "local",
+          "SpotLight"
+        ]
+      ],
+      "__new_SpriteMaterial_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "SpriteMaterialParameters"
+          ]
+        ],
+        [
+          "local",
+          "SpriteMaterial"
+        ]
+      ],
+      "__new_Sprite_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "SpriteMaterial"
+          ]
+        ],
+        [
+          "local",
+          "Sprite"
+        ]
+      ],
+      "__new_StereoCamera_0": [
+        "arrow",
+        [],
+        [
+          "local",
+          "StereoCamera"
+        ]
+      ],
+      "__new_StringKeyframeTrack_0": [
+        "arrow",
+        [
+          "String",
+          [
+            "tyapp",
+            {
+              "name": "RawArray",
+              "origin": {
+                "import-type": "uri",
+                "uri": "builtin://global"
+              },
+              "tag": "name"
+            },
+            [
+              "Any"
+            ]
+          ],
+          [
+            "tyapp",
+            {
+              "name": "RawArray",
+              "origin": {
+                "import-type": "uri",
+                "uri": "builtin://global"
+              },
+              "tag": "name"
+            },
+            [
+              "Any"
+            ]
+          ],
+          [
+            "local",
+            "InterpolationModes"
+          ]
+        ],
+        [
+          "local",
+          "StringKeyframeTrack"
+        ]
+      ],
+      "__new_TetrahedronBufferGeometry_0": [
+        "arrow",
+        [
+          "Number",
+          "Number"
+        ],
+        [
+          "local",
+          "TetrahedronBufferGeometry"
+        ]
+      ],
+      "__new_TetrahedronGeometry_0": [
+        "arrow",
+        [
+          "Number",
+          "Number"
+        ],
+        [
+          "local",
+          "TetrahedronGeometry"
+        ]
+      ],
+      "__new_TextBufferGeometry_0": [
+        "arrow",
+        [
+          "String",
+          [
+            "local",
+            "TextGeometryParameters"
+          ]
+        ],
+        [
+          "local",
+          "TextBufferGeometry"
+        ]
+      ],
+      "__new_TextGeometry_0": [
+        "arrow",
+        [
+          "String",
+          [
+            "local",
+            "TextGeometryParameters"
+          ]
+        ],
+        [
+          "local",
+          "TextGeometry"
+        ]
+      ],
+      "__new_TextureLoader_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "LoadingManager"
+          ]
+        ],
+        [
+          "local",
+          "TextureLoader"
+        ]
+      ],
+      "__new_Texture_0": [
+        "arrow",
+        [
+          "Any",
+          [
+            "local",
+            "Mapping"
+          ],
+          [
+            "local",
+            "Wrapping"
+          ],
+          [
+            "local",
+            "Wrapping"
+          ],
+          [
+            "local",
+            "TextureFilter"
+          ],
+          [
+            "local",
+            "TextureFilter"
+          ],
+          [
+            "local",
+            "PixelFormat"
+          ],
+          [
+            "local",
+            "TextureDataType"
+          ],
+          "Number",
+          [
+            "local",
+            "TextureEncoding"
+          ]
+        ],
+        [
+          "local",
+          "Texture"
+        ]
+      ],
+      "__new_TorusBufferGeometry_0": [
+        "arrow",
+        [
+          "Number",
+          "Number",
+          "Number",
+          "Number",
+          "Number"
+        ],
+        [
+          "local",
+          "TorusBufferGeometry"
+        ]
+      ],
+      "__new_TorusGeometry_0": [
+        "arrow",
+        [
+          "Number",
+          "Number",
+          "Number",
+          "Number",
+          "Number"
+        ],
+        [
+          "local",
+          "TorusGeometry"
+        ]
+      ],
+      "__new_TorusKnotBufferGeometry_0": [
+        "arrow",
+        [
+          "Number",
+          "Number",
+          "Number",
+          "Number",
+          "Number",
+          "Number"
+        ],
+        [
+          "local",
+          "TorusKnotBufferGeometry"
+        ]
+      ],
+      "__new_TorusKnotGeometry_0": [
+        "arrow",
+        [
+          "Number",
+          "Number",
+          "Number",
+          "Number",
+          "Number",
+          "Number"
+        ],
+        [
+          "local",
+          "TorusKnotGeometry"
+        ]
+      ],
+      "__new_Triangle_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "Vector3"
+          ],
+          [
+            "local",
+            "Vector3"
+          ],
+          [
+            "local",
+            "Vector3"
+          ]
+        ],
+        [
+          "local",
+          "Triangle"
+        ]
+      ],
+      "__new_TubeBufferGeometry_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "Curve"
+          ],
+          "Number",
+          "Number",
+          "Number",
+          "Boolean"
+        ],
+        [
+          "local",
+          "TubeBufferGeometry"
+        ]
+      ],
+      "__new_TubeGeometry_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "Curve"
+          ],
+          "Number",
+          "Number",
+          "Number",
+          "Boolean"
+        ],
+        [
+          "local",
+          "TubeGeometry"
+        ]
+      ],
+      "__new_Uint16Attribute_0": [
+        "arrow",
+        [
+          "Any",
+          "Number"
+        ],
+        [
+          "local",
+          "Uint16Attribute"
+        ]
+      ],
+      "__new_Uint16BufferAttribute_0": [
+        "arrow",
+        [
+          "Any",
+          "Number",
+          "Boolean"
+        ],
+        [
+          "local",
+          "Uint16BufferAttribute"
+        ]
+      ],
+      "__new_Uint32Attribute_0": [
+        "arrow",
+        [
+          "Any",
+          "Number"
+        ],
+        [
+          "local",
+          "Uint32Attribute"
+        ]
+      ],
+      "__new_Uint32BufferAttribute_0": [
+        "arrow",
+        [
+          "Any",
+          "Number",
+          "Boolean"
+        ],
+        [
+          "local",
+          "Uint32BufferAttribute"
+        ]
+      ],
+      "__new_Uint8Attribute_0": [
+        "arrow",
+        [
+          "Any",
+          "Number"
+        ],
+        [
+          "local",
+          "Uint8Attribute"
+        ]
+      ],
+      "__new_Uint8BufferAttribute_0": [
+        "arrow",
+        [
+          "Any",
+          "Number",
+          "Boolean"
+        ],
+        [
+          "local",
+          "Uint8BufferAttribute"
+        ]
+      ],
+      "__new_Uint8ClampedAttribute_0": [
+        "arrow",
+        [
+          "Any",
+          "Number"
+        ],
+        [
+          "local",
+          "Uint8ClampedAttribute"
+        ]
+      ],
+      "__new_Uint8ClampedBufferAttribute_0": [
+        "arrow",
+        [
+          "Any",
+          "Number",
+          "Boolean"
+        ],
+        [
+          "local",
+          "Uint8ClampedBufferAttribute"
+        ]
+      ],
+      "__new_Uniform_0": [
+        "arrow",
+        [
+          "Any"
+        ],
+        [
+          "local",
+          "Uniform"
+        ]
+      ],
+      "__new_Uniform_1": [
+        "arrow",
+        [
+          "String",
+          "Any"
+        ],
+        [
+          "local",
+          "Uniform"
+        ]
+      ],
+      "__new_Vector2_0": [
+        "arrow",
+        [
+          "Number",
+          "Number"
+        ],
+        [
+          "local",
+          "Vector2"
+        ]
+      ],
+      "__new_Vector3_0": [
+        "arrow",
+        [
+          "Number",
+          "Number",
+          "Number"
+        ],
+        [
+          "local",
+          "Vector3"
+        ]
+      ],
+      "__new_Vector4_0": [
+        "arrow",
+        [
+          "Number",
+          "Number",
+          "Number",
+          "Number"
+        ],
+        [
+          "local",
+          "Vector4"
+        ]
+      ],
+      "__new_VectorKeyframeTrack_0": [
+        "arrow",
+        [
+          "String",
+          [
+            "tyapp",
+            {
+              "name": "RawArray",
+              "origin": {
+                "import-type": "uri",
+                "uri": "builtin://global"
+              },
+              "tag": "name"
+            },
+            [
+              "Any"
+            ]
+          ],
+          [
+            "tyapp",
+            {
+              "name": "RawArray",
+              "origin": {
+                "import-type": "uri",
+                "uri": "builtin://global"
+              },
+              "tag": "name"
+            },
+            [
+              "Any"
+            ]
+          ],
+          [
+            "local",
+            "InterpolationModes"
+          ]
+        ],
+        [
+          "local",
+          "VectorKeyframeTrack"
+        ]
+      ],
+      "__new_VideoTexture_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "HTMLVideoElement"
+          ],
+          [
+            "local",
+            "Mapping"
+          ],
+          [
+            "local",
+            "Wrapping"
+          ],
+          [
+            "local",
+            "Wrapping"
+          ],
+          [
+            "local",
+            "TextureFilter"
+          ],
+          [
+            "local",
+            "TextureFilter"
+          ],
+          [
+            "local",
+            "PixelFormat"
+          ],
+          [
+            "local",
+            "TextureDataType"
+          ],
+          "Number"
+        ],
+        [
+          "local",
+          "VideoTexture"
+        ]
+      ],
+      "__new_WebGLBufferRenderer_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "WebGLRenderingContext"
+          ],
+          "Any",
+          "Any"
+        ],
+        [
+          "local",
+          "WebGLBufferRenderer"
+        ]
+      ],
+      "__new_WebGLCapabilities_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "WebGLRenderingContext"
+          ],
+          "Any",
+          [
+            "local",
+            "WebGLCapabilitiesParameters"
+          ]
+        ],
+        [
+          "local",
+          "WebGLCapabilities"
+        ]
+      ],
+      "__new_WebGLColorBuffer_0": [
+        "arrow",
+        [],
+        [
+          "local",
+          "WebGLColorBuffer"
+        ]
+      ],
+      "__new_WebGLCubeRenderTarget_0": [
+        "arrow",
+        [
+          "Number",
+          "Number",
+          [
+            "local",
+            "WebGLRenderTargetOptions"
+          ]
+        ],
+        [
+          "local",
+          "WebGLCubeRenderTarget"
+        ]
+      ],
+      "__new_WebGLDepthBuffer_0": [
+        "arrow",
+        [],
+        [
+          "local",
+          "WebGLDepthBuffer"
+        ]
+      ],
+      "__new_WebGLExtensions_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "WebGLRenderingContext"
+          ]
+        ],
+        [
+          "local",
+          "WebGLExtensions"
+        ]
+      ],
+      "__new_WebGLGeometries_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "WebGLRenderingContext"
+          ],
+          [
+            "local",
+            "WebGLAttributes"
+          ],
+          [
+            "local",
+            "WebGLInfo"
+          ]
+        ],
+        [
+          "local",
+          "WebGLGeometries"
+        ]
+      ],
+      "__new_WebGLIndexedBufferRenderer_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "WebGLRenderingContext"
+          ],
+          "Any",
+          "Any",
+          "Any"
+        ],
+        [
+          "local",
+          "WebGLIndexedBufferRenderer"
+        ]
+      ],
+      "__new_WebGLInfo_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "WebGLRenderingContext"
+          ]
+        ],
+        [
+          "local",
+          "WebGLInfo"
+        ]
+      ],
+      "__new_WebGLLights_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "WebGLRenderingContext"
+          ],
+          "Any",
+          "Any"
+        ],
+        [
+          "local",
+          "WebGLLights"
+        ]
+      ],
+      "__new_WebGLMultisampleRenderTarget_0": [
+        "arrow",
+        [
+          "Number",
+          "Number",
+          [
+            "local",
+            "WebGLRenderTargetOptions"
+          ]
+        ],
+        [
+          "local",
+          "WebGLMultisampleRenderTarget"
+        ]
+      ],
+      "__new_WebGLObjects_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "WebGLRenderingContext"
+          ],
+          "Any",
+          "Any",
+          "Any"
+        ],
+        [
+          "local",
+          "WebGLObjects"
+        ]
+      ],
+      "__new_WebGLProgram_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "WebGLRenderer"
+          ],
+          "String",
+          "Any"
+        ],
+        [
+          "local",
+          "WebGLProgram"
+        ]
+      ],
+      "__new_WebGLPrograms_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "WebGLRenderer"
+          ],
+          [
+            "local",
+            "WebGLExtensions"
+          ],
+          [
+            "local",
+            "WebGLCapabilities"
+          ]
+        ],
+        [
+          "local",
+          "WebGLPrograms"
+        ]
+      ],
+      "__new_WebGLProperties_0": [
+        "arrow",
+        [],
+        [
+          "local",
+          "WebGLProperties"
+        ]
+      ],
+      "__new_WebGLRenderTarget_0": [
+        "arrow",
+        [
+          "Number",
+          "Number",
+          [
+            "local",
+            "WebGLRenderTargetOptions"
+          ]
+        ],
+        [
+          "local",
+          "WebGLRenderTarget"
+        ]
+      ],
+      "__new_WebGLRenderer_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "WebGLRendererParameters"
+          ]
+        ],
+        [
+          "local",
+          "WebGLRenderer"
+        ]
+      ],
+      "__new_WebGLShader_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "WebGLRenderingContext"
+          ],
+          "String",
+          "String"
+        ],
+        [
+          "local",
+          "WebGLShader"
+        ]
+      ],
+      "__new_WebGLShadowMap_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "WebGLRenderer"
+          ],
+          [
+            "tyapp",
+            {
+              "name": "RawArray",
+              "origin": {
+                "import-type": "uri",
+                "uri": "builtin://global"
+              },
+              "tag": "name"
+            },
+            [
+              "Any"
+            ]
+          ],
+          [
+            "tyapp",
+            {
+              "name": "RawArray",
+              "origin": {
+                "import-type": "uri",
+                "uri": "builtin://global"
+              },
+              "tag": "name"
+            },
+            [
+              "Any"
+            ]
+          ],
+          "Any"
+        ],
+        [
+          "local",
+          "WebGLShadowMap"
+        ]
+      ],
+      "__new_WebGLState_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "WebGLRenderingContext"
+          ],
+          [
+            "local",
+            "WebGLExtensions"
+          ],
+          [
+            "local",
+            "WebGLCapabilities"
+          ]
+        ],
+        [
+          "local",
+          "WebGLState"
+        ]
+      ],
+      "__new_WebGLStencilBuffer_0": [
+        "arrow",
+        [],
+        [
+          "local",
+          "WebGLStencilBuffer"
+        ]
+      ],
+      "__new_WebGLTextures_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "WebGLRenderingContext"
+          ],
+          [
+            "local",
+            "WebGLExtensions"
+          ],
+          [
+            "local",
+            "WebGLState"
+          ],
+          [
+            "local",
+            "WebGLProperties"
+          ],
+          [
+            "local",
+            "WebGLCapabilities"
+          ],
+          [
+            "local",
+            "WebGLUtils"
+          ],
+          [
+            "local",
+            "WebGLInfo"
+          ]
+        ],
+        [
+          "local",
+          "WebGLTextures"
+        ]
+      ],
+      "__new_WebGLUniforms_0": [
+        "arrow",
+        [
+          [
+            "local",
+            "WebGLRenderingContext"
+          ],
+          [
+            "local",
+            "WebGLProgram"
+          ]
+        ],
+        [
+          "local",
+          "WebGLUniforms"
+        ]
+      ],
+      "__new_WireframeGeometry_0": [
+        "arrow",
+        [
+          "Any"
+        ],
+        [
+          "local",
+          "WireframeGeometry"
+        ]
+      ],
       "add": [
         "arrow",
         [
